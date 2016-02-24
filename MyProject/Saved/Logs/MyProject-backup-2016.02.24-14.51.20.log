@@ -1,0 +1,819 @@
+﻿[2016.02.24-19.22.30:155][  0]Log file open, 02/24/16 14:22:30
+[2016.02.24-19.22.30:155][  0]LogInit:Display: Running engine for game: MyProject
+[2016.02.24-19.22.30:155][  0]LogInit:Display: RandInit(-1236788513) SRandInit(-1236788512).
+[2016.02.24-19.22.30:155][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.02.24-19.22.30:155][  0]LogStats: Stats thread started
+[2016.02.24-19.22.30:155][  0]LogInit: Version: 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2016.02.24-19.22.30:155][  0]LogInit: API Version: 2579680
+[2016.02.24-19.22.30:155][  0]LogInit: Compiled (64-bit): Jul 27 2015 16:24:33
+[2016.02.24-19.22.30:155][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2016.02.24-19.22.30:155][  0]LogInit: Build Configuration: Development
+[2016.02.24-19.22.30:155][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2016.02.24-19.22.30:155][  0]LogInit: Command line: 
+[2016.02.24-19.22.30:155][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.8/Engine/Binaries/Win64/
+[2016.02.24-19.22.30:155][  0]LogInit: Rocket: 1
+[2016.02.24-19.22.30:174][  0]LogInit: Using libcurl 7.41.0
+[2016.02.24-19.22.30:174][  0]LogInit:  - built for x86_64-pc-win32
+[2016.02.24-19.22.30:174][  0]LogInit:  - supports SSL with WinSSL
+[2016.02.24-19.22.30:174][  0]LogInit:  - other features:
+[2016.02.24-19.22.30:174][  0]LogInit:      CURL_VERSION_SSL
+[2016.02.24-19.22.30:174][  0]LogInit:      CURL_VERSION_IPV6
+[2016.02.24-19.22.30:174][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.02.24-19.22.30:174][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.02.24-19.22.30:174][  0]LogInit:      CURL_VERSION_IDN
+[2016.02.24-19.22.30:174][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.02.24-19.22.30:174][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.02.24-19.22.30:174][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.02.24-19.22.30:174][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.02.24-19.22.30:174][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.02.24-19.22.30:189][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2016.02.24-19.22.30:204][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.02.24-19.22.30:211][  0]LogInit: Object subsystem initialized
+[2016.02.24-19.22.30:213][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2016.02.24-19.22.30:213][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/quinonn/Desktop/MyProject/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2016.02.24-19.22.30:213][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2016.02.24-19.22.30:213][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/quinonn/Desktop/MyProject/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2016.02.24-19.22.30:213][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2016.02.24-19.22.30:213][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/quinonn/Desktop/MyProject/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2016.02.24-19.22.30:213][  0]LogInit: Selected Device Profile: [Windows]
+[2016.02.24-19.22.30:213][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.02.24-19.22.30:221][  0]LogInit: Computer: DDW-G238-MAC09
+[2016.02.24-19.22.30:221][  0]LogInit: User: quinonn
+[2016.02.24-19.22.30:221][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.02.24-19.22.30:221][  0]LogInit: High frequency timer resolution =2.630771 MHz
+[2016.02.24-19.22.30:221][  0]LogMemory: Memory total: Physical=4.0GB (4GB approx)
+[2016.02.24-19.22.30:221][  0]LogMemory: Platform Memory Stats for Windows
+[2016.02.24-19.22.30:221][  0]LogMemory: Process Physical Memory: 49.71 MB used, 49.71 MB peak
+[2016.02.24-19.22.30:221][  0]LogMemory: Process Virtual Memory: 25.84 MB used, 25.84 MB peak
+[2016.02.24-19.22.30:221][  0]LogMemory: Physical Memory: 2988.28 MB used, 4071.74 MB total
+[2016.02.24-19.22.30:221][  0]LogMemory: Virtual Memory: 287.40 MB used, 8388608.00 MB total
+[2016.02.24-19.22.30:263][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2016.02.24-19.22.30:574][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
+[2016.02.24-19.22.31:111][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon HD 6700M Series (Feature Level 11_0)
+[2016.02.24-19.22.31:111][  0]LogD3D11RHI: Adapter has 501MB of dedicated video memory, 0MB of dedicated system memory, and 1779MB of shared system memory, 1 output[s]
+[2016.02.24-19.22.31:112][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.02.24-19.22.31:117][  0]LogD3D11RHI: InitD3DDevice
+[2016.02.24-19.22.31:117][  0]LogD3D11RHI: !Direct3DDevice
+[2016.02.24-19.22.31:117][  0]LogRHI: Texture pool is 351 MB (70% of 501 MB)
+[2016.02.24-19.22.31:128][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2016.02.24-19.22.31:141][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.02.24-19.22.32:232][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2016.02.24-19.22.32:250][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.02.24-19.22.32:269][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.02.24-19.22.32:288][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.02.24-19.22.32:310][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.02.24-19.22.32:326][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.02.24-19.22.32:342][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.02.24-19.22.32:358][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.02.24-19.22.32:374][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.02.24-19.22.32:389][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.02.24-19.22.32:404][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.02.24-19.22.32:422][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.02.24-19.22.32:485][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.02.24-19.22.32:504][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.02.24-19.22.32:522][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.02.24-19.22.32:544][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.02.24-19.22.32:544][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.02.24-19.22.32:787][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.02.24-19.22.32:914][  0]LogDerivedDataCache: Loaded boot cache 0.13s 53MB C:/Users/quinonn/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2016.02.24-19.22.32:915][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/quinonn/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2016.02.24-19.22.32:915][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/quinonn/Desktop/MyProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.02.24-19.22.32:915][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.02.24-19.22.32:915][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/quinonn/Desktop/MyProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.02.24-19.22.32:915][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.02.24-19.22.33:083][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.02.24-19.22.33:094][  0]LogDerivedDataCache: Using Local data cache path C:/Users/quinonn/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.02.24-19.22.33:339][  0]LogInit: Selected Device Profile: [Windows]
+[2016.02.24-19.22.33:356][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2016.02.24-19.22.33:356][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2016.02.24-19.22.33:387][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.02.24-19.22.33:387][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.02.24-19.22.33:905][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.02.24-19.22.35:131][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.02.24-19.22.35:564][  0]SourceControl: Info Source control is disabled
+[2016.02.24-19.22.35:564][  0]SourceControl: Info Source control is disabled
+[2016.02.24-19.22.35:578][  0]SourceControl: Info Source control is disabled
+[2016.02.24-19.22.35:591][  0]SourceControl: Info Source control is disabled
+[2016.02.24-19.22.35:885][  0]LogObj: 26273 objects as part of root set at end of initial load.
+[2016.02.24-19.22.35:885][  0]LogUObjectAllocator: 5409248 out of 0 bytes used by permanent object pool.
+[2016.02.24-19.22.35:966][  0]LogEngine: Initializing Engine...
+[2016.02.24-19.22.35:968][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2016.02.24-19.22.35:970][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 110
+[2016.02.24-19.22.36:173][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.02.24-19.22.36:181][  0]LogInit: XAudio2 using 'Headphones (Cirrus Logic CS4206B (AB 32))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.24-19.22.36:188][  0]LogInit: FAudioDevice initialized.
+[2016.02.24-19.22.36:219][  0]LogDerivedDataCache: Saved boot cache 0.03s 53MB C:/Users/quinonn/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2016.02.24-19.22.36:227][  0]LogInit: Texture streaming: Disabled
+[2016.02.24-19.22.36:256][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.02.24-19.22.36:256][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2016.02.24-19.22.36:256][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 6e9a6e404f03390ef28616a27d181cf3|3557c17ee8f74e5b944a80d4b2743391|3cf8b3fd-6dc1-4115-bd01-d54acd82ec6a
+[2016.02.24-19.22.36:256][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.02.24-19.22.36:284][  0]LogInit: Transaction tracking system initialized
+[2016.02.24-19.22.36:466][  0]BlueprintLog: New page: Editor Load
+[2016.02.24-19.22.36:511][  0]LogAssetRegistry: FAssetRegistry took 0.0102 seconds to start up
+[2016.02.24-19.22.36:511][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2016.02.24-19.22.37:572][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'SystemSettingsIni')
+[2016.02.24-19.22.37:572][  0]LogConsoleResponse:Display: 
+[2016.02.24-19.22.37:718][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.02.24-19.22.37:949][  0]SourceControl: Info Source control is disabled
+[2016.02.24-19.22.37:949][  0]Cmd: MAP LOAD FILE="../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.02.24-19.22.37:949][  0]LightingResults: New page: Lighting Build
+[2016.02.24-19.22.37:965][  0]MapCheck: New page: Map Check
+[2016.02.24-19.22.37:965][  0]LightingResults: New page: Lighting Build
+[2016.02.24-19.22.37:978][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001B040B80
+[2016.02.24-19.22.37:999][  0]LogLinker:Warning: Asset '../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.24-19.22.37:999][  0]LogLinker:Warning: Unable to load package (../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset) PackageVersion 482, MaxExpected 451 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.02.24-19.22.37:999][  0]LogLinker:Warning: Asset '../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.24-19.22.37:999][  0]LogLinker:Warning: Unable to load package (../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset) PackageVersion 482, MaxExpected 451 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.02.24-19.22.38:401][  0]LogLinker:Warning: Asset '../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.24-19.22.38:401][  0]LogLinker:Warning: Unable to load package (../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset) PackageVersion 482, MaxExpected 451 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.02.24-19.22.38:401][  0]LogLinker:Warning: Asset '../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.24-19.22.38:401][  0]LogLinker:Warning: Unable to load package (../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset) PackageVersion 482, MaxExpected 451 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.02.24-19.22.38:401][  0]LogLinker:Warning: Asset '../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.24-19.22.38:401][  0]LogLinker:Warning: Unable to load package (../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset) PackageVersion 482, MaxExpected 451 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.02.24-19.22.38:402][  0]LogLinker:Warning: Asset '../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.24-19.22.38:402][  0]LogLinker:Warning: Unable to load package (../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset) PackageVersion 482, MaxExpected 451 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.02.24-19.22.38:402][  0]LogLinker:Warning: Asset '../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.24-19.22.38:402][  0]LogLinker:Warning: Unable to load package (../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset) PackageVersion 482, MaxExpected 451 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.02.24-19.22.38:402][  0]LogLinker:Warning: Asset '../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.24-19.22.38:402][  0]LogLinker:Warning: Unable to load package (../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset) PackageVersion 482, MaxExpected 451 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.02.24-19.22.38:402][  0]LogLinker:Warning: Asset '../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.24-19.22.38:402][  0]LogLinker:Warning: Unable to load package (../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset) PackageVersion 482, MaxExpected 451 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.02.24-19.22.38:402][  0]LogLinker:Warning: Asset '../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.24-19.22.38:402][  0]LogLinker:Warning: Unable to load package (../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset) PackageVersion 482, MaxExpected 451 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.02.24-19.22.38:409][  0]LogLinker:Warning: Asset '../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.24-19.22.38:410][  0]LogLinker:Warning: Unable to load package (../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset) PackageVersion 482, MaxExpected 451 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.02.24-19.22.38:410][  0]LogLinker:Warning: Asset '../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.24-19.22.38:410][  0]LogLinker:Warning: Unable to load package (../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset) PackageVersion 482, MaxExpected 451 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.02.24-19.22.38:412][  0]LogLinker:Warning: Asset '../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.24-19.22.38:412][  0]LogLinker:Warning: Unable to load package (../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset) PackageVersion 482, MaxExpected 451 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.02.24-19.22.38:413][  0]LogLinker:Warning: Asset '../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.24-19.22.38:413][  0]LogLinker:Warning: Unable to load package (../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset) PackageVersion 482, MaxExpected 451 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.02.24-19.22.38:413][  0]LogLinker:Warning: Asset '../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.24-19.22.38:413][  0]LogLinker:Warning: Unable to load package (../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset) PackageVersion 482, MaxExpected 451 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.02.24-19.22.38:413][  0]LogLinker:Warning: Asset '../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.24-19.22.38:413][  0]LogLinker:Warning: Unable to load package (../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset) PackageVersion 482, MaxExpected 451 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.02.24-19.22.38:414][  0]LogLinker:Warning: Asset '../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.24-19.22.38:414][  0]LogLinker:Warning: Unable to load package (../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset) PackageVersion 482, MaxExpected 451 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.02.24-19.22.38:414][  0]LogLinker:Warning: Asset '../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.24-19.22.38:414][  0]LogLinker:Warning: Unable to load package (../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset) PackageVersion 482, MaxExpected 451 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.02.24-19.22.38:421][  0]LogLinker:Warning: Asset '../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.24-19.22.38:421][  0]LogLinker:Warning: Unable to load package (../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset) PackageVersion 482, MaxExpected 451 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.02.24-19.22.38:422][  0]LogLinker:Warning: Asset '../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.24-19.22.38:422][  0]LogLinker:Warning: Unable to load package (../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset) PackageVersion 482, MaxExpected 451 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.02.24-19.22.38:422][  0]LogLinker:Warning: Asset '../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.24-19.22.38:422][  0]LogLinker:Warning: Unable to load package (../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset) PackageVersion 482, MaxExpected 451 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.02.24-19.22.38:422][  0]LogLinker:Warning: Asset '../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.24-19.22.38:422][  0]LogLinker:Warning: Unable to load package (../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset) PackageVersion 482, MaxExpected 451 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.02.24-19.22.38:423][  0]LogLinker:Warning: Asset '../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.24-19.22.38:423][  0]LogLinker:Warning: Unable to load package (../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset) PackageVersion 482, MaxExpected 451 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.02.24-19.22.38:423][  0]LogLinker:Warning: Asset '../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.24-19.22.38:423][  0]LogLinker:Warning: Unable to load package (../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset) PackageVersion 482, MaxExpected 451 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.02.24-19.22.38:424][  0]LogLinker:Warning: Asset '../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.24-19.22.38:424][  0]LogLinker:Warning: Unable to load package (../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset) PackageVersion 482, MaxExpected 451 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.02.24-19.22.38:424][  0]LogLinker:Warning: Asset '../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.24-19.22.38:424][  0]LogLinker:Warning: Unable to load package (../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset) PackageVersion 482, MaxExpected 451 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.02.24-19.22.38:425][  0]LogLinker:Warning: Asset '../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.24-19.22.38:425][  0]LogLinker:Warning: Unable to load package (../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset) PackageVersion 482, MaxExpected 451 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.02.24-19.22.38:425][  0]LogLinker:Warning: Asset '../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.24-19.22.38:425][  0]LogLinker:Warning: Unable to load package (../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset) PackageVersion 482, MaxExpected 451 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.02.24-19.22.38:426][  0]LogLinker:Warning: Asset '../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.24-19.22.38:426][  0]LogLinker:Warning: Unable to load package (../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset) PackageVersion 482, MaxExpected 451 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.02.24-19.22.38:426][  0]LogLinker:Warning: Asset '../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.24-19.22.38:426][  0]LogLinker:Warning: Unable to load package (../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset) PackageVersion 482, MaxExpected 451 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.02.24-19.22.38:427][  0]LogLinker:Warning: Asset '../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.24-19.22.38:427][  0]LogLinker:Warning: Unable to load package (../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset) PackageVersion 482, MaxExpected 451 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.02.24-19.22.38:427][  0]LogLinker:Warning: Asset '../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.24-19.22.38:427][  0]LogLinker:Warning: Unable to load package (../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset) PackageVersion 482, MaxExpected 451 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.02.24-19.22.38:427][  0]LogLinker:Warning: Asset '../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.24-19.22.38:427][  0]LogLinker:Warning: Unable to load package (../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset) PackageVersion 482, MaxExpected 451 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.02.24-19.22.38:427][  0]LogLinker:Warning: Asset '../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.24-19.22.38:427][  0]LogLinker:Warning: Unable to load package (../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset) PackageVersion 482, MaxExpected 451 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.02.24-19.22.38:427][  0]LogLinker:Warning: Asset '../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.24-19.22.38:428][  0]LogLinker:Warning: Unable to load package (../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset) PackageVersion 482, MaxExpected 451 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.02.24-19.22.38:428][  0]LogLinker:Warning: Asset '../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.24-19.22.38:428][  0]LogLinker:Warning: Unable to load package (../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset) PackageVersion 482, MaxExpected 451 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.02.24-19.22.38:490][  0]LogLinker:Warning: Asset '../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.24-19.22.38:490][  0]LogLinker:Warning: Unable to load package (../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset) PackageVersion 482, MaxExpected 451 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.02.24-19.22.38:490][  0]LogLinker:Warning: Asset '../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.24-19.22.38:490][  0]LogLinker:Warning: Unable to load package (../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset) PackageVersion 482, MaxExpected 451 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.02.24-19.22.38:491][  0]LogLinker:Warning: Asset '../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.24-19.22.38:491][  0]LogLinker:Warning: Unable to load package (../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset) PackageVersion 482, MaxExpected 451 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.02.24-19.22.38:491][  0]LogLinker:Warning: Asset '../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.24-19.22.38:491][  0]LogLinker:Warning: Unable to load package (../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset) PackageVersion 482, MaxExpected 451 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.02.24-19.22.38:491][  0]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'Arrow': SideScrollerCharacter_C /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerCharacter_C_1
+[2016.02.24-19.22.38:492][  0]LogLinker:Warning: Asset '../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.24-19.22.38:492][  0]LogLinker:Warning: Unable to load package (../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset) PackageVersion 482, MaxExpected 451 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.02.24-19.22.38:492][  0]LogLinker:Warning: Asset '../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.24-19.22.38:493][  0]LogLinker:Warning: Unable to load package (../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset) PackageVersion 482, MaxExpected 451 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.02.24-19.22.38:493][  0]LogLinker:Warning: Asset '../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.24-19.22.38:493][  0]LogLinker:Warning: Unable to load package (../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset) PackageVersion 482, MaxExpected 451 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.02.24-19.22.38:493][  0]LogLinker:Warning: Asset '../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.24-19.22.38:493][  0]LogLinker:Warning: Unable to load package (../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset) PackageVersion 482, MaxExpected 451 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.02.24-19.22.38:493][  0]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'SideViewCamera': SideScrollerCharacter_C /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerCharacter_C_1
+[2016.02.24-19.22.38:493][  0]LogLinker:Warning: Asset '../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.24-19.22.38:493][  0]LogLinker:Warning: Unable to load package (../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset) PackageVersion 482, MaxExpected 451 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.02.24-19.22.38:493][  0]LogLinker:Warning: Asset '../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.24-19.22.38:493][  0]LogLinker:Warning: Unable to load package (../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset) PackageVersion 482, MaxExpected 451 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.02.24-19.22.38:494][  0]LogLinker:Warning: Asset '../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.24-19.22.38:494][  0]LogLinker:Warning: Unable to load package (../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset) PackageVersion 482, MaxExpected 451 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.02.24-19.22.38:494][  0]LogLinker:Warning: Asset '../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.24-19.22.38:494][  0]LogLinker:Warning: Unable to load package (../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset) PackageVersion 482, MaxExpected 451 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.02.24-19.22.38:494][  0]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'CollisionCylinder': SideScrollerCharacter_C /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerCharacter_C_1
+[2016.02.24-19.22.38:494][  0]LogLinker:Warning: Asset '../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.24-19.22.38:494][  0]LogLinker:Warning: Unable to load package (../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset) PackageVersion 482, MaxExpected 451 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.02.24-19.22.38:494][  0]LogLinker:Warning: Asset '../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.24-19.22.38:494][  0]LogLinker:Warning: Unable to load package (../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset) PackageVersion 482, MaxExpected 451 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.02.24-19.22.38:495][  0]LogLinker:Warning: Asset '../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.24-19.22.38:495][  0]LogLinker:Warning: Unable to load package (../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset) PackageVersion 482, MaxExpected 451 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.02.24-19.22.38:495][  0]LogLinker:Warning: Asset '../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.24-19.22.38:495][  0]LogLinker:Warning: Unable to load package (../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset) PackageVersion 482, MaxExpected 451 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.02.24-19.22.38:495][  0]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'CharMoveComp': SideScrollerCharacter_C /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerCharacter_C_1
+[2016.02.24-19.22.38:499][  0]LogLinker:Warning: Asset '../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.24-19.22.38:499][  0]LogLinker:Warning: Unable to load package (../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset) PackageVersion 482, MaxExpected 451 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.02.24-19.22.38:499][  0]LogLinker:Warning: Asset '../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.24-19.22.38:499][  0]LogLinker:Warning: Unable to load package (../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset) PackageVersion 482, MaxExpected 451 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.02.24-19.22.38:500][  0]LogLinker:Warning: Asset '../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.24-19.22.38:500][  0]LogLinker:Warning: Unable to load package (../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset) PackageVersion 482, MaxExpected 451 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.02.24-19.22.38:500][  0]LogLinker:Warning: Asset '../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.24-19.22.38:500][  0]LogLinker:Warning: Unable to load package (../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset) PackageVersion 482, MaxExpected 451 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.02.24-19.22.38:500][  0]LogLinker:Warning: Asset '../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.24-19.22.38:500][  0]LogLinker:Warning: Unable to load package (../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset) PackageVersion 482, MaxExpected 451 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.02.24-19.22.38:500][  0]LogLinker:Warning: Asset '../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.24-19.22.38:500][  0]LogLinker:Warning: Unable to load package (../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset) PackageVersion 482, MaxExpected 451 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.02.24-19.22.38:501][  0]LogLinker:Warning: Asset '../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.24-19.22.38:501][  0]LogLinker:Warning: Unable to load package (../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset) PackageVersion 482, MaxExpected 451 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.02.24-19.22.38:501][  0]LogLinker:Warning: Asset '../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.24-19.22.38:501][  0]LogLinker:Warning: Unable to load package (../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset) PackageVersion 482, MaxExpected 451 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.02.24-19.22.38:501][  0]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'CharacterMesh0': SideScrollerCharacter_C /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerCharacter_C_1
+[2016.02.24-19.22.38:501][  0]LogLinker:Warning: Asset '../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.24-19.22.38:501][  0]LogLinker:Warning: Unable to load package (../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset) PackageVersion 482, MaxExpected 451 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.02.24-19.22.38:502][  0]LogLinker:Warning: Asset '../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.24-19.22.38:502][  0]LogLinker:Warning: Unable to load package (../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset) PackageVersion 482, MaxExpected 451 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.02.24-19.22.38:502][  0]LogLinker:Warning: Asset '../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.24-19.22.38:502][  0]LogLinker:Warning: Unable to load package (../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset) PackageVersion 482, MaxExpected 451 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.02.24-19.22.38:502][  0]LogLinker:Warning: Asset '../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.24-19.22.38:502][  0]LogLinker:Warning: Unable to load package (../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset) PackageVersion 482, MaxExpected 451 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.02.24-19.22.38:502][  0]LogLinker:Warning: CreateExport: Failed to load Outer for resource 'SpringArm1': SideScrollerCharacter_C /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerCharacter_C_1
+[2016.02.24-19.22.38:510][  0]LogLinker:Warning: Asset '../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.24-19.22.38:510][  0]LogLinker:Warning: Unable to load package (../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset) PackageVersion 482, MaxExpected 451 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.02.24-19.22.38:510][  0]LogLinker:Warning: Asset '../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.24-19.22.38:510][  0]LogLinker:Warning: Unable to load package (../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset) PackageVersion 482, MaxExpected 451 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.02.24-19.22.38:510][  0]LogLinker:Warning: Asset '../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.24-19.22.38:510][  0]LogLinker:Warning: Unable to load package (../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset) PackageVersion 482, MaxExpected 451 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.02.24-19.22.38:510][  0]LogLinker:Warning: Asset '../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.24-19.22.38:510][  0]LogLinker:Warning: Unable to load package (../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset) PackageVersion 482, MaxExpected 451 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.02.24-19.22.38:722][  0]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2016.02.24-19.22.38:734][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.02.24-19.22.38:977][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.02.24-19.22.39:031][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 53.569ms to complete.
+[2016.02.24-19.22.39:031][  0]LogFileHelpers: Loading map 'SideScrollerExampleMap' took 1.082
+[2016.02.24-19.22.39:165][  0]LogCollectionManager: Loaded 0 collections in 0.002271 seconds
+[2016.02.24-19.22.39:173][  0]LogContentBrowser: Native class hierarchy populated in 0.0084 seconds. Added 1792 classes and 301 folders.
+[2016.02.24-19.22.39:244][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.02.24-19.22.39:279][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.02.24-19.22.39:299][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.02.24-19.22.39:340][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.02.24-19.22.39:341][  0]LogD3D11RHI: InitD3DDevice
+[2016.02.24-19.22.39:345][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.02.24-19.22.39:365][  0]LogLoad: Full Startup: 11.09 seconds (BP compile: 0.29 seconds)
+[2016.02.24-19.22.39:775][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.02.24-19.22.39:822][  0]LogContentStreaming: Texture pool size now 400 MB
+[2016.02.24-19.22.40:036][  1]LogRenderer: Reallocating scene render targets to support 840x464 (Frame:2).
+[2016.02.24-19.22.42:914][  9]LogAssetRegistry: Asset discovery search completed in 6.4136 seconds
+[2016.02.24-19.22.44:565][ 14]LogD3D11RHI: InitD3DDevice
+[2016.02.24-19.22.47:590][ 23]MapCheck: New page: Map Check
+[2016.02.24-19.22.47:648][ 23]LogD3D11RHI: InitD3DDevice
+[2016.02.24-19.22.47:681][ 23]Cmd: MAP REBUILD ALLVISIBLE
+[2016.02.24-19.22.47:681][ 23]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2016.02.24-19.22.48:097][ 23]LightingResults: New page: Lighting Build - Feb 24, 2016, 9:22:47 AM
+[2016.02.24-19.23.03:981][ 23]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2016.02.24-19.23.03:981][ 23]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2016.02.24-19.23.03:981][ 23]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2016.02.24-19.23.03:981][ 23]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2016.02.24-19.23.03:981][ 23]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2016.02.24-19.23.04:956][ 23]LogD3D11RHI: InitD3DDevice
+[2016.02.24-19.23.04:989][ 23]LogEditorBuildUtils: Build time 0:00:17
+[2016.02.24-19.23.04:998][ 23]LogD3D11RHI: InitD3DDevice
+[2016.02.24-19.23.14:866][573]LogRenderer: Reallocating scene render targets to support 976x888 (Frame:553).
+[2016.02.24-19.23.19:853][575]Job is a success!
+[2016.02.24-19.23.20:894][576]LogD3D11RHI: InitD3DDevice
+[2016.02.24-19.23.20:920][576]LogD3D11RHI: InitD3DDevice
+[2016.02.24-19.23.21:733][576]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT)
+[2016.02.24-19.23.22:117][576]LogTexture:Display: Building textures: LQ_Lightmap_0_11 (DXT1)
+[2016.02.24-19.23.22:122][576]LogTexture:Display: Building textures: HQ_Lightmap0_11 (AutoDXT)
+[2016.02.24-19.23.22:123][576]LogTexture:Display: Building textures: SkyOcclusion0_11 (AutoDXT)
+[2016.02.24-19.23.22:126][576]LogTexture:Display: Building textures: LQ_Lightmap_0_10 (DXT1)
+[2016.02.24-19.23.22:132][576]LogTexture:Display: Building textures: HQ_Lightmap0_10 (AutoDXT)
+[2016.02.24-19.23.22:161][576]LogTexture:Display: Building textures: SkyOcclusion0_10 (AutoDXT)
+[2016.02.24-19.23.22:174][576]LogTexture:Display: Building textures: LQ_Lightmap_0_9 (DXT1)
+[2016.02.24-19.23.22:197][576]LogTexture:Display: Building textures: HQ_Lightmap0_9 (AutoDXT)
+[2016.02.24-19.23.22:268][576]LogTexture:Display: Building textures: SkyOcclusion0_9 (AutoDXT)
+[2016.02.24-19.23.22:305][576]LogTexture:Display: Building textures: LQ_Lightmap_1_8 (DXT1)
+[2016.02.24-19.23.22:318][576]LogTexture:Display: Building textures: HQ_Lightmap1_8 (AutoDXT)
+[2016.02.24-19.23.22:336][576]LogTexture:Display: Building textures: SkyOcclusion1_8 (AutoDXT)
+[2016.02.24-19.23.22:350][576]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1)
+[2016.02.24-19.23.22:374][576]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT)
+[2016.02.24-19.23.22:441][576]LogTexture:Display: Building textures: SkyOcclusion0_7 (AutoDXT)
+[2016.02.24-19.23.22:485][576]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1)
+[2016.02.24-19.23.22:522][576]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT)
+[2016.02.24-19.23.22:581][576]LogTexture:Display: Building textures: SkyOcclusion0_6 (AutoDXT)
+[2016.02.24-19.23.22:645][576]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1)
+[2016.02.24-19.23.22:754][576]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT)
+[2016.02.24-19.23.22:948][576]LogTexture:Display: Building textures: SkyOcclusion0_5 (AutoDXT)
+[2016.02.24-19.23.23:050][576]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
+[2016.02.24-19.23.23:078][576]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
+[2016.02.24-19.23.23:134][576]LogTexture:Display: Building textures: SkyOcclusion0_4 (AutoDXT)
+[2016.02.24-19.23.23:170][576]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
+[2016.02.24-19.23.23:196][576]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
+[2016.02.24-19.23.23:242][576]LogTexture:Display: Building textures: SkyOcclusion1_3 (AutoDXT)
+[2016.02.24-19.23.23:269][576]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2016.02.24-19.23.23:345][576]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2016.02.24-19.23.23:767][576]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT)
+[2016.02.24-19.23.23:922][576]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2016.02.24-19.23.24:003][576]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2016.02.24-19.23.24:651][576]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8)
+[2016.02.24-19.23.24:875][576]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (BGRA8)
+[2016.02.24-19.23.24:968][576]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (BGRA8)
+[2016.02.24-19.23.25:026][576]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (BGRA8)
+[2016.02.24-19.23.25:194][576]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (BGRA8)
+[2016.02.24-19.23.25:299][576]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (BGRA8)
+[2016.02.24-19.23.25:343][576]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (BGRA8)
+[2016.02.24-19.23.25:352][576]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (BGRA8)
+[2016.02.24-19.23.25:365][576]LogTexture:Display: Building textures: ShadowMapTexture2D_8 (BGRA8)
+[2016.02.24-19.23.25:391][576]LogTexture:Display: Building textures: ShadowMapTexture2D_9 (BGRA8)
+[2016.02.24-19.23.25:416][576]LogTexture:Display: Building textures: ShadowMapTexture2D_10 (BGRA8)
+[2016.02.24-19.23.25:679][576]Lightmass on DDW-G238-MAC09: 18.8 sec total, 380 ms importing, 4 ms setup, 1.43 sec photons, 16.6 sec processing, 0 ms extra exporting [32/32 mappings]. Threads: 1:06 min total, 30.6 sec processing.
+[2016.02.24-19.23.25:745][576]LogStaticLightingSystem: Illumination: 37.7 sec (4.20 sec encoding lightmaps)
+[2016.02.24-19.23.25:745][576]LogStaticLightingSystem: Lightmap texture memory:  5.5 MB (5.5 MB streaming, 0.0 MB non-streaming), 22 textures
+[2016.02.24-19.23.25:745][576]LogStaticLightingSystem: Shadowmap texture memory: 11.1 MB (11.1 MB streaming, 0.0 MB non-streaming), 11 textures
+[2016.02.24-19.23.26:951][577]Cmd: MAP CHECK NOTIFYRESULTS
+[2016.02.24-19.23.26:951][577]MapCheck: New page: SideScrollerExampleMap - Feb 24, 2016, 9:23:26 AM
+[2016.02.24-19.23.27:161][577]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 209.835ms to complete.
+[2016.02.24-19.23.27:497][591]LogTexture:Warning: Failed to stream mip data from the derived data cache for /Game/SideScrollerBP/Maps/SideScrollerExampleMap.HQ_Lightmap1_1. Streaming mips will be recached.
+[2016.02.24-19.23.27:536][591]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2016.02.24-19.23.38:925][960]LogRenderer: Reallocating scene render targets to support 1016x920 (Frame:938).
+[2016.02.24-19.23.39:333][976]LogTexture:Warning: Failed to stream mip data from the derived data cache for /Game/SideScrollerBP/Maps/SideScrollerExampleMap.HQ_Lightmap0_3. Streaming mips will be recached.
+[2016.02.24-19.23.39:361][976]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2016.02.24-19.23.40:410][ 16]BlueprintLog: New page: Pre-PIE auto-recompile
+[2016.02.24-19.23.40:410][ 16]LogPlayLevel: [PIE] Compiling SideScrollerExampleMap before PIE...
+[2016.02.24-19.23.40:965][ 16]LogPlayLevel: PIE:  Blueprint regeneration took 563 ms (1 blueprints)
+[2016.02.24-19.23.40:985][ 16]PIE: New page: PIE session: SideScrollerExampleMap (Feb 24, 2016, 9:23:40 AM)
+[2016.02.24-19.23.41:002][ 16]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2016.02.24-19.23.41:224][ 16]LogPlayLevel: PIE: StaticDuplicateObject took: (0.221665s)
+[2016.02.24-19.23.41:225][ 16]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2016.02.24-19.23.41:226][ 16]LogPlayLevel: PIE: World Init took: (0.001798s)
+[2016.02.24-19.23.41:231][ 16]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.228734s)
+[2016.02.24-19.23.41:283][ 16]LogInit: XAudio2 using 'Headphones (Cirrus Logic CS4206B (AB 32))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.24-19.23.41:306][ 16]LogInit: FAudioDevice initialized.
+[2016.02.24-19.23.41:563][ 16]LogLinker:Warning: Asset '../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.24-19.23.41:590][ 16]LogLinker:Warning: Unable to load package (../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset) PackageVersion 482, MaxExpected 451 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.02.24-19.23.41:590][ 16]LogLinker:Warning: Asset '../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.24-19.23.41:590][ 16]LogLinker:Warning: Unable to load package (../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset) PackageVersion 482, MaxExpected 451 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.02.24-19.23.41:592][ 16]LogLinker:Warning: Asset '../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.24-19.23.41:592][ 16]LogLinker:Warning: Unable to load package (../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset) PackageVersion 482, MaxExpected 451 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.02.24-19.23.41:592][ 16]LogLinker:Warning: Asset '../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.24-19.23.41:592][ 16]LogLinker:Warning: Unable to load package (../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset) PackageVersion 482, MaxExpected 451 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.02.24-19.23.41:601][ 16]LogLinker:Warning: Asset '../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.24-19.23.41:601][ 16]LogLinker:Warning: Unable to load package (../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset) PackageVersion 482, MaxExpected 451 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.02.24-19.23.41:601][ 16]LogLinker:Warning: Asset '../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.24-19.23.41:601][ 16]LogLinker:Warning: Unable to load package (../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset) PackageVersion 482, MaxExpected 451 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.02.24-19.23.41:602][ 16]LogLinker:Warning: Asset '../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.24-19.23.41:602][ 16]LogLinker:Warning: Unable to load package (../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset) PackageVersion 482, MaxExpected 451 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.02.24-19.23.41:602][ 16]LogLinker:Warning: Asset '../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.24-19.23.41:602][ 16]LogLinker:Warning: Unable to load package (../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset) PackageVersion 482, MaxExpected 451 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.02.24-19.23.41:603][ 16]LogLinker:Warning: Asset '../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.24-19.23.41:603][ 16]LogLinker:Warning: Unable to load package (../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset) PackageVersion 482, MaxExpected 451 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.02.24-19.23.41:603][ 16]LogLinker:Warning: Asset '../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.24-19.23.41:603][ 16]LogLinker:Warning: Unable to load package (../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset) PackageVersion 482, MaxExpected 451 : LicenseePackageVersion 0, MaxExpected 0.
+[2016.02.24-19.23.41:648][ 16]LogWorld: Game class is 'SideScrollerGameMode_C'
+[2016.02.24-19.23.41:884][ 16]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2016.02.24-14.23.41
+[2016.02.24-19.23.41:885][ 16]LogActor:Warning: GameSession /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.24-19.23.41:895][ 16]LogActor:Warning: GameNetworkManager /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.24-19.23.41:936][ 16]LogWorld: Bringing up level for play took: 0.063542
+[2016.02.24-19.23.42:178][ 16]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 1.876
+[2016.02.24-19.23.43:295][ 37]LogTexture:Warning: Failed to stream mip data from the derived data cache for /Game/SideScrollerBP/Maps/SideScrollerExampleMap.HQ_Lightmap1_7. Streaming mips will be recached.
+[2016.02.24-19.23.43:315][ 37]LogTexture:Display: Building textures: HQ_Lightmap1_7 (AutoDXT)
+[2016.02.24-19.23.48:966][336]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000EE6F2E0
+[2016.02.24-19.23.50:185][384]LogD3D11RHI: InitD3DDevice
+[2016.02.24-19.23.52:421][472]BlueprintLog: New page: Pre-PIE auto-recompile
+[2016.02.24-19.23.52:421][472]LogPlayLevel: [PIE] Compiling SideScrollerExampleMap before PIE...
+[2016.02.24-19.23.52:492][472]LogPlayLevel: PIE:  Blueprint regeneration took 71 ms (1 blueprints)
+[2016.02.24-19.23.52:492][472]PIE: New page: PIE session: SideScrollerExampleMap (Feb 24, 2016, 9:23:52 AM)
+[2016.02.24-19.23.52:493][472]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2016.02.24-19.23.52:748][472]LogPlayLevel: PIE: StaticDuplicateObject took: (0.255509s)
+[2016.02.24-19.23.52:750][472]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2016.02.24-19.23.52:751][472]LogPlayLevel: PIE: World Init took: (0.002784s)
+[2016.02.24-19.23.52:751][472]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.258634s)
+[2016.02.24-19.23.52:777][472]LogInit: XAudio2 using 'Headphones (Cirrus Logic CS4206B (AB 32))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.24-19.23.52:787][472]LogInit: FAudioDevice initialized.
+[2016.02.24-19.23.52:832][472]LogWorld: Game class is 'SideScrollerGameMode_C'
+[2016.02.24-19.23.52:842][472]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2016.02.24-14.23.52
+[2016.02.24-19.23.52:842][472]LogActor:Warning: GameSession /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.24-19.23.52:842][472]LogActor:Warning: GameNetworkManager /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.24-19.23.52:842][472]LogWorld: Bringing up level for play took: 0.007763
+[2016.02.24-19.23.52:844][472]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 0.543
+[2016.02.24-19.23.56:184][655]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D36DA80
+[2016.02.24-19.25.07:984][379]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall3)
+[2016.02.24-19.26.29:101][400]LogD3D11RHI: InitD3DDevice
+[2016.02.24-19.27.05:584][762]LogD3D11RHI: InitD3DDevice
+[2016.02.24-19.29.54:941][984]LogD3D11RHI: InitD3DDevice
+[2016.02.24-19.29.56:388][ 37]LogD3D11RHI: InitD3DDevice
+[2016.02.24-19.29.59:049][137]LogD3D11RHI: InitD3DDevice
+[2016.02.24-19.29.59:104][139]LogD3D11RHI: InitD3DDevice
+[2016.02.24-19.30.00:411][188]LogD3D11RHI: InitD3DDevice
+[2016.02.24-19.30.02:429][261]LogD3D11RHI: InitD3DDevice
+[2016.02.24-19.30.05:131][357]LogD3D11RHI: InitD3DDevice
+[2016.02.24-19.30.06:412][405]LogD3D11RHI: InitD3DDevice
+[2016.02.24-19.30.08:062][465]LogD3D11RHI: InitD3DDevice
+[2016.02.24-19.30.08:986][497]LogD3D11RHI: InitD3DDevice
+[2016.02.24-19.30.11:890][597]LogD3D11RHI: InitD3DDevice
+[2016.02.24-19.30.11:940][598]LogD3D11RHI: InitD3DDevice
+[2016.02.24-19.30.12:522][618]LogD3D11RHI: InitD3DDevice
+[2016.02.24-19.30.13:079][639]LogD3D11RHI: InitD3DDevice
+[2016.02.24-19.30.13:398][651]LogD3D11RHI: InitD3DDevice
+[2016.02.24-19.31.54:122][299]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.02.24-19.31.54:761][320]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.02.24-19.31.55:405][341]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (SK_Mannequin)
+[2016.02.24-19.32.03:904][626]LogD3D11RHI: InitD3DDevice
+[2016.02.24-19.32.09:276][811]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (SK_Mannequin)
+[2016.02.24-19.32.10:879][865]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.02.24-19.32.11:718][893]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall3)
+[2016.02.24-19.32.12:699][926]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.02.24-19.32.13:292][945]LogEditorViewport: Clicking on Actor (LMB): Character (Character)
+[2016.02.24-19.32.14:202][973]LogEditorViewport: Clicking on Actor (context menu): Character (Character)
+[2016.02.24-19.32.14:309][973]LogD3D11RHI: InitD3DDevice
+[2016.02.24-19.32.19:554][151]LogD3D11RHI: InitD3DDevice
+[2016.02.24-19.32.21:270][207]LogD3D11RHI: InitD3DDevice
+[2016.02.24-19.32.23:257][275]LogD3D11RHI: InitD3DDevice
+[2016.02.24-19.32.25:525][352]LogD3D11RHI: InitD3DDevice
+[2016.02.24-19.32.28:365][448]LogD3D11RHI: InitD3DDevice
+[2016.02.24-19.32.30:042][505]LogD3D11RHI: InitD3DDevice
+[2016.02.24-19.32.46:614][ 57]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (SK_Mannequin2)
+[2016.02.24-19.32.47:377][ 81]LogEditorViewport: Clicking on Actor (LMB): Character (Character)
+[2016.02.24-19.33.17:684][728]LogD3D11RHI: InitD3DDevice
+[2016.02.24-19.33.28:341][760]LogD3D11RHI: InitD3DDevice
+[2016.02.24-19.33.28:952][780]LogD3D11RHI: InitD3DDevice
+[2016.02.24-19.33.29:457][795]LogD3D11RHI: InitD3DDevice
+[2016.02.24-19.34.24:842][605]LogD3D11RHI: InitD3DDevice
+[2016.02.24-19.34.53:167][923]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.02.24-19.34.53:672][924]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.02.24-19.35.10:267][974]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.02.24-19.35.19:777][  2]LogD3D11RHI: InitD3DDevice
+[2016.02.24-19.35.19:986][  2]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
+[2016.02.24-19.35.21:647][  2]LogSavePackage: Save=621.825317ms
+[2016.02.24-19.35.21:647][  2]LogSavePackage: Moving '../../../../../../Users/quinonn/Desktop/MyProject/Saved/SideScrollerExampleMap_Auto102FB635444E7D85CA80A1EBA599BB551.tmp' to '../../../../../../Users/quinonn/Desktop/MyProject/Saved/Autosaves/Game/SideScrollerBP/Maps/SideScrollerExampleMap_Auto1.umap'
+[2016.02.24-19.35.21:673][  2]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SideScrollerBP/Maps/SideScrollerExampleMap' took 1.703
+[2016.02.24-19.35.21:686][  2]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.703
+[2016.02.24-19.37.48:808][479]LogEditorViewport: Clicking on Actor (context menu): SkeletalMeshActor (SK_Mannequin2)
+[2016.02.24-19.37.48:853][479]LogD3D11RHI: InitD3DDevice
+[2016.02.24-19.37.51:308][564]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (SK_Mannequin2)
+[2016.02.24-19.37.52:783][614]Cmd: DELETE
+[2016.02.24-19.37.52:783][614]Cmd: ACTOR DELETE
+[2016.02.24-19.37.53:027][614]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2016.02.24-19.37.53:072][614]LogEditorActor: Deleted 1 Actors (0.062 secs)
+[2016.02.24-19.37.54:624][674]LogEditorViewport: Clicking on Actor (LMB): Character (Character)
+[2016.02.24-19.37.55:076][688]Cmd: DELETE
+[2016.02.24-19.37.55:076][688]Cmd: ACTOR DELETE
+[2016.02.24-19.37.55:078][688]LogEditorActor: Deleted Actor: Character
+[2016.02.24-19.37.55:097][688]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2016.02.24-19.37.56:137][728]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (SK_Mannequin)
+[2016.02.24-19.37.56:331][732]Cmd: DELETE
+[2016.02.24-19.37.56:331][732]Cmd: ACTOR DELETE
+[2016.02.24-19.37.56:332][732]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2016.02.24-19.37.56:351][732]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2016.02.24-19.38.07:968][194]LogD3D11RHI: InitD3DDevice
+[2016.02.24-19.39.44:120][747]MapCheck: New page: Map Check
+[2016.02.24-19.39.44:148][747]LogD3D11RHI: InitD3DDevice
+[2016.02.24-19.39.44:169][747]Cmd: MAP REBUILD ALLVISIBLE
+[2016.02.24-19.39.44:169][747]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2016.02.24-19.39.44:300][747]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
+[2016.02.24-19.39.44:321][747]LightingResults: New page: Lighting Build - Feb 24, 2016, 9:39:44 AM
+[2016.02.24-19.39.48:869][747]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2016.02.24-19.39.48:869][747]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2016.02.24-19.39.48:869][747]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2016.02.24-19.39.48:869][747]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2016.02.24-19.39.48:869][747]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2016.02.24-19.39.49:212][747]LogD3D11RHI: InitD3DDevice
+[2016.02.24-19.39.49:233][747]LogEditorBuildUtils: Build time 0:00:05
+[2016.02.24-19.39.49:240][747]LogD3D11RHI: InitD3DDevice
+[2016.02.24-19.39.51:730][752]LogD3D11RHI: InitD3DDevice
+[2016.02.24-19.39.52:320][752]LogSavePackage: Save=496.214600ms
+[2016.02.24-19.39.52:320][752]LogSavePackage: Moving '../../../../../../Users/quinonn/Desktop/MyProject/Saved/SideScrollerExampleMap15CE83204C1F996621332398FB98D8A4.tmp' to '../../../../../../Users/quinonn/Desktop/MyProject/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap'
+[2016.02.24-19.40.08:278][232]Job is a success!
+[2016.02.24-19.40.08:347][233]LogD3D11RHI: InitD3DDevice
+[2016.02.24-19.40.08:352][233]LogD3D11RHI: InitD3DDevice
+[2016.02.24-19.40.10:747][233]LogTexture:Display: Building textures: SkyOcclusion1_1 (AutoDXT)
+[2016.02.24-19.40.10:915][233]LogTexture:Display: Building textures: LQ_Lightmap_1_11 (DXT1)
+[2016.02.24-19.40.10:920][233]LogTexture:Display: Building textures: HQ_Lightmap1_11 (AutoDXT)
+[2016.02.24-19.40.10:921][233]LogTexture:Display: Building textures: SkyOcclusion1_11 (AutoDXT)
+[2016.02.24-19.40.10:924][233]LogTexture:Display: Building textures: LQ_Lightmap_1_10 (DXT1)
+[2016.02.24-19.40.10:932][233]LogTexture:Display: Building textures: HQ_Lightmap1_10 (AutoDXT)
+[2016.02.24-19.40.10:965][233]LogTexture:Display: Building textures: SkyOcclusion1_10 (AutoDXT)
+[2016.02.24-19.40.10:977][233]LogTexture:Display: Building textures: LQ_Lightmap_1_9 (DXT1)
+[2016.02.24-19.40.10:996][233]LogTexture:Display: Building textures: HQ_Lightmap1_9 (AutoDXT)
+[2016.02.24-19.40.11:050][233]LogTexture:Display: Building textures: SkyOcclusion1_9 (AutoDXT)
+[2016.02.24-19.40.11:074][233]LogTexture:Display: Building textures: LQ_Lightmap_0_8 (DXT1)
+[2016.02.24-19.40.11:081][233]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT)
+[2016.02.24-19.40.11:104][233]LogTexture:Display: Building textures: SkyOcclusion0_8 (AutoDXT)
+[2016.02.24-19.40.11:119][233]LogTexture:Display: Building textures: LQ_Lightmap_1_7 (DXT1)
+[2016.02.24-19.40.11:140][233]LogTexture:Display: Building textures: HQ_Lightmap1_7 (AutoDXT)
+[2016.02.24-19.40.11:214][233]LogTexture:Display: Building textures: SkyOcclusion1_7 (AutoDXT)
+[2016.02.24-19.40.11:260][233]LogTexture:Display: Building textures: LQ_Lightmap_1_6 (DXT1)
+[2016.02.24-19.40.11:281][233]LogTexture:Display: Building textures: HQ_Lightmap1_6 (AutoDXT)
+[2016.02.24-19.40.11:329][233]LogTexture:Display: Building textures: SkyOcclusion1_6 (AutoDXT)
+[2016.02.24-19.40.11:366][233]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1)
+[2016.02.24-19.40.11:449][233]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT)
+[2016.02.24-19.40.11:616][233]LogTexture:Display: Building textures: SkyOcclusion1_5 (AutoDXT)
+[2016.02.24-19.40.11:699][233]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1)
+[2016.02.24-19.40.11:732][233]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT)
+[2016.02.24-19.40.11:789][233]LogTexture:Display: Building textures: SkyOcclusion1_4 (AutoDXT)
+[2016.02.24-19.40.11:832][233]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2016.02.24-19.40.11:853][233]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2016.02.24-19.40.11:905][233]LogTexture:Display: Building textures: SkyOcclusion0_3 (AutoDXT)
+[2016.02.24-19.40.11:933][233]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2016.02.24-19.40.12:058][233]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2016.02.24-19.40.12:465][233]LogTexture:Display: Building textures: SkyOcclusion1_2 (AutoDXT)
+[2016.02.24-19.40.12:605][233]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2016.02.24-19.40.12:713][233]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2016.02.24-19.40.13:254][233]LogTexture:Display: Building textures: ShadowMapTexture2D_11 (BGRA8)
+[2016.02.24-19.40.13:431][233]LogTexture:Display: Building textures: ShadowMapTexture2D_12 (BGRA8)
+[2016.02.24-19.40.13:552][233]LogTexture:Display: Building textures: ShadowMapTexture2D_13 (BGRA8)
+[2016.02.24-19.40.13:681][233]LogTexture:Display: Building textures: ShadowMapTexture2D_14 (BGRA8)
+[2016.02.24-19.40.13:914][233]LogTexture:Display: Building textures: ShadowMapTexture2D_15 (BGRA8)
+[2016.02.24-19.40.14:024][233]LogTexture:Display: Building textures: ShadowMapTexture2D_16 (BGRA8)
+[2016.02.24-19.40.14:070][233]LogTexture:Display: Building textures: ShadowMapTexture2D_17 (BGRA8)
+[2016.02.24-19.40.14:111][233]LogTexture:Display: Building textures: ShadowMapTexture2D_18 (BGRA8)
+[2016.02.24-19.40.14:169][233]LogTexture:Display: Building textures: ShadowMapTexture2D_19 (BGRA8)
+[2016.02.24-19.40.14:229][233]LogTexture:Display: Building textures: ShadowMapTexture2D_20 (BGRA8)
+[2016.02.24-19.40.14:263][233]LogTexture:Display: Building textures: ShadowMapTexture2D_21 (BGRA8)
+[2016.02.24-19.40.14:319][233]LogStaticLightingSystem: Illumination: 29.9 sec (3.92 sec encoding lightmaps)
+[2016.02.24-19.40.14:319][233]LogStaticLightingSystem: Lightmap texture memory:  5.5 MB (5.5 MB streaming, 0.0 MB non-streaming), 22 textures
+[2016.02.24-19.40.14:319][233]LogStaticLightingSystem: Shadowmap texture memory: 22.1 MB (22.1 MB streaming, 0.0 MB non-streaming), 22 textures
+[2016.02.24-19.40.14:506][233]Lightmass on DDW-G238-MAC09: 19.9 sec total, 802 ms importing, 3 ms setup, 1.21 sec photons, 16.2 sec processing, 0 ms extra exporting [32/32 mappings]. Threads: 1:04 min total, 28.6 sec processing.
+[2016.02.24-19.40.14:891][234]Cmd: MAP CHECK NOTIFYRESULTS
+[2016.02.24-19.40.14:891][234]MapCheck: New page: SideScrollerExampleMap - Feb 24, 2016, 9:40:14 AM
+[2016.02.24-19.40.15:114][234]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 223.06ms to complete.
+[2016.02.24-19.40.16:776][244]BlueprintLog: New page: Pre-PIE auto-recompile
+[2016.02.24-19.40.16:776][244]LogPlayLevel: [PIE] Compiling SideScrollerExampleMap before PIE...
+[2016.02.24-19.40.16:838][244]LogPlayLevel: PIE:  Blueprint regeneration took 61 ms (1 blueprints)
+[2016.02.24-19.40.16:838][244]PIE: New page: PIE session: SideScrollerExampleMap (Feb 24, 2016, 9:40:16 AM)
+[2016.02.24-19.40.16:838][244]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2016.02.24-19.40.16:958][244]LogPlayLevel: PIE: StaticDuplicateObject took: (0.119561s)
+[2016.02.24-19.40.16:959][244]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2016.02.24-19.40.16:960][244]LogPlayLevel: PIE: World Init took: (0.002268s)
+[2016.02.24-19.40.16:960][244]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.122133s)
+[2016.02.24-19.40.17:056][244]LogInit: XAudio2 using 'Headphones (Cirrus Logic CS4206B (AB 32))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.24-19.40.17:073][244]LogInit: FAudioDevice initialized.
+[2016.02.24-19.40.17:124][244]LogWorld: Game class is 'SideScrollerGameMode_C'
+[2016.02.24-19.40.17:141][244]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2016.02.24-14.40.17
+[2016.02.24-19.40.17:142][244]LogActor:Warning: GameSession /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.24-19.40.17:142][244]LogActor:Warning: GameNetworkManager /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.24-19.40.17:143][244]LogWorld: Bringing up level for play took: 0.015036
+[2016.02.24-19.40.17:146][244]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 0.741
+[2016.02.24-19.40.21:167][244]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2016.02.24-19.40.21:668][244]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2016.02.24-19.40.22:168][244]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2016.02.24-19.40.42:833][248]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000288C1E40
+[2016.02.24-19.40.56:662][332]Cmd: SELECT NONE
+[2016.02.24-19.40.56:681][332]BlueprintLog: New page: Pre-PIE auto-recompile
+[2016.02.24-19.40.56:681][332]LogPlayLevel: [PIE] Compiling SideScrollerExampleMap before PIE...
+[2016.02.24-19.40.56:761][332]LogPlayLevel: PIE:  Blueprint regeneration took 79 ms (1 blueprints)
+[2016.02.24-19.40.56:761][332]PIE: New page: PIE session: SideScrollerExampleMap (Feb 24, 2016, 9:40:56 AM)
+[2016.02.24-19.40.56:762][332]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2016.02.24-19.40.56:823][332]LogPlayLevel: PIE: StaticDuplicateObject took: (0.061209s)
+[2016.02.24-19.40.56:824][332]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2016.02.24-19.40.56:824][332]LogPlayLevel: PIE: World Init took: (0.001656s)
+[2016.02.24-19.40.56:825][332]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.063111s)
+[2016.02.24-19.40.56:849][332]LogInit: XAudio2 using 'Headphones (Cirrus Logic CS4206B (AB 32))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.24-19.40.56:854][332]LogInit: FAudioDevice initialized.
+[2016.02.24-19.40.56:888][332]LogWorld: Game class is 'SideScrollerGameMode_C'
+[2016.02.24-19.40.56:898][332]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 3) at 2016.02.24-14.40.56
+[2016.02.24-19.40.56:898][332]LogActor:Warning: GameSession /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.24-19.40.56:899][332]LogActor:Warning: GameNetworkManager /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.24-19.40.56:899][332]LogWorld: Bringing up level for play took: 0.009094
+[2016.02.24-19.40.56:901][332]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 0.498
+[2016.02.24-19.48.16:775][863]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000120DB600
+[2016.02.24-19.48.33:024][466]LogD3D11RHI: InitD3DDevice
+[2016.02.24-19.48.34:372][511]LogD3D11RHI: InitD3DDevice
+[2016.02.24-19.48.37:853][630]LogD3D11RHI: InitD3DDevice
+[2016.02.24-19.48.38:000][630]LogD3D11RHI: InitD3DDevice
+[2016.02.24-19.48.38:315][630]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.24-19.48.38:861][630]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.24-19.48.48:237][653]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.02.24-19.48.50:391][663]LogD3D11RHI: InitD3DDevice
+[2016.02.24-19.48.54:866][819]LogD3D11RHI: InitD3DDevice
+[2016.02.24-19.48.55:653][851]LogD3D11RHI: InitD3DDevice
+[2016.02.24-19.48.56:849][896]LogD3D11RHI: InitD3DDevice
+[2016.02.24-19.48.57:743][929]LogD3D11RHI: InitD3DDevice
+[2016.02.24-19.48.58:208][947]LogD3D11RHI: InitD3DDevice
+[2016.02.24-19.49.21:682][861]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube11)
+[2016.02.24-19.49.23:022][910]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube6)
+[2016.02.24-19.49.43:646][ 31]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.02.24-19.49.44:747][ 58]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000536F9B20
+[2016.02.24-19.49.44:866][ 58]LogD3D11RHI: InitD3DDevice
+[2016.02.24-19.49.48:542][ 59]Cmd: QUIT_EDITOR
+[2016.02.24-19.49.49:110][ 59]LogExit: Preparing to exit.
+[2016.02.24-19.49.49:549][ 59]LogExit: Editor shut down
+[2016.02.24-19.49.49:549][ 59]LogExit: Transaction tracking system shut down
+[2016.02.24-19.49.49:552][ 59]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000EF78360
+[2016.02.24-19.49.49:552][ 59]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000F5834C0
+[2016.02.24-19.49.49:552][ 59]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000F159B20
+[2016.02.24-19.49.49:553][ 59]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000012075300
+[2016.02.24-19.49.49:553][ 59]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000187C2520
+[2016.02.24-19.49.49:553][ 59]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000184A8B80
+[2016.02.24-19.49.50:392][ 59]LogExit: Object subsystem successfully closed.
+[2016.02.24-19.49.50:822][ 59]LogD3D11RHI: Shutdown
+[2016.02.24-19.49.50:822][ 59]LogD3D11RHI: CleanupD3DDevice
+[2016.02.24-19.49.51:767][ 59]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.02.24-19.49.51:834][ 59]LogModuleManager: Shutting down and abandoning module CrashTracker (188)
+[2016.02.24-19.49.51:834][ 59]LogModuleManager: Shutting down and abandoning module SceneOutliner (187)
+[2016.02.24-19.49.51:834][ 59]LogModuleManager: Shutting down and abandoning module SuperSearch (186)
+[2016.02.24-19.49.51:834][ 59]LogModuleManager: Shutting down and abandoning module WidgetCarousel (185)
+[2016.02.24-19.49.51:850][ 59]LogModuleManager: Shutting down and abandoning module AddContentDialog (184)
+[2016.02.24-19.49.51:894][ 59]LogModuleManager: Shutting down and abandoning module EditorWidgets (183)
+[2016.02.24-19.49.51:894][ 59]LogModuleManager: Shutting down and abandoning module CollectionManager (182)
+[2016.02.24-19.49.51:936][ 59]LogModuleManager: Shutting down and abandoning module StatsViewer (181)
+[2016.02.24-19.49.51:936][ 59]LogModuleManager: Shutting down and abandoning module FoliageEdit (180)
+[2016.02.24-19.49.51:936][ 59]LogModuleManager: Shutting down and abandoning module LandscapeEditor (179)
+[2016.02.24-19.49.51:936][ 59]LogModuleManager: Shutting down and abandoning module ActorPickerMode (178)
+[2016.02.24-19.49.51:936][ 59]LogModuleManager: Shutting down and abandoning module GeometryMode (177)
+[2016.02.24-19.49.51:936][ 59]LogModuleManager: Shutting down and abandoning module TextureAlignMode (176)
+[2016.02.24-19.49.51:936][ 59]LogModuleManager: Shutting down and abandoning module BspMode (175)
+[2016.02.24-19.49.51:936][ 59]LogModuleManager: Shutting down and abandoning module PlacementMode (174)
+[2016.02.24-19.49.51:936][ 59]LogModuleManager: Shutting down and abandoning module AutomationWorker (173)
+[2016.02.24-19.49.51:937][ 59]LogModuleManager: Shutting down and abandoning module CharacterAI (172)
+[2016.02.24-19.49.51:937][ 59]LogModuleManager: Shutting down and abandoning module SmartSnapping (171)
+[2016.02.24-19.49.51:937][ 59]LogModuleManager: Shutting down and abandoning module ViewportSnapping (170)
+[2016.02.24-19.49.51:937][ 59]LogModuleManager: Shutting down and abandoning module LogVisualizer (169)
+[2016.02.24-19.49.51:958][ 59]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (168)
+[2016.02.24-19.49.51:958][ 59]LogModuleManager: Shutting down and abandoning module IntroTutorials (167)
+[2016.02.24-19.49.51:958][ 59]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (166)
+[2016.02.24-19.49.51:958][ 59]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (165)
+[2016.02.24-19.49.51:958][ 59]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (164)
+[2016.02.24-19.49.51:958][ 59]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (163)
+[2016.02.24-19.49.52:358][ 59]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (162)
+[2016.02.24-19.49.52:358][ 59]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (161)
+[2016.02.24-19.49.52:358][ 59]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (160)
+[2016.02.24-19.49.52:358][ 59]LogModuleManager: Shutting down and abandoning module MergeActors (159)
+[2016.02.24-19.49.52:358][ 59]LogModuleManager: Shutting down and abandoning module SizeMap (158)
+[2016.02.24-19.49.52:358][ 59]LogModuleManager: Shutting down and abandoning module TreeMap (157)
+[2016.02.24-19.49.52:358][ 59]LogModuleManager: Shutting down and abandoning module ReferenceViewer (156)
+[2016.02.24-19.49.52:358][ 59]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (155)
+[2016.02.24-19.49.52:358][ 59]LogModuleManager: Shutting down and abandoning module HardwareTargeting (154)
+[2016.02.24-19.49.52:358][ 59]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (153)
+[2016.02.24-19.49.52:358][ 59]LogModuleManager: Shutting down and abandoning module UndoHistory (152)
+[2016.02.24-19.49.52:358][ 59]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (151)
+[2016.02.24-19.49.52:358][ 59]LogModuleManager: Shutting down and abandoning module UserFeedback (150)
+[2016.02.24-19.49.52:358][ 59]LogModuleManager: Shutting down and abandoning module XmlParser (149)
+[2016.02.24-19.49.52:358][ 59]LogModuleManager: Shutting down and abandoning module Blutility (148)
+[2016.02.24-19.49.52:358][ 59]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (147)
+[2016.02.24-19.49.52:358][ 59]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (146)
+[2016.02.24-19.49.52:358][ 59]LogModuleManager: Shutting down and abandoning module InputBindingEditor (145)
+[2016.02.24-19.49.52:358][ 59]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (144)
+[2016.02.24-19.49.52:358][ 59]LogModuleManager: Shutting down and abandoning module SettingsEditor (143)
+[2016.02.24-19.49.52:358][ 59]LogModuleManager: Shutting down and abandoning module ProjectLauncher (142)
+[2016.02.24-19.49.52:358][ 59]LogModuleManager: Shutting down and abandoning module SessionFrontend (141)
+[2016.02.24-19.49.52:358][ 59]LogModuleManager: Shutting down and abandoning module ProfilerClient (140)
+[2016.02.24-19.49.52:358][ 59]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (139)
+[2016.02.24-19.49.52:358][ 59]LogModuleManager: Shutting down and abandoning module DeviceManager (138)
+[2016.02.24-19.49.52:359][ 59]LogModuleManager: Shutting down and abandoning module AutomationController (137)
+[2016.02.24-19.49.52:359][ 59]LogModuleManager: Shutting down and abandoning module AutomationWindow (136)
+[2016.02.24-19.49.52:359][ 59]LogModuleManager: Shutting down and abandoning module Layers (135)
+[2016.02.24-19.49.52:359][ 59]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (134)
+[2016.02.24-19.49.52:359][ 59]LogModuleManager: Shutting down and abandoning module DetailCustomizations (133)
+[2016.02.24-19.49.52:359][ 59]LogModuleManager: Shutting down and abandoning module PackagesDialog (132)
+[2016.02.24-19.49.52:359][ 59]LogModuleManager: Shutting down and abandoning module AssetRegistry (131)
+[2016.02.24-19.49.52:471][ 59]LogModuleManager: Shutting down and abandoning module Persona (130)
+[2016.02.24-19.49.52:471][ 59]LogModuleManager: Shutting down and abandoning module Kismet (129)
+[2016.02.24-19.49.52:471][ 59]LogModuleManager: Shutting down and abandoning module GraphEditor (128)
+[2016.02.24-19.49.52:471][ 59]LogModuleManager: Shutting down and abandoning module ClassViewer (127)
+[2016.02.24-19.49.52:471][ 59]LogModuleManager: Shutting down and abandoning module Toolbox (126)
+[2016.02.24-19.49.52:471][ 59]LogModuleManager: Shutting down and abandoning module ModuleUI (125)
+[2016.02.24-19.49.52:471][ 59]LogModuleManager: Shutting down and abandoning module MovieSceneTools (124)
+[2016.02.24-19.49.52:471][ 59]LogModuleManager: Shutting down and abandoning module OutputLog (123)
+[2016.02.24-19.49.52:471][ 59]LogModuleManager: Shutting down and abandoning module GammaUI (122)
+[2016.02.24-19.49.52:471][ 59]LogModuleManager: Shutting down and abandoning module Documentation (121)
+[2016.02.24-19.49.52:471][ 59]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (120)
+[2016.02.24-19.49.52:471][ 59]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (119)
+[2016.02.24-19.49.52:471][ 59]LogModuleManager: Shutting down and abandoning module AnalyticsET (118)
+[2016.02.24-19.49.52:471][ 59]LogModuleManager: Shutting down and abandoning module Analytics (117)
+[2016.02.24-19.49.52:471][ 59]LogModuleManager: Shutting down and abandoning module AITestSuite (116)
+[2016.02.24-19.49.52:471][ 59]LogModuleManager: Shutting down and abandoning module GameplayDebugger (115)
+[2016.02.24-19.49.52:471][ 59]LogModuleManager: Shutting down and abandoning module AIModule (114)
+[2016.02.24-19.49.52:471][ 59]LogModuleManager: Shutting down and abandoning module ProfilerService (113)
+[2016.02.24-19.49.52:600][ 59]LogModuleManager: Shutting down and abandoning module TaskGraph (112)
+[2016.02.24-19.49.52:600][ 59]LogModuleManager: Shutting down and abandoning module SlateRemote (111)
+[2016.02.24-19.49.52:600][ 59]LogModuleManager: Shutting down and abandoning module SteamVRController (110)
+[2016.02.24-19.49.52:600][ 59]LogModuleManager: Shutting down and abandoning module SteamVR (109)
+[2016.02.24-19.49.52:600][ 59]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (108)
+[2016.02.24-19.49.52:600][ 59]LogModuleManager: Shutting down and abandoning module OculusRift (107)
+[2016.02.24-19.49.52:600][ 59]LogModuleManager: Shutting down and abandoning module LeapMotionController (106)
+[2016.02.24-19.49.52:753][ 59]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (105)
+[2016.02.24-19.49.52:753][ 59]LogModuleManager: Shutting down and abandoning module CableComponent (104)
+[2016.02.24-19.49.52:753][ 59]LogModuleManager: Shutting down and abandoning module MessagingDebugger (103)
+[2016.02.24-19.49.52:753][ 59]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (102)
+[2016.02.24-19.49.52:753][ 59]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (101)
+[2016.02.24-19.49.52:753][ 59]LogModuleManager: Shutting down and abandoning module PluginBrowser (100)
+[2016.02.24-19.49.52:753][ 59]LogModuleManager: Shutting down and abandoning module EpicSurvey (99)
+[2016.02.24-19.49.52:783][ 59]LogModuleManager: Shutting down and abandoning module DesktopPlatform (98)
+[2016.02.24-19.49.52:783][ 59]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (97)
+[2016.02.24-19.49.52:783][ 59]LogModuleManager: Shutting down and abandoning module UObjectPlugin (96)
+[2016.02.24-19.49.52:783][ 59]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (95)
+[2016.02.24-19.49.52:784][ 59]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (94)
+[2016.02.24-19.49.52:784][ 59]LogModuleManager: Shutting down and abandoning module SourceControl (93)
+[2016.02.24-19.49.52:784][ 59]LogModuleManager: Shutting down and abandoning module GitSourceControl (92)
+[2016.02.24-19.49.52:784][ 59]LogModuleManager: Shutting down and abandoning module BlankPlugin (91)
+[2016.02.24-19.49.52:784][ 59]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (90)
+[2016.02.24-19.49.52:784][ 59]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (89)
+[2016.02.24-19.49.52:784][ 59]LogModuleManager: Shutting down and abandoning module MeshPaint (88)
+[2016.02.24-19.49.52:784][ 59]LogModuleManager: Shutting down and abandoning module SlateReflector (87)
+[2016.02.24-19.49.52:784][ 59]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (86)
+[2016.02.24-19.49.52:784][ 59]LogModuleManager: Shutting down and abandoning module HotReload (85)
+[2016.02.24-19.49.52:784][ 59]LogModuleManager: Shutting down and abandoning module MainFrame (84)
+[2016.02.24-19.49.52:785][ 59]LogModuleManager: Shutting down and abandoning module LevelEditor (83)
+[2016.02.24-19.49.52:786][ 59]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2016.02.24-19.49.52:787][ 59]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2016.02.24-19.49.52:787][ 59]LogModuleManager: Shutting down and abandoning module UdpMessaging (80)
+[2016.02.24-19.49.52:887][ 59]LogModuleManager: Shutting down and abandoning module Paper2D (79)
+[2016.02.24-19.49.52:887][ 59]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (78)
+[2016.02.24-19.49.52:892][ 59]LogModuleManager: Shutting down and abandoning module Media (77)
+[2016.02.24-19.49.52:892][ 59]LogModuleManager: Shutting down and abandoning module WmfMedia (76)
+[2016.02.24-19.49.52:899][ 59]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (75)
+[2016.02.24-19.49.52:899][ 59]LogModuleManager: Shutting down and abandoning module PropertyEditor (74)
+[2016.02.24-19.49.52:899][ 59]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (73)
+[2016.02.24-19.49.52:899][ 59]LogModuleManager: Shutting down and abandoning module FunctionalTesting (72)
+[2016.02.24-19.49.52:899][ 59]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (71)
+[2016.02.24-19.49.52:899][ 59]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (70)
+[2016.02.24-19.49.52:900][ 59]LogModuleManager: Shutting down and abandoning module MessageLog (69)
+[2016.02.24-19.49.52:900][ 59]LogModuleManager: Shutting down and abandoning module Sequencer (68)
+[2016.02.24-19.49.52:900][ 59]LogModuleManager: Shutting down and abandoning module AssetTools (67)
+[2016.02.24-19.49.52:900][ 59]LogModuleManager: Shutting down and abandoning module UMGEditor (66)
+[2016.02.24-19.49.52:900][ 59]LogModuleManager: Shutting down and abandoning module UMG (65)
+[2016.02.24-19.49.52:900][ 59]LogModuleManager: Shutting down and abandoning module Slate (64)
+[2016.02.24-19.49.52:900][ 59]LogModuleManager: Shutting down and abandoning module EditorStyle (63)
+[2016.02.24-19.49.52:905][ 59]LogModuleManager: Shutting down and abandoning module SessionServices (62)
+[2016.02.24-19.49.52:905][ 59]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (61)
+[2016.02.24-19.49.52:905][ 59]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (60)
+[2016.02.24-19.49.52:905][ 59]LogModuleManager: Shutting down and abandoning module XAudio2 (59)
+[2016.02.24-19.49.52:905][ 59]LogModuleManager: Shutting down and abandoning module Networking (57)
+[2016.02.24-19.49.52:905][ 59]LogModuleManager: Shutting down and abandoning module Core (56)
+[2016.02.24-19.49.52:905][ 59]LogModuleManager: Shutting down and abandoning module KismetCompiler (55)
+[2016.02.24-19.49.52:905][ 59]LogModuleManager: Shutting down and abandoning module PhysXFormats (54)
+[2016.02.24-19.49.52:905][ 59]LogModuleManager: Shutting down and abandoning module MeshUtilities (53)
+[2016.02.24-19.49.52:905][ 59]LogModuleManager: Shutting down and abandoning module DerivedDataCache (52)
+[2016.02.24-19.49.52:980][ 59]LogDerivedDataCache: Shutdown
+[2016.02.24-19.49.52:980][ 59]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (51)
+[2016.02.24-19.49.52:980][ 59]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (50)
+[2016.02.24-19.49.52:980][ 59]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (49)
+[2016.02.24-19.49.52:980][ 59]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (48)
+[2016.02.24-19.49.52:980][ 59]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (47)
+[2016.02.24-19.49.52:980][ 59]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (46)
+[2016.02.24-19.49.52:980][ 59]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (45)
+[2016.02.24-19.49.52:980][ 59]LogModuleManager: Shutting down and abandoning module ImageWrapper (44)
+[2016.02.24-19.49.52:980][ 59]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (43)
+[2016.02.24-19.49.52:980][ 59]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (42)
+[2016.02.24-19.49.52:980][ 59]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (41)
+[2016.02.24-19.49.52:980][ 59]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (40)
+[2016.02.24-19.49.52:980][ 59]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (39)
+[2016.02.24-19.49.52:980][ 59]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (38)
+[2016.02.24-19.49.52:980][ 59]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (37)
+[2016.02.24-19.49.52:980][ 59]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (36)
+[2016.02.24-19.49.52:980][ 59]LogModuleManager: Shutting down and abandoning module Messaging (35)
+[2016.02.24-19.49.52:980][ 59]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (34)
+[2016.02.24-19.49.52:980][ 59]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (33)
+[2016.02.24-19.49.52:980][ 59]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (32)
+[2016.02.24-19.49.52:980][ 59]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (31)
+[2016.02.24-19.49.52:980][ 59]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (30)
+[2016.02.24-19.49.52:980][ 59]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (29)
+[2016.02.24-19.49.52:980][ 59]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (28)
+[2016.02.24-19.49.52:980][ 59]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (27)
+[2016.02.24-19.49.52:980][ 59]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
+[2016.02.24-19.49.52:980][ 59]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
+[2016.02.24-19.49.52:980][ 59]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
+[2016.02.24-19.49.52:980][ 59]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
+[2016.02.24-19.49.52:980][ 59]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
+[2016.02.24-19.49.52:980][ 59]LogModuleManager: Shutting down and abandoning module DesktopTargetPlatform (21)
+[2016.02.24-19.49.52:980][ 59]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2016.02.24-19.49.52:980][ 59]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2016.02.24-19.49.52:980][ 59]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2016.02.24-19.49.52:980][ 59]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2016.02.24-19.49.52:980][ 59]LogModuleManager: Shutting down and abandoning module HTTP (15)
+[2016.02.24-19.49.53:055][ 59]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2016.02.24-19.49.53:062][ 59]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2016.02.24-19.49.53:062][ 59]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2016.02.24-19.49.53:062][ 59]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2016.02.24-19.49.53:062][ 59]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2016.02.24-19.49.53:065][ 59]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2016.02.24-19.49.53:065][ 59]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2016.02.24-19.49.53:065][ 59]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.02.24-19.49.53:065][ 59]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.02.24-19.49.53:065][ 59]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.02.24-19.49.53:065][ 59]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.02.24-19.49.53:065][ 59]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.02.24-19.49.53:072][ 59]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.02.24-19.49.53:072][ 59]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.02.24-19.49.53:155][ 59]LogExit: Exiting.
+[2016.02.24-19.49.53:428][ 59]Log file closed, 02/24/16 14:49:53
