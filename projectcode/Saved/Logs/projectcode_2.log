@@ -1,0 +1,1853 @@
+﻿[2016.03.21-18.33.16:970][  0]Log file open, 03/21/16 14:33:16
+[2016.03.21-18.33.16:970][  0]LogInit:Display: Running engine for game: projectcode
+[2016.03.21-18.33.16:970][  0]LogInit:Display: RandInit(-2081701512) SRandInit(-2081701511).
+[2016.03.21-18.33.16:970][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.03.21-18.33.16:970][  0]LogStats: Stats thread started
+[2016.03.21-18.33.16:970][  0]LogInit: Version: 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2016.03.21-18.33.16:970][  0]LogInit: API Version: 2579680
+[2016.03.21-18.33.16:970][  0]LogInit: Compiled (64-bit): Jul 27 2015 16:24:33
+[2016.03.21-18.33.16:970][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2016.03.21-18.33.16:970][  0]LogInit: Build Configuration: Development
+[2016.03.21-18.33.16:970][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2016.03.21-18.33.16:970][  0]LogInit: Command line:  
+[2016.03.21-18.33.16:970][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.8/Engine/Binaries/Win64/
+[2016.03.21-18.33.16:970][  0]LogInit: Rocket: 1
+[2016.03.21-18.33.16:984][  0]LogInit: Using libcurl 7.41.0
+[2016.03.21-18.33.16:984][  0]LogInit:  - built for x86_64-pc-win32
+[2016.03.21-18.33.16:985][  0]LogInit:  - supports SSL with WinSSL
+[2016.03.21-18.33.16:985][  0]LogInit:  - other features:
+[2016.03.21-18.33.16:985][  0]LogInit:      CURL_VERSION_SSL
+[2016.03.21-18.33.16:985][  0]LogInit:      CURL_VERSION_IPV6
+[2016.03.21-18.33.16:985][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.03.21-18.33.16:985][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.03.21-18.33.16:985][  0]LogInit:      CURL_VERSION_IDN
+[2016.03.21-18.33.16:985][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.03.21-18.33.16:985][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.03.21-18.33.16:985][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.03.21-18.33.16:985][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.03.21-18.33.16:985][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.03.21-18.33.16:997][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2016.03.21-18.33.17:012][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.03.21-18.33.17:019][  0]LogInit: Object subsystem initialized
+[2016.03.21-18.33.17:020][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2016.03.21-18.33.17:020][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/quinonn/Documents/GitHub/Gamefiles/projectcode/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2016.03.21-18.33.17:020][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2016.03.21-18.33.17:020][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/quinonn/Documents/GitHub/Gamefiles/projectcode/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2016.03.21-18.33.17:020][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2016.03.21-18.33.17:020][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/quinonn/Documents/GitHub/Gamefiles/projectcode/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2016.03.21-18.33.17:020][  0]LogInit: Selected Device Profile: [Windows]
+[2016.03.21-18.33.17:021][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.03.21-18.33.17:027][  0]LogInit: Computer: DDW-G238-MAC12
+[2016.03.21-18.33.17:028][  0]LogInit: User: quinonn
+[2016.03.21-18.33.17:028][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.03.21-18.33.17:028][  0]LogInit: High frequency timer resolution =2.630800 MHz
+[2016.03.21-18.33.17:028][  0]LogMemory: Memory total: Physical=4.0GB (4GB approx)
+[2016.03.21-18.33.17:028][  0]LogMemory: Platform Memory Stats for Windows
+[2016.03.21-18.33.17:028][  0]LogMemory: Process Physical Memory: 49.73 MB used, 49.73 MB peak
+[2016.03.21-18.33.17:028][  0]LogMemory: Process Virtual Memory: 23.77 MB used, 23.77 MB peak
+[2016.03.21-18.33.17:028][  0]LogMemory: Physical Memory: 1867.07 MB used, 4071.74 MB total
+[2016.03.21-18.33.17:028][  0]LogMemory: Virtual Memory: 281.46 MB used, 8388608.00 MB total
+[2016.03.21-18.33.17:063][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2016.03.21-18.33.17:268][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
+[2016.03.21-18.33.17:607][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon HD 6700M Series (Feature Level 11_0)
+[2016.03.21-18.33.17:607][  0]LogD3D11RHI: Adapter has 501MB of dedicated video memory, 0MB of dedicated system memory, and 1779MB of shared system memory, 1 output[s]
+[2016.03.21-18.33.17:607][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.03.21-18.33.17:612][  0]LogD3D11RHI: InitD3DDevice
+[2016.03.21-18.33.17:612][  0]LogD3D11RHI: !Direct3DDevice
+[2016.03.21-18.33.17:612][  0]LogRHI: Texture pool is 351 MB (70% of 501 MB)
+[2016.03.21-18.33.17:620][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2016.03.21-18.33.17:633][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.03.21-18.33.18:666][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2016.03.21-18.33.18:687][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.03.21-18.33.18:706][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.03.21-18.33.18:726][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.03.21-18.33.18:747][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.03.21-18.33.18:765][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.03.21-18.33.18:782][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.03.21-18.33.18:798][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.03.21-18.33.18:815][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.03.21-18.33.18:832][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.03.21-18.33.18:848][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.03.21-18.33.18:862][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.03.21-18.33.18:920][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.03.21-18.33.18:935][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.03.21-18.33.18:950][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.03.21-18.33.18:968][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.03.21-18.33.18:968][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.03.21-18.33.19:260][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.03.21-18.33.19:322][  0]LogDerivedDataCache: Loaded boot cache 0.06s 53MB C:/Users/quinonn/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2016.03.21-18.33.19:322][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/quinonn/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2016.03.21-18.33.19:322][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/quinonn/Documents/GitHub/Gamefiles/projectcode/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.03.21-18.33.19:322][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.03.21-18.33.19:322][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/quinonn/Documents/GitHub/Gamefiles/projectcode/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.03.21-18.33.19:322][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.03.21-18.33.19:485][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.03.21-18.33.19:497][  0]LogDerivedDataCache: Using Local data cache path C:/Users/quinonn/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.03.21-18.33.22:605][  0]LogInit: Selected Device Profile: [Windows]
+[2016.03.21-18.33.22:754][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2016.03.21-18.33.22:755][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2016.03.21-18.33.23:119][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.03.21-18.33.23:119][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.03.21-18.33.27:265][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.03.21-18.33.50:809][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.03.21-18.33.52:937][  0]LogConfig:Warning: Failed to saved backup for config[SourceControlSettings]
+[2016.03.21-18.33.52:942][  0]SourceControl: Info Source control is disabled
+[2016.03.21-18.33.52:959][  0]SourceControl: Info Source control is disabled
+[2016.03.21-18.33.53:013][  0]SourceControl: Info Source control is disabled
+[2016.03.21-18.33.53:076][  0]SourceControl: Info Source control is disabled
+[2016.03.21-18.33.54:444][  0]LogObj: 26273 objects as part of root set at end of initial load.
+[2016.03.21-18.33.54:444][  0]LogUObjectAllocator: 5409248 out of 0 bytes used by permanent object pool.
+[2016.03.21-18.33.55:067][  0]LogEngine: Initializing Engine...
+[2016.03.21-18.33.55:091][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2016.03.21-18.33.55:232][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 110
+[2016.03.21-18.33.56:293][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.03.21-18.33.56:479][  0]LogInit: XAudio2 using 'Speakers (Cirrus Logic CS4206B (AB 32))' : 4 channels at 48 kHz using 32 bits per sample (channel mask 0x33)
+[2016.03.21-18.33.56:676][  0]LogInit: FAudioDevice initialized.
+[2016.03.21-18.33.56:686][  0]LogDerivedDataCache:Error: Could not save memory cache C:/Users/quinonn/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2016.03.21-18.33.56:698][  0]LogInit: Texture streaming: Disabled
+[2016.03.21-18.33.56:779][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.03.21-18.33.56:780][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2016.03.21-18.33.56:780][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 479c140b49949353dfd44181c39e5924|3557c17ee8f74e5b944a80d4b2743391|c51c7447-7047-4a8f-8115-e65efa9fd28a
+[2016.03.21-18.33.56:785][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.03.21-18.33.57:168][  0]LogInit: Transaction tracking system initialized
+[2016.03.21-18.33.58:065][  0]BlueprintLog: New page: Editor Load
+[2016.03.21-18.33.58:328][  0]LogAssetRegistry: FAssetRegistry took 0.0533 seconds to start up
+[2016.03.21-18.33.58:416][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2016.03.21-18.34.09:624][  0]LogConfig:Warning: Failed to saved backup for config[TemplateDefs]
+[2016.03.21-18.34.11:023][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'SystemSettingsIni')
+[2016.03.21-18.34.11:023][  0]LogConsoleResponse:Display: 
+[2016.03.21-18.34.14:310][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.03.21-18.34.16:963][  0]SourceControl: Info Source control is disabled
+[2016.03.21-18.34.17:074][  0]Cmd: MAP LOAD FILE="../../../../../../Users/quinonn/Documents/GitHub/Gamefiles/projectcode/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.03.21-18.34.17:092][  0]LightingResults: New page: Lighting Build
+[2016.03.21-18.34.17:777][  0]MapCheck: New page: Map Check
+[2016.03.21-18.34.17:777][  0]LightingResults: New page: Lighting Build
+[2016.03.21-18.34.18:188][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001BDB2F20
+[2016.03.21-18.34.27:537][  0]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT)
+[2016.03.21-18.34.29:263][  0]LogTexture:Display: Building textures: HQ_Lightmap1_18 (AutoDXT)
+[2016.03.21-18.34.29:464][  0]LogTexture:Display: Building textures: HQ_Lightmap1_19 (AutoDXT)
+[2016.03.21-18.34.30:680][  0]LogTexture:Display: Building textures: HQ_Lightmap1_24 (AutoDXT)
+[2016.03.21-18.34.31:608][  0]LogTexture:Display: Building textures: HQ_Lightmap1_9 (AutoDXT)
+[2016.03.21-18.34.31:767][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_13 (DXT1)
+[2016.03.21-18.34.32:041][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1)
+[2016.03.21-18.34.32:413][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2016.03.21-18.34.34:823][  0]LogTexture:Display: Building textures: SkyOcclusion0_12 (AutoDXT)
+[2016.03.21-18.34.35:724][  0]LogTexture:Display: Building textures: SkyOcclusion0_7 (AutoDXT)
+[2016.03.21-18.34.37:028][  0]LogTexture:Display: Building textures: SkyOcclusion1_16 (AutoDXT)
+[2016.03.21-18.34.38:294][  0]LogTexture:Display: Building textures: SkyOcclusion1_3 (AutoDXT)
+[2016.03.21-18.34.40:241][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_110 (BGRA8)
+[2016.03.21-18.34.44:021][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_95 (BGRA8)
+[2016.03.21-18.34.44:708][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_98 (BGRA8)
+[2016.03.21-18.34.44:812][  0]LogTexture:Warning: GetMipData failed for /Game/SideScrollerBP/Maps/SideScrollerExampleMap.ShadowMapTexture2D_98 (B8G8R8A8)
+[2016.03.21-18.34.44:812][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_98 (BGRA8)
+[2016.03.21-18.34.44:924][  0]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2016.03.21-18.34.47:304][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.03.21-18.34.49:307][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.03.21-18.34.49:618][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 311.018ms to complete.
+[2016.03.21-18.34.49:619][  0]LogFileHelpers: Loading map 'SideScrollerExampleMap' took 32.593
+[2016.03.21-18.34.53:983][  0]LogCollectionManager: Loaded 0 collections in 0.004722 seconds
+[2016.03.21-18.34.54:013][  0]LogContentBrowser: Native class hierarchy populated in 0.0237 seconds. Added 1792 classes and 301 folders.
+[2016.03.21-18.34.54:802][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.03.21-18.35.01:022][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2016.03.21-18.35.01:618][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2016.03.21-18.35.08:814][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.03.21-18.35.09:944][  0]LogD3D11RHI: InitD3DDevice
+[2016.03.21-18.35.10:448][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.03.21-18.35.11:582][  0]LogLoad: Full Startup: 116.33 seconds (BP compile: 1.38 seconds)
+[2016.03.21-18.35.18:348][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.03.21-18.35.20:139][  0]LogContentStreaming: Texture pool size now 400 MB
+[2016.03.21-18.35.23:449][  0]LogRenderer: Reallocating scene render targets to support 1576x776 (Frame:2).
+[2016.03.21-18.35.31:341][  1]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2016.03.21-18.35.43:445][ 11]LogAssetRegistry: Asset discovery search completed in 105.1442 seconds
+[2016.03.21-18.35.51:144][ 30]LogD3D11RHI: InitD3DDevice
+[2016.03.21-18.37.04:250][244]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.03.21-18.37.04:798][245]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.03.21-18.37.05:304][246]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.03.21-18.37.40:883][353]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.03.21-18.37.43:097][401]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.03.21-18.37.55:660][432]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2016.03.21-18.38.24:325][278]LogEditorViewport: Clicking on Actor (LMB): LightmassImportanceVolume (LightmassImportanceVolume)
+[2016.03.21-18.38.51:005][597]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor4)
+[2016.03.21-18.38.52:339][599]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.03.21-18.39.36:584][342]LogEditorViewport: Clicking on Actor (LMB): LightmassImportanceVolume (LightmassImportanceVolume)
+[2016.03.21-18.42.02:465][338]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2016.03.21-18.42.11:590][789]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall19)
+[2016.03.21-18.42.12:218][792]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.03.21-18.42.28:930][758]Cmd: POLY SELECT MEMORY UNION
+[2016.03.21-18.42.29:182][771]Cmd: POLY SELECT MEMORY UNION
+[2016.03.21-18.42.29:480][793]Cmd: POLY SELECT MEMORY UNION
+[2016.03.21-18.42.29:859][819]Cmd: POLY SELECT MEMORY UNION
+[2016.03.21-18.42.30:506][857]Cmd: POLY SELECT MEMORY UNION
+[2016.03.21-18.42.30:833][865]Cmd: POLY SELECT ADJACENT WALLS
+[2016.03.21-18.42.31:247][877]Cmd: POLY SELECT ADJACENT WALLS
+[2016.03.21-18.42.35:606][ 31]Cmd: POLY SELECT ADJACENT WALLS
+[2016.03.21-18.42.36:044][ 56]Cmd: POLY SELECT ADJACENT WALLS
+[2016.03.21-18.42.38:252][155]Cmd: POLY SELECT MEMORY UNION
+[2016.03.21-18.42.38:734][183]Cmd: POLY SELECT ADJACENT WALLS
+[2016.03.21-18.44.42:799][607]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2016.03.21-18.44.51:663][914]LogEditorViewport: Clicking on Actor (LMB): LightmassImportanceVolume (LightmassImportanceVolume)
+[2016.03.21-18.45.50:444][854]Cmd: DUPLICATE
+[2016.03.21-18.45.50:444][854]Cmd: ACTOR DUPLICATE
+[2016.03.21-18.45.51:494][854]Cmd: DUPLICATE
+[2016.03.21-18.45.51:494][854]Cmd: ACTOR DUPLICATE
+[2016.03.21-18.46.10:167][499]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall4)
+[2016.03.21-18.46.16:492][671]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2016.03.21-18.46.16:826][672]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2016.03.21-18.46.17:326][673]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2016.03.21-18.46.17:826][674]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2016.03.21-18.46.18:365][676]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.03.21-18.46.26:611][ 74]Cmd: TRANSACTION UNDO
+[2016.03.21-18.46.26:611][ 74]LogEditorTransaction: Undo Move Actors
+[2016.03.21-18.46.26:685][ 74]LogD3D11RHI: InitD3DDevice
+[2016.03.21-18.46.30:141][227]LogD3D11RHI: InitD3DDevice
+[2016.03.21-18.46.32:874][356]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2016.03.21-18.46.33:897][405]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall4)
+[2016.03.21-18.46.36:031][515]Cmd: EDIT COPY
+[2016.03.21-18.46.43:445][840]Cmd: EDIT PASTE
+[2016.03.21-18.47.02:882][330]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall4)
+[2016.03.21-18.47.30:416][965]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall20)
+[2016.03.21-18.47.56:809][720]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2016.03.21-18.49.17:506][888]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2016.03.21-18.49.18:772][947]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor4)
+[2016.03.21-18.49.42:461][836]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2016.03.21-18.49.51:435][  8]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2016.03.21-18.49.52:269][ 47]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor4)
+[2016.03.21-18.49.59:841][372]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor4)
+[2016.03.21-18.50.05:149][670]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor4)
+[2016.03.21-18.50.05:277][670]LogD3D11RHI: InitD3DDevice
+[2016.03.21-18.50.06:134][706]LogD3D11RHI: InitD3DDevice
+[2016.03.21-18.50.06:491][717]LogD3D11RHI: InitD3DDevice
+[2016.03.21-18.50.07:054][744]LogD3D11RHI: InitD3DDevice
+[2016.03.21-18.50.07:161][746]LogD3D11RHI: InitD3DDevice
+[2016.03.21-18.50.07:354][754]LogD3D11RHI: InitD3DDevice
+[2016.03.21-18.50.07:626][762]LogD3D11RHI: InitD3DDevice
+[2016.03.21-18.50.07:812][767]LogD3D11RHI: InitD3DDevice
+[2016.03.21-18.50.08:457][791]LogD3D11RHI: InitD3DDevice
+[2016.03.21-18.50.09:992][866]LogD3D11RHI: InitD3DDevice
+[2016.03.21-18.50.11:378][923]LogD3D11RHI: InitD3DDevice
+[2016.03.21-18.50.13:749][ 15]LogD3D11RHI: InitD3DDevice
+[2016.03.21-18.50.14:572][ 43]LogD3D11RHI: InitD3DDevice
+[2016.03.21-18.50.14:782][ 50]LogD3D11RHI: InitD3DDevice
+[2016.03.21-18.50.14:824][ 51]LogD3D11RHI: InitD3DDevice
+[2016.03.21-18.50.14:865][ 52]LogD3D11RHI: InitD3DDevice
+[2016.03.21-18.50.16:158][105]LogD3D11RHI: InitD3DDevice
+[2016.03.21-18.50.16:717][131]LogD3D11RHI: InitD3DDevice
+[2016.03.21-18.50.18:696][209]Cmd: DELETE
+[2016.03.21-18.50.18:696][209]Cmd: ACTOR DELETE
+[2016.03.21-18.50.18:725][209]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.03.21-18.50.19:217][209]LogEditorActor: Deleted 1 Actors (0.521 secs)
+[2016.03.21-18.50.25:271][431]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2016.03.21-18.50.40:537][942]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2016.03.21-18.50.51:259][974]LogD3D11RHI: InitD3DDevice
+[2016.03.21-18.50.52:542][979]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2016.03.21-18.51.00:277][  1]LogD3D11RHI: InitD3DDevice
+[2016.03.21-18.51.03:982][  1]LogSavePackage: Save=2275.466797ms
+[2016.03.21-18.51.03:982][  1]LogSavePackage: Moving '../../../../../../Users/quinonn/Documents/GitHub/Gamefiles/projectcode/Saved/SideScrollerExampleMap_Auto196DBF115452ED2A8C6FB76B7D4CCB8C6.tmp' to '../../../../../../Users/quinonn/Documents/GitHub/Gamefiles/projectcode/Saved/Autosaves/Game/SideScrollerBP/Maps/SideScrollerExampleMap_Auto1.umap'
+[2016.03.21-18.51.04:029][  1]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SideScrollerBP/Maps/SideScrollerExampleMap' took 2.999
+[2016.03.21-18.51.04:029][  1]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.999
+[2016.03.21-18.52.05:155][516]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2016.03.21-18.52.11:829][705]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall16)
+[2016.03.21-18.52.15:973][922]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall14)
+[2016.03.21-18.52.17:057][964]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall16)
+[2016.03.21-18.53.19:057][283]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall13)
+[2016.03.21-18.53.19:078][283]LogD3D11RHI: InitD3DDevice
+[2016.03.21-18.53.19:931][320]LogD3D11RHI: InitD3DDevice
+[2016.03.21-18.53.21:339][381]LogD3D11RHI: InitD3DDevice
+[2016.03.21-18.53.23:230][457]Cmd: DELETE
+[2016.03.21-18.53.23:230][457]Cmd: ACTOR DELETE
+[2016.03.21-18.53.23:238][457]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.03.21-18.53.23:239][457]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.03.21-18.53.23:239][457]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.03.21-18.53.23:239][457]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.03.21-18.53.23:240][457]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.03.21-18.53.23:240][457]LogEditorActor: Deleted Actor: BP_Sky_Sphere_C
+[2016.03.21-18.53.23:241][457]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.03.21-18.53.23:241][457]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.03.21-18.53.23:242][457]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.03.21-18.53.23:242][457]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.03.21-18.53.23:242][457]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.03.21-18.53.23:243][457]LogEditorActor: Deleted Actor: LightmassImportanceVolume
+[2016.03.21-18.53.23:243][457]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.03.21-18.53.23:244][457]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.03.21-18.53.23:244][457]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.03.21-18.53.23:547][457]LogEditorActor: Deleted 15 Actors (0.317 secs)
+[2016.03.21-18.53.28:394][737]Cmd: TRANSACTION UNDO
+[2016.03.21-18.53.28:395][737]LogEditorTransaction: Undo Delete Actors
+[2016.03.21-18.53.28:450][737]LogD3D11RHI: InitD3DDevice
+[2016.03.21-18.53.37:385][197]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2016.03.21-18.53.41:378][402]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2016.03.21-18.53.59:666][234]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall13)
+[2016.03.21-18.53.59:682][234]LogD3D11RHI: InitD3DDevice
+[2016.03.21-18.54.00:411][263]LogD3D11RHI: InitD3DDevice
+[2016.03.21-18.54.01:162][289]LogD3D11RHI: InitD3DDevice
+[2016.03.21-18.54.02:447][341]LogD3D11RHI: InitD3DDevice
+[2016.03.21-18.54.05:767][468]Cmd: DELETE
+[2016.03.21-18.54.05:767][468]Cmd: ACTOR DELETE
+[2016.03.21-18.54.05:775][468]LogEditorActor: Deleted Actor: BP_Sky_Sphere_C
+[2016.03.21-18.54.05:776][468]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.03.21-18.54.05:776][468]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.03.21-18.54.05:777][468]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.03.21-18.54.05:777][468]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.03.21-18.54.05:777][468]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.03.21-18.54.05:778][468]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.03.21-18.54.05:778][468]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.03.21-18.54.05:779][468]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.03.21-18.54.05:779][468]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.03.21-18.54.05:779][468]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.03.21-18.54.05:780][468]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.03.21-18.54.05:780][468]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.03.21-18.54.05:780][468]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.03.21-18.54.05:802][468]LogEditorActor: Deleted 14 Actors (0.035 secs)
+[2016.03.21-18.54.09:235][670]Cmd: TRANSACTION UNDO
+[2016.03.21-18.54.09:235][670]LogEditorTransaction: Undo Delete Actors
+[2016.03.21-18.54.09:265][670]LogD3D11RHI: InitD3DDevice
+[2016.03.21-18.54.18:010][940]LogD3D11RHI: InitD3DDevice
+[2016.03.21-18.54.19:338][  0]LogD3D11RHI: InitD3DDevice
+[2016.03.21-18.54.19:426][  2]LogD3D11RHI: InitD3DDevice
+[2016.03.21-18.54.19:529][  4]LogD3D11RHI: InitD3DDevice
+[2016.03.21-18.54.19:710][  9]LogD3D11RHI: InitD3DDevice
+[2016.03.21-18.54.20:301][ 32]LogD3D11RHI: InitD3DDevice
+[2016.03.21-18.54.20:455][ 36]LogD3D11RHI: InitD3DDevice
+[2016.03.21-18.54.22:599][118]Cmd: DELETE
+[2016.03.21-18.54.22:599][118]Cmd: ACTOR DELETE
+[2016.03.21-18.54.22:607][118]LogEditorActor: Deleted Actor: BP_Sky_Sphere_C
+[2016.03.21-18.54.22:608][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.03.21-18.54.22:609][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.03.21-18.54.22:609][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.03.21-18.54.22:609][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.03.21-18.54.22:610][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.03.21-18.54.22:610][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.03.21-18.54.22:611][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.03.21-18.54.22:611][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.03.21-18.54.22:611][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.03.21-18.54.22:612][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.03.21-18.54.22:612][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.03.21-18.54.22:612][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.03.21-18.54.22:613][118]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.03.21-18.54.22:642][118]LogEditorActor: Deleted 14 Actors (0.043 secs)
+[2016.03.21-18.54.24:949][253]Cmd: TRANSACTION UNDO
+[2016.03.21-18.54.24:949][253]LogEditorTransaction: Undo Delete Actors
+[2016.03.21-18.54.24:980][253]LogD3D11RHI: InitD3DDevice
+[2016.03.21-18.54.25:108][257]Cmd: TRANSACTION UNDO
+[2016.03.21-18.54.25:109][257]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2016.03.21-18.56.10:704][298]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall16)
+[2016.03.21-18.57.02:010][401]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall5)
+[2016.03.21-18.57.15:147][630]Cmd: TRANSACTION UNDO
+[2016.03.21-18.57.15:147][630]LogEditorTransaction: Undo Move Actors
+[2016.03.21-18.57.15:159][630]LogD3D11RHI: InitD3DDevice
+[2016.03.21-18.57.16:837][793]Cmd: EDIT COPY
+[2016.03.21-18.57.17:450][856]Cmd: EDIT PASTE
+[2016.03.21-18.58.03:593][926]Cmd: EDIT COPY
+[2016.03.21-18.58.04:044][973]Cmd: EDIT PASTE
+[2016.03.21-18.58.20:173][912]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall14)
+[2016.03.21-18.59.07:779][772]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall14)
+[2016.03.21-18.59.21:214][206]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall14)
+[2016.03.21-18.59.49:253][676]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall13)
+[2016.03.21-18.59.54:191][941]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall13)
+[2016.03.21-19.00.03:311][250]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall11)
+[2016.03.21-19.00.04:194][324]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall12)
+[2016.03.21-19.00.52:554][799]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall13)
+[2016.03.21-19.01.15:881][602]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall13)
+[2016.03.21-19.01.23:724][ 44]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall5)
+[2016.03.21-19.01.24:812][135]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2016.03.21-19.01.32:764][952]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall12)
+[2016.03.21-19.01.49:271][898]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall13)
+[2016.03.21-19.01.57:470][325]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall22)
+[2016.03.21-19.02.04:516][611]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall13)
+[2016.03.21-19.02.20:280][653]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall14)
+[2016.03.21-19.02.30:148][ 54]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall13)
+[2016.03.21-19.02.45:451][809]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall16)
+[2016.03.21-19.03.06:969][ 82]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall13)
+[2016.03.21-19.03.17:002][802]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall12)
+[2016.03.21-19.03.38:942][570]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall4)
+[2016.03.21-19.03.41:544][774]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall4)
+[2016.03.21-19.03.48:551][ 14]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2016.03.21-19.03.58:551][559]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall20)
+[2016.03.21-19.04.19:290][658]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall4)
+[2016.03.21-19.04.24:280][172]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall6)
+[2016.03.21-19.04.27:199][442]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall7)
+[2016.03.21-19.04.38:924][914]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall9)
+[2016.03.21-19.04.55:042][395]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall9)
+[2016.03.21-19.04.55:065][395]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.04.55:955][473]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.04.56:383][513]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.04.56:414][514]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.04.56:692][541]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.04.56:731][543]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.04.56:844][552]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.04.57:530][621]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.04.58:291][696]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.04.58:349][698]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.04.58:382][699]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.04.58:408][700]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.04.58:436][701]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.04.59:346][787]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.04.59:429][791]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.04.59:465][793]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.04.59:488][794]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.05.01:003][947]Cmd: DUPLICATE
+[2016.03.21-19.05.01:003][947]Cmd: ACTOR DUPLICATE
+[2016.03.21-19.05.11:184][395]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall23)
+[2016.03.21-19.05.11:208][395]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.05.11:790][443]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.05.12:629][524]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.05.12:653][525]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.05.14:880][751]Cmd: DELETE
+[2016.03.21-19.05.14:880][751]Cmd: ACTOR DELETE
+[2016.03.21-19.05.14:884][751]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.03.21-19.05.14:905][751]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2016.03.21-19.05.15:767][817]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall9)
+[2016.03.21-19.05.15:798][817]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.05.16:339][862]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.05.16:442][870]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.05.16:471][871]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.05.16:504][872]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.05.16:861][906]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.05.16:928][911]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.05.17:916][ 11]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.05.18:414][ 59]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.05.18:886][104]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.05.20:715][288]Cmd: DELETE
+[2016.03.21-19.05.20:715][288]Cmd: ACTOR DELETE
+[2016.03.21-19.05.20:719][288]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.03.21-19.05.20:739][288]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2016.03.21-19.05.39:939][939]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall16)
+[2016.03.21-19.05.42:250][183]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall16)
+[2016.03.21-19.05.42:259][183]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.05.42:713][224]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.05.43:255][276]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.05.44:333][384]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.05.45:507][502]Cmd: DELETE
+[2016.03.21-19.05.45:507][502]Cmd: ACTOR DELETE
+[2016.03.21-19.05.45:512][502]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.03.21-19.05.45:533][502]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2016.03.21-19.05.49:676][688]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall13)
+[2016.03.21-19.05.49:704][688]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.05.51:019][812]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.05.52:153][926]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.05.53:593][ 68]Cmd: DUPLICATE
+[2016.03.21-19.05.53:593][ 68]Cmd: ACTOR DUPLICATE
+[2016.03.21-19.06.42:897][911]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2016.03.21-19.06.49:336][143]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall11)
+[2016.03.21-19.07.15:055][349]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall11)
+[2016.03.21-19.07.38:609][478]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall10)
+[2016.03.21-19.07.50:404][154]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall8)
+[2016.03.21-19.08.12:742][405]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall10)
+[2016.03.21-19.08.16:219][749]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall10)
+[2016.03.21-19.08.16:227][749]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.08.17:242][849]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.08.41:025][239]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2016.03.21-19.08.45:056][436]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall10)
+[2016.03.21-19.09.05:320][224]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall22)
+[2016.03.21-19.09.13:053][997]Cmd: TRANSACTION UNDO
+[2016.03.21-19.09.13:053][997]LogEditorTransaction: Undo Move Actors
+[2016.03.21-19.09.13:064][997]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.09.14:573][141]Cmd: EDIT COPY
+[2016.03.21-19.09.14:921][175]Cmd: EDIT PASTE
+[2016.03.21-19.10.01:406][154]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall22)
+[2016.03.21-19.10.27:269][624]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall21)
+[2016.03.21-19.10.58:607][455]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall23)
+[2016.03.21-19.11.32:053][382]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall23)
+[2016.03.21-19.11.47:225][ 67]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall8)
+[2016.03.21-19.11.48:336][175]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall10)
+[2016.03.21-19.12.13:533][734]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall23)
+[2016.03.21-19.12.43:919][375]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall8)
+[2016.03.21-19.13.20:520][440]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall21)
+[2016.03.21-19.13.29:337][337]Cmd: TRANSACTION UNDO
+[2016.03.21-19.13.29:337][337]LogEditorTransaction: Undo Move Actors
+[2016.03.21-19.13.29:349][337]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.13.30:576][447]Cmd: EDIT COPY
+[2016.03.21-19.13.31:490][540]Cmd: EDIT PASTE
+[2016.03.21-19.14.22:416][893]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall8)
+[2016.03.21-19.14.24:642][119]Cmd: EDIT COPY
+[2016.03.21-19.14.24:917][146]Cmd: EDIT PASTE
+[2016.03.21-19.14.49:266][ 63]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall23)
+[2016.03.21-19.14.59:952][934]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall24)
+[2016.03.21-19.15.11:690][447]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall23)
+[2016.03.21-19.15.18:304][781]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall24)
+[2016.03.21-19.15.21:719][ 77]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall23)
+[2016.03.21-19.15.25:098][373]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall24)
+[2016.03.21-19.15.36:678][110]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2016.03.21-19.15.43:401][286]EditorErrors:Warning: Warning
+[2016.03.21-19.15.43:414][286]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.15.48:167][472]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall9)
+[2016.03.21-19.16.32:507][304]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall8)
+[2016.03.21-19.16.37:425][806]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall8)
+[2016.03.21-19.16.37:433][806]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.16.38:282][885]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.16.38:310][886]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.16.38:347][888]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.16.39:549][ 11]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.16.40:914][148]Cmd: DELETE
+[2016.03.21-19.16.40:914][148]Cmd: ACTOR DELETE
+[2016.03.21-19.16.40:918][148]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.03.21-19.16.40:956][148]LogEditorActor: Deleted 1 Actors (0.042 secs)
+[2016.03.21-19.16.42:756][337]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall9)
+[2016.03.21-19.17.39:194][649]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor3)
+[2016.03.21-19.18.54:273][755]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2016.03.21-19.18.55:291][854]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2016.03.21-19.18.55:731][893]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall19)
+[2016.03.21-19.20.11:456][854]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall24)
+[2016.03.21-19.20.14:035][119]Cmd: EDIT COPY
+[2016.03.21-19.20.14:446][161]Cmd: EDIT PASTE
+[2016.03.21-19.20.32:780][ 52]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2016.03.21-19.21.29:753][475]MapCheck: New page: Map Check
+[2016.03.21-19.21.29:794][475]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.21.29:811][475]Cmd: MAP REBUILD ALLVISIBLE
+[2016.03.21-19.21.29:817][475]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2016.03.21-19.21.30:382][475]LightingResults: New page: Lighting Build - Mar 21, 2016, 11:21:30 AM
+[2016.03.21-19.22.08:717][475]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2016.03.21-19.22.08:717][475]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2016.03.21-19.22.08:717][475]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2016.03.21-19.22.08:717][475]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2016.03.21-19.22.08:717][475]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2016.03.21-19.22.09:700][475]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.22.09:721][475]LogEditorBuildUtils: Build time 0:00:39
+[2016.03.21-19.22.09:755][475]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.22.10:175][476]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.22.10:736][476]LogSavePackage: Save=294.440857ms
+[2016.03.21-19.22.10:736][476]LogSavePackage: Moving '../../../../../../Users/quinonn/Documents/GitHub/Gamefiles/projectcode/Saved/SideScrollerExampleMap_Auto28B8DDDED477EBD0180150BAF0F593BAE.tmp' to '../../../../../../Users/quinonn/Documents/GitHub/Gamefiles/projectcode/Saved/Autosaves/Game/SideScrollerBP/Maps/SideScrollerExampleMap_Auto2.umap'
+[2016.03.21-19.22.10:758][476]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SideScrollerBP/Maps/SideScrollerExampleMap' took 0.368
+[2016.03.21-19.22.10:758][476]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.368
+[2016.03.21-19.22.42:320][196]Job is a success!
+[2016.03.21-19.22.42:656][197]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.22.42:660][197]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.22.44:594][197]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT)
+[2016.03.21-19.22.44:899][197]LogTexture:Display: Building textures: LQ_Lightmap_0_29 (DXT1)
+[2016.03.21-19.22.44:919][197]LogTexture:Display: Building textures: HQ_Lightmap0_29 (AutoDXT)
+[2016.03.21-19.22.44:920][197]LogTexture:Display: Building textures: SkyOcclusion0_29 (AutoDXT)
+[2016.03.21-19.22.44:923][197]LogTexture:Display: Building textures: LQ_Lightmap_0_28 (DXT1)
+[2016.03.21-19.22.44:926][197]LogTexture:Display: Building textures: HQ_Lightmap0_28 (AutoDXT)
+[2016.03.21-19.22.44:933][197]LogTexture:Display: Building textures: SkyOcclusion0_28 (AutoDXT)
+[2016.03.21-19.22.44:940][197]LogTexture:Display: Building textures: LQ_Lightmap_0_27 (DXT1)
+[2016.03.21-19.22.44:971][197]LogTexture:Display: Building textures: HQ_Lightmap0_27 (AutoDXT)
+[2016.03.21-19.22.45:049][197]LogTexture:Display: Building textures: SkyOcclusion0_27 (AutoDXT)
+[2016.03.21-19.22.45:097][197]LogTexture:Display: Building textures: LQ_Lightmap_0_26 (DXT1)
+[2016.03.21-19.22.45:119][197]LogTexture:Display: Building textures: HQ_Lightmap0_26 (AutoDXT)
+[2016.03.21-19.22.45:167][197]LogTexture:Display: Building textures: SkyOcclusion0_26 (AutoDXT)
+[2016.03.21-19.22.45:196][197]LogTexture:Display: Building textures: LQ_Lightmap_0_25 (DXT1)
+[2016.03.21-19.22.45:247][197]LogTexture:Display: Building textures: HQ_Lightmap0_25 (AutoDXT)
+[2016.03.21-19.22.45:338][197]LogTexture:Display: Building textures: SkyOcclusion0_25 (AutoDXT)
+[2016.03.21-19.22.45:391][197]LogTexture:Display: Building textures: LQ_Lightmap_0_24 (DXT1)
+[2016.03.21-19.22.45:441][197]LogTexture:Display: Building textures: HQ_Lightmap0_24 (AutoDXT)
+[2016.03.21-19.22.45:548][197]LogTexture:Display: Building textures: SkyOcclusion0_24 (AutoDXT)
+[2016.03.21-19.22.45:593][197]LogTexture:Display: Building textures: LQ_Lightmap_0_23 (DXT1)
+[2016.03.21-19.22.45:619][197]LogTexture:Display: Building textures: HQ_Lightmap0_23 (AutoDXT)
+[2016.03.21-19.22.45:717][197]LogTexture:Display: Building textures: SkyOcclusion0_23 (AutoDXT)
+[2016.03.21-19.22.45:767][197]LogTexture:Display: Building textures: LQ_Lightmap_0_22 (DXT1)
+[2016.03.21-19.22.45:798][197]LogTexture:Display: Building textures: HQ_Lightmap0_22 (AutoDXT)
+[2016.03.21-19.22.45:895][197]LogTexture:Display: Building textures: SkyOcclusion0_22 (AutoDXT)
+[2016.03.21-19.22.45:936][197]LogTexture:Display: Building textures: LQ_Lightmap_0_21 (DXT1)
+[2016.03.21-19.22.45:968][197]LogTexture:Display: Building textures: HQ_Lightmap0_21 (AutoDXT)
+[2016.03.21-19.22.46:031][197]LogTexture:Display: Building textures: SkyOcclusion0_21 (AutoDXT)
+[2016.03.21-19.22.46:087][197]LogTexture:Display: Building textures: LQ_Lightmap_0_20 (DXT1)
+[2016.03.21-19.22.46:114][197]LogTexture:Display: Building textures: HQ_Lightmap0_20 (AutoDXT)
+[2016.03.21-19.22.46:202][197]LogTexture:Display: Building textures: SkyOcclusion0_20 (AutoDXT)
+[2016.03.21-19.22.46:260][197]LogTexture:Display: Building textures: LQ_Lightmap_0_19 (DXT1)
+[2016.03.21-19.22.46:274][197]LogTexture:Display: Building textures: HQ_Lightmap0_19 (AutoDXT)
+[2016.03.21-19.22.46:368][197]LogTexture:Display: Building textures: SkyOcclusion0_19 (AutoDXT)
+[2016.03.21-19.22.46:433][197]LogTexture:Display: Building textures: LQ_Lightmap_0_18 (DXT1)
+[2016.03.21-19.22.46:452][197]LogTexture:Display: Building textures: HQ_Lightmap0_18 (AutoDXT)
+[2016.03.21-19.22.46:527][197]LogTexture:Display: Building textures: SkyOcclusion0_18 (AutoDXT)
+[2016.03.21-19.22.46:567][197]LogTexture:Display: Building textures: LQ_Lightmap_0_17 (DXT1)
+[2016.03.21-19.22.46:592][197]LogTexture:Display: Building textures: HQ_Lightmap0_17 (AutoDXT)
+[2016.03.21-19.22.46:680][197]LogTexture:Display: Building textures: SkyOcclusion0_17 (AutoDXT)
+[2016.03.21-19.22.46:720][197]LogTexture:Display: Building textures: LQ_Lightmap_0_16 (DXT1)
+[2016.03.21-19.22.46:757][197]LogTexture:Display: Building textures: HQ_Lightmap0_16 (AutoDXT)
+[2016.03.21-19.22.46:846][197]LogTexture:Display: Building textures: SkyOcclusion0_16 (AutoDXT)
+[2016.03.21-19.22.46:892][197]LogTexture:Display: Building textures: LQ_Lightmap_0_15 (DXT1)
+[2016.03.21-19.22.46:920][197]LogTexture:Display: Building textures: HQ_Lightmap0_15 (AutoDXT)
+[2016.03.21-19.22.47:008][197]LogTexture:Display: Building textures: SkyOcclusion0_15 (AutoDXT)
+[2016.03.21-19.22.47:062][197]LogTexture:Display: Building textures: LQ_Lightmap_0_14 (DXT1)
+[2016.03.21-19.22.47:101][197]LogTexture:Display: Building textures: HQ_Lightmap0_14 (AutoDXT)
+[2016.03.21-19.22.47:209][197]LogTexture:Display: Building textures: SkyOcclusion0_14 (AutoDXT)
+[2016.03.21-19.22.47:269][197]LogTexture:Display: Building textures: LQ_Lightmap_0_13 (DXT1)
+[2016.03.21-19.22.47:291][197]LogTexture:Display: Building textures: HQ_Lightmap0_13 (AutoDXT)
+[2016.03.21-19.22.47:391][197]LogTexture:Display: Building textures: SkyOcclusion0_13 (AutoDXT)
+[2016.03.21-19.22.47:428][197]LogTexture:Display: Building textures: LQ_Lightmap_0_12 (DXT1)
+[2016.03.21-19.22.47:451][197]LogTexture:Display: Building textures: HQ_Lightmap0_12 (AutoDXT)
+[2016.03.21-19.22.47:552][197]LogTexture:Display: Building textures: SkyOcclusion0_12 (AutoDXT)
+[2016.03.21-19.22.47:617][197]LogTexture:Display: Building textures: LQ_Lightmap_1_11 (DXT1)
+[2016.03.21-19.22.47:643][197]LogTexture:Display: Building textures: HQ_Lightmap1_11 (AutoDXT)
+[2016.03.21-19.22.47:724][197]LogTexture:Display: Building textures: SkyOcclusion1_11 (AutoDXT)
+[2016.03.21-19.22.47:795][197]LogTexture:Display: Building textures: LQ_Lightmap_0_10 (DXT1)
+[2016.03.21-19.22.47:819][197]LogTexture:Display: Building textures: HQ_Lightmap0_10 (AutoDXT)
+[2016.03.21-19.22.47:922][197]LogTexture:Display: Building textures: SkyOcclusion0_10 (AutoDXT)
+[2016.03.21-19.22.47:959][197]LogTexture:Display: Building textures: LQ_Lightmap_0_9 (DXT1)
+[2016.03.21-19.22.47:987][197]LogTexture:Display: Building textures: HQ_Lightmap0_9 (AutoDXT)
+[2016.03.21-19.22.48:046][197]LogTexture:Display: Building textures: SkyOcclusion0_9 (AutoDXT)
+[2016.03.21-19.22.48:073][197]LogTexture:Display: Building textures: LQ_Lightmap_0_8 (DXT1)
+[2016.03.21-19.22.48:109][197]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT)
+[2016.03.21-19.22.48:204][197]LogTexture:Display: Building textures: SkyOcclusion0_8 (AutoDXT)
+[2016.03.21-19.22.48:240][197]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1)
+[2016.03.21-19.22.48:265][197]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT)
+[2016.03.21-19.22.48:358][197]LogTexture:Display: Building textures: SkyOcclusion0_7 (AutoDXT)
+[2016.03.21-19.22.48:392][197]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1)
+[2016.03.21-19.22.48:430][197]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT)
+[2016.03.21-19.22.48:497][197]LogTexture:Display: Building textures: SkyOcclusion0_6 (AutoDXT)
+[2016.03.21-19.22.48:534][197]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1)
+[2016.03.21-19.22.48:561][197]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT)
+[2016.03.21-19.22.48:632][197]LogTexture:Display: Building textures: SkyOcclusion0_5 (AutoDXT)
+[2016.03.21-19.22.48:672][197]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
+[2016.03.21-19.22.48:746][197]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
+[2016.03.21-19.22.48:907][197]LogTexture:Display: Building textures: SkyOcclusion0_4 (AutoDXT)
+[2016.03.21-19.22.49:003][197]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2016.03.21-19.22.49:077][197]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2016.03.21-19.22.49:489][197]LogTexture:Display: Building textures: SkyOcclusion0_3 (AutoDXT)
+[2016.03.21-19.22.49:666][197]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2016.03.21-19.22.49:742][197]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2016.03.21-19.22.50:137][197]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT)
+[2016.03.21-19.22.50:289][197]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2016.03.21-19.22.50:372][197]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2016.03.21-19.22.50:922][197]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8)
+[2016.03.21-19.22.51:100][197]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (BGRA8)
+[2016.03.21-19.22.51:271][197]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (BGRA8)
+[2016.03.21-19.22.51:455][197]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (BGRA8)
+[2016.03.21-19.22.51:528][197]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (BGRA8)
+[2016.03.21-19.22.51:601][197]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (BGRA8)
+[2016.03.21-19.22.51:644][197]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (BGRA8)
+[2016.03.21-19.22.51:701][197]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (BGRA8)
+[2016.03.21-19.22.51:765][197]LogTexture:Display: Building textures: ShadowMapTexture2D_8 (BGRA8)
+[2016.03.21-19.22.51:808][197]LogTexture:Display: Building textures: ShadowMapTexture2D_9 (BGRA8)
+[2016.03.21-19.22.51:867][197]LogTexture:Display: Building textures: ShadowMapTexture2D_10 (BGRA8)
+[2016.03.21-19.22.51:908][197]LogTexture:Display: Building textures: ShadowMapTexture2D_11 (BGRA8)
+[2016.03.21-19.22.51:954][197]LogTexture:Display: Building textures: ShadowMapTexture2D_12 (BGRA8)
+[2016.03.21-19.22.51:996][197]LogTexture:Display: Building textures: ShadowMapTexture2D_13 (BGRA8)
+[2016.03.21-19.22.52:039][197]LogTexture:Display: Building textures: ShadowMapTexture2D_14 (BGRA8)
+[2016.03.21-19.22.52:119][197]LogTexture:Display: Building textures: ShadowMapTexture2D_15 (BGRA8)
+[2016.03.21-19.22.52:161][197]LogTexture:Display: Building textures: ShadowMapTexture2D_16 (BGRA8)
+[2016.03.21-19.22.52:204][197]LogTexture:Display: Building textures: ShadowMapTexture2D_17 (BGRA8)
+[2016.03.21-19.22.52:247][197]LogTexture:Display: Building textures: ShadowMapTexture2D_18 (BGRA8)
+[2016.03.21-19.22.52:298][197]LogTexture:Display: Building textures: ShadowMapTexture2D_19 (BGRA8)
+[2016.03.21-19.22.52:356][197]LogTexture:Display: Building textures: ShadowMapTexture2D_20 (BGRA8)
+[2016.03.21-19.22.52:427][197]LogTexture:Display: Building textures: ShadowMapTexture2D_21 (BGRA8)
+[2016.03.21-19.22.52:518][197]LogTexture:Display: Building textures: ShadowMapTexture2D_22 (BGRA8)
+[2016.03.21-19.22.52:579][197]LogTexture:Display: Building textures: ShadowMapTexture2D_23 (BGRA8)
+[2016.03.21-19.22.52:643][197]LogTexture:Display: Building textures: ShadowMapTexture2D_24 (BGRA8)
+[2016.03.21-19.22.52:687][197]LogTexture:Display: Building textures: ShadowMapTexture2D_25 (BGRA8)
+[2016.03.21-19.22.52:731][197]LogTexture:Display: Building textures: ShadowMapTexture2D_26 (BGRA8)
+[2016.03.21-19.22.52:760][197]LogTexture:Display: Building textures: ShadowMapTexture2D_27 (BGRA8)
+[2016.03.21-19.22.52:762][197]LogTexture:Display: Building textures: ShadowMapTexture2D_28 (BGRA8)
+[2016.03.21-19.22.59:432][197]Lightmass on DDW-G238-MAC12: 39.9 sec total, 362 ms importing, 2 ms setup, 4.72 sec photons, 34.2 sec processing, 0 ms extra exporting [41/41 mappings]. Threads: 2:16 min total, 1:09 min processing.
+[2016.03.21-19.22.59:544][197]LogStaticLightingSystem: Illumination: 1:29 min (9.24 sec encoding lightmaps)
+[2016.03.21-19.22.59:544][197]LogStaticLightingSystem: Lightmap texture memory:  13.0 MB (13.0 MB streaming, 0.0 MB non-streaming), 58 textures
+[2016.03.21-19.22.59:544][197]LogStaticLightingSystem: Shadowmap texture memory: 26.1 MB (26.1 MB streaming, 0.0 MB non-streaming), 29 textures
+[2016.03.21-19.23.00:710][198]Cmd: MAP CHECK NOTIFYRESULTS
+[2016.03.21-19.23.00:710][198]MapCheck: New page: SideScrollerExampleMap - Mar 21, 2016, 11:23:00 AM
+[2016.03.21-19.23.00:771][198]MapCheck:Warning: Performance Warning Wall3_11 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2016.03.21-19.23.01:793][198]MapCheck: Info Map check complete: 0 Error(s), 1 Warning(s), took 1,082.341ms to complete.
+[2016.03.21-19.23.01:796][198]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.23.20:785][513]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube18)
+[2016.03.21-19.23.30:077][465]Cmd: EDIT COPY
+[2016.03.21-19.23.31:327][599]Cmd: EDIT PASTE
+[2016.03.21-19.23.42:090][ 81]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2016.03.21-19.23.54:020][591]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube12)
+[2016.03.21-19.23.54:691][640]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube23)
+[2016.03.21-19.23.55:618][727]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube22)
+[2016.03.21-19.24.02:371][159]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube23)
+[2016.03.21-19.24.06:565][570]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube12)
+[2016.03.21-19.24.24:018][889]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube23)
+[2016.03.21-19.24.28:323][358]Cmd: EDIT COPY
+[2016.03.21-19.24.30:231][559]Cmd: EDIT PASTE
+[2016.03.21-19.24.37:187][ 87]MapCheck: New page: Map Check
+[2016.03.21-19.24.37:198][ 87]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.24.37:214][ 87]Cmd: MAP REBUILD ALLVISIBLE
+[2016.03.21-19.24.37:214][ 87]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2016.03.21-19.24.37:268][ 87]LightingResults: New page: Lighting Build - Mar 21, 2016, 11:24:37 AM
+[2016.03.21-19.24.41:784][ 87]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2016.03.21-19.24.41:784][ 87]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2016.03.21-19.24.41:784][ 87]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2016.03.21-19.24.41:784][ 87]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2016.03.21-19.24.41:784][ 87]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2016.03.21-19.24.42:130][ 87]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.24.42:151][ 87]LogEditorBuildUtils: Build time 0:00:04
+[2016.03.21-19.24.42:158][ 87]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.24.49:378][661]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2016.03.21-19.24.49:428][661]PIE: New page: PIE session: SideScrollerExampleMap (Mar 21, 2016, 11:24:49 AM)
+[2016.03.21-19.24.49:453][661]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2016.03.21-19.24.49:668][661]LogPlayLevel: PIE: StaticDuplicateObject took: (0.190372s)
+[2016.03.21-19.24.50:275][661]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2016.03.21-19.24.50:468][661]LogPlayLevel: PIE: World Init took: (0.799470s)
+[2016.03.21-19.24.50:521][661]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (1.068417s)
+[2016.03.21-19.24.51:279][661]LogInit: XAudio2 using 'Speakers (Cirrus Logic CS4206B (AB 32))' : 4 channels at 48 kHz using 32 bits per sample (channel mask 0x33)
+[2016.03.21-19.24.53:778][661]LogInit: FAudioDevice initialized.
+[2016.03.21-19.24.55:076][661]LogWorld: Game class is 'SideScrollerGameMode_C'
+[2016.03.21-19.24.55:386][661]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2016.03.21-15.24.55
+[2016.03.21-19.24.55:403][661]LogActor:Warning: GameSession /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.21-19.24.55:446][661]LogActor:Warning: GameNetworkManager /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.21-19.24.55:521][661]LogWorld: Bringing up level for play took: 0.146452
+[2016.03.21-19.24.55:716][661]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 5.727
+[2016.03.21-19.25.20:343][541]Job is a success!
+[2016.03.21-19.25.20:402][542]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.25.28:458][812]LogTexture:Display: Building textures: SkyOcclusion1_1 (AutoDXT)
+[2016.03.21-19.25.28:606][812]LogTexture:Display: Building textures: LQ_Lightmap_0_30 (DXT1)
+[2016.03.21-19.25.28:611][812]LogTexture:Display: Building textures: HQ_Lightmap0_30 (AutoDXT)
+[2016.03.21-19.25.28:612][812]LogTexture:Display: Building textures: SkyOcclusion0_30 (AutoDXT)
+[2016.03.21-19.25.28:615][812]LogTexture:Display: Building textures: LQ_Lightmap_1_29 (DXT1)
+[2016.03.21-19.25.28:632][812]LogTexture:Display: Building textures: HQ_Lightmap1_29 (AutoDXT)
+[2016.03.21-19.25.28:659][812]LogTexture:Display: Building textures: SkyOcclusion1_29 (AutoDXT)
+[2016.03.21-19.25.28:677][812]LogTexture:Display: Building textures: LQ_Lightmap_1_28 (DXT1)
+[2016.03.21-19.25.28:681][812]LogTexture:Display: Building textures: HQ_Lightmap1_28 (AutoDXT)
+[2016.03.21-19.25.28:689][812]LogTexture:Display: Building textures: SkyOcclusion1_28 (AutoDXT)
+[2016.03.21-19.25.28:696][812]LogTexture:Display: Building textures: LQ_Lightmap_1_27 (DXT1)
+[2016.03.21-19.25.28:721][812]LogTexture:Display: Building textures: HQ_Lightmap1_27 (AutoDXT)
+[2016.03.21-19.25.28:778][812]LogTexture:Display: Building textures: SkyOcclusion1_27 (AutoDXT)
+[2016.03.21-19.25.28:806][812]LogTexture:Display: Building textures: LQ_Lightmap_1_26 (DXT1)
+[2016.03.21-19.25.28:836][812]LogTexture:Display: Building textures: HQ_Lightmap1_26 (AutoDXT)
+[2016.03.21-19.25.28:927][812]LogTexture:Display: Building textures: SkyOcclusion1_26 (AutoDXT)
+[2016.03.21-19.25.28:968][812]LogTexture:Display: Building textures: LQ_Lightmap_1_25 (DXT1)
+[2016.03.21-19.25.28:985][812]LogTexture:Display: Building textures: HQ_Lightmap1_25 (AutoDXT)
+[2016.03.21-19.25.29:075][812]LogTexture:Display: Building textures: SkyOcclusion1_25 (AutoDXT)
+[2016.03.21-19.25.29:113][812]LogTexture:Display: Building textures: LQ_Lightmap_1_24 (DXT1)
+[2016.03.21-19.25.29:127][812]LogTexture:Display: Building textures: HQ_Lightmap1_24 (AutoDXT)
+[2016.03.21-19.25.29:169][812]LogTexture:Display: Building textures: SkyOcclusion1_24 (AutoDXT)
+[2016.03.21-19.25.29:208][812]LogTexture:Display: Building textures: LQ_Lightmap_1_23 (DXT1)
+[2016.03.21-19.25.29:223][812]LogTexture:Display: Building textures: HQ_Lightmap1_23 (AutoDXT)
+[2016.03.21-19.25.29:267][812]LogTexture:Display: Building textures: SkyOcclusion1_23 (AutoDXT)
+[2016.03.21-19.25.29:292][812]LogTexture:Display: Building textures: LQ_Lightmap_1_22 (DXT1)
+[2016.03.21-19.25.29:315][812]LogTexture:Display: Building textures: HQ_Lightmap1_22 (AutoDXT)
+[2016.03.21-19.25.29:385][812]LogTexture:Display: Building textures: SkyOcclusion1_22 (AutoDXT)
+[2016.03.21-19.25.29:427][812]LogTexture:Display: Building textures: LQ_Lightmap_1_21 (DXT1)
+[2016.03.21-19.25.29:442][812]LogTexture:Display: Building textures: HQ_Lightmap1_21 (AutoDXT)
+[2016.03.21-19.25.29:528][812]LogTexture:Display: Building textures: SkyOcclusion1_21 (AutoDXT)
+[2016.03.21-19.25.29:558][812]LogTexture:Display: Building textures: LQ_Lightmap_1_20 (DXT1)
+[2016.03.21-19.25.29:581][812]LogTexture:Display: Building textures: HQ_Lightmap1_20 (AutoDXT)
+[2016.03.21-19.25.29:669][812]LogTexture:Display: Building textures: SkyOcclusion1_20 (AutoDXT)
+[2016.03.21-19.25.29:709][812]LogTexture:Display: Building textures: LQ_Lightmap_1_19 (DXT1)
+[2016.03.21-19.25.29:737][812]LogTexture:Display: Building textures: HQ_Lightmap1_19 (AutoDXT)
+[2016.03.21-19.25.29:828][812]LogTexture:Display: Building textures: SkyOcclusion1_19 (AutoDXT)
+[2016.03.21-19.25.29:868][812]LogTexture:Display: Building textures: LQ_Lightmap_1_18 (DXT1)
+[2016.03.21-19.25.29:908][812]LogTexture:Display: Building textures: HQ_Lightmap1_18 (AutoDXT)
+[2016.03.21-19.25.29:988][812]LogTexture:Display: Building textures: SkyOcclusion1_18 (AutoDXT)
+[2016.03.21-19.25.30:034][812]LogTexture:Display: Building textures: LQ_Lightmap_1_17 (DXT1)
+[2016.03.21-19.25.30:056][812]LogTexture:Display: Building textures: HQ_Lightmap1_17 (AutoDXT)
+[2016.03.21-19.25.30:142][812]LogTexture:Display: Building textures: SkyOcclusion1_17 (AutoDXT)
+[2016.03.21-19.25.30:191][812]LogTexture:Display: Building textures: LQ_Lightmap_1_16 (DXT1)
+[2016.03.21-19.25.30:225][812]LogTexture:Display: Building textures: HQ_Lightmap1_16 (AutoDXT)
+[2016.03.21-19.25.30:325][812]LogTexture:Display: Building textures: SkyOcclusion1_16 (AutoDXT)
+[2016.03.21-19.25.30:367][812]LogTexture:Display: Building textures: LQ_Lightmap_1_15 (DXT1)
+[2016.03.21-19.25.30:392][812]LogTexture:Display: Building textures: HQ_Lightmap1_15 (AutoDXT)
+[2016.03.21-19.25.30:479][812]LogTexture:Display: Building textures: SkyOcclusion1_15 (AutoDXT)
+[2016.03.21-19.25.30:510][812]LogTexture:Display: Building textures: LQ_Lightmap_1_14 (DXT1)
+[2016.03.21-19.25.30:541][812]LogTexture:Display: Building textures: HQ_Lightmap1_14 (AutoDXT)
+[2016.03.21-19.25.30:624][812]LogTexture:Display: Building textures: SkyOcclusion1_14 (AutoDXT)
+[2016.03.21-19.25.30:671][812]LogTexture:Display: Building textures: LQ_Lightmap_1_13 (DXT1)
+[2016.03.21-19.25.30:718][812]LogTexture:Display: Building textures: HQ_Lightmap1_13 (AutoDXT)
+[2016.03.21-19.25.30:817][812]LogTexture:Display: Building textures: SkyOcclusion1_13 (AutoDXT)
+[2016.03.21-19.25.30:851][812]LogTexture:Display: Building textures: LQ_Lightmap_1_12 (DXT1)
+[2016.03.21-19.25.30:875][812]LogTexture:Display: Building textures: HQ_Lightmap1_12 (AutoDXT)
+[2016.03.21-19.25.30:966][812]LogTexture:Display: Building textures: SkyOcclusion1_12 (AutoDXT)
+[2016.03.21-19.25.31:003][812]LogTexture:Display: Building textures: LQ_Lightmap_0_11 (DXT1)
+[2016.03.21-19.25.31:032][812]LogTexture:Display: Building textures: HQ_Lightmap0_11 (AutoDXT)
+[2016.03.21-19.25.31:120][812]LogTexture:Display: Building textures: SkyOcclusion0_11 (AutoDXT)
+[2016.03.21-19.25.31:163][812]LogTexture:Display: Building textures: LQ_Lightmap_1_10 (DXT1)
+[2016.03.21-19.25.31:194][812]LogTexture:Display: Building textures: HQ_Lightmap1_10 (AutoDXT)
+[2016.03.21-19.25.31:285][812]LogTexture:Display: Building textures: SkyOcclusion1_10 (AutoDXT)
+[2016.03.21-19.25.31:329][812]LogTexture:Display: Building textures: LQ_Lightmap_1_9 (DXT1)
+[2016.03.21-19.25.31:354][812]LogTexture:Display: Building textures: HQ_Lightmap1_9 (AutoDXT)
+[2016.03.21-19.25.31:450][812]LogTexture:Display: Building textures: SkyOcclusion1_9 (AutoDXT)
+[2016.03.21-19.25.31:496][812]LogTexture:Display: Building textures: LQ_Lightmap_1_8 (DXT1)
+[2016.03.21-19.25.31:520][812]LogTexture:Display: Building textures: HQ_Lightmap1_8 (AutoDXT)
+[2016.03.21-19.25.31:622][812]LogTexture:Display: Building textures: SkyOcclusion1_8 (AutoDXT)
+[2016.03.21-19.25.31:650][812]LogTexture:Display: Building textures: LQ_Lightmap_1_7 (DXT1)
+[2016.03.21-19.25.31:675][812]LogTexture:Display: Building textures: HQ_Lightmap1_7 (AutoDXT)
+[2016.03.21-19.25.31:778][812]LogTexture:Display: Building textures: SkyOcclusion1_7 (AutoDXT)
+[2016.03.21-19.25.31:842][812]LogTexture:Display: Building textures: LQ_Lightmap_1_6 (DXT1)
+[2016.03.21-19.25.31:869][812]LogTexture:Display: Building textures: HQ_Lightmap1_6 (AutoDXT)
+[2016.03.21-19.25.31:958][812]LogTexture:Display: Building textures: SkyOcclusion1_6 (AutoDXT)
+[2016.03.21-19.25.32:022][812]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1)
+[2016.03.21-19.25.32:044][812]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT)
+[2016.03.21-19.25.32:128][812]LogTexture:Display: Building textures: SkyOcclusion1_5 (AutoDXT)
+[2016.03.21-19.25.32:173][812]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1)
+[2016.03.21-19.25.32:251][812]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT)
+[2016.03.21-19.25.32:667][812]LogTexture:Display: Building textures: SkyOcclusion1_4 (AutoDXT)
+[2016.03.21-19.25.32:848][812]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
+[2016.03.21-19.25.32:922][812]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
+[2016.03.21-19.25.33:339][812]LogTexture:Display: Building textures: SkyOcclusion1_3 (AutoDXT)
+[2016.03.21-19.25.33:491][812]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2016.03.21-19.25.33:548][812]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2016.03.21-19.25.33:714][812]LogTexture:Display: Building textures: SkyOcclusion1_2 (AutoDXT)
+[2016.03.21-19.25.33:805][812]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2016.03.21-19.25.33:886][812]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2016.03.21-19.25.34:404][812]LogTexture:Display: Building textures: ShadowMapTexture2D_29 (BGRA8)
+[2016.03.21-19.25.34:576][812]LogTexture:Display: Building textures: ShadowMapTexture2D_30 (BGRA8)
+[2016.03.21-19.25.34:747][812]LogTexture:Display: Building textures: ShadowMapTexture2D_31 (BGRA8)
+[2016.03.21-19.25.34:919][812]LogTexture:Display: Building textures: ShadowMapTexture2D_32 (BGRA8)
+[2016.03.21-19.25.34:992][812]LogTexture:Display: Building textures: ShadowMapTexture2D_33 (BGRA8)
+[2016.03.21-19.25.35:037][812]LogTexture:Display: Building textures: ShadowMapTexture2D_34 (BGRA8)
+[2016.03.21-19.25.35:079][812]LogTexture:Display: Building textures: ShadowMapTexture2D_35 (BGRA8)
+[2016.03.21-19.25.35:121][812]LogTexture:Display: Building textures: ShadowMapTexture2D_36 (BGRA8)
+[2016.03.21-19.25.35:163][812]LogTexture:Display: Building textures: ShadowMapTexture2D_37 (BGRA8)
+[2016.03.21-19.25.35:208][812]LogTexture:Display: Building textures: ShadowMapTexture2D_38 (BGRA8)
+[2016.03.21-19.25.35:252][812]LogTexture:Display: Building textures: ShadowMapTexture2D_39 (BGRA8)
+[2016.03.21-19.25.35:295][812]LogTexture:Display: Building textures: ShadowMapTexture2D_40 (BGRA8)
+[2016.03.21-19.25.35:338][812]LogTexture:Display: Building textures: ShadowMapTexture2D_41 (BGRA8)
+[2016.03.21-19.25.35:381][812]LogTexture:Display: Building textures: ShadowMapTexture2D_42 (BGRA8)
+[2016.03.21-19.25.35:423][812]LogTexture:Display: Building textures: ShadowMapTexture2D_43 (BGRA8)
+[2016.03.21-19.25.35:466][812]LogTexture:Display: Building textures: ShadowMapTexture2D_44 (BGRA8)
+[2016.03.21-19.25.35:509][812]LogTexture:Display: Building textures: ShadowMapTexture2D_45 (BGRA8)
+[2016.03.21-19.25.35:551][812]LogTexture:Display: Building textures: ShadowMapTexture2D_46 (BGRA8)
+[2016.03.21-19.25.35:594][812]LogTexture:Display: Building textures: ShadowMapTexture2D_47 (BGRA8)
+[2016.03.21-19.25.35:638][812]LogTexture:Display: Building textures: ShadowMapTexture2D_48 (BGRA8)
+[2016.03.21-19.25.35:681][812]LogTexture:Display: Building textures: ShadowMapTexture2D_49 (BGRA8)
+[2016.03.21-19.25.35:725][812]LogTexture:Display: Building textures: ShadowMapTexture2D_50 (BGRA8)
+[2016.03.21-19.25.35:768][812]LogTexture:Display: Building textures: ShadowMapTexture2D_51 (BGRA8)
+[2016.03.21-19.25.35:811][812]LogTexture:Display: Building textures: ShadowMapTexture2D_52 (BGRA8)
+[2016.03.21-19.25.35:855][812]LogTexture:Display: Building textures: ShadowMapTexture2D_53 (BGRA8)
+[2016.03.21-19.25.35:898][812]LogTexture:Display: Building textures: ShadowMapTexture2D_54 (BGRA8)
+[2016.03.21-19.25.35:942][812]LogTexture:Display: Building textures: ShadowMapTexture2D_55 (BGRA8)
+[2016.03.21-19.25.35:951][812]LogTexture:Display: Building textures: ShadowMapTexture2D_56 (BGRA8)
+[2016.03.21-19.25.35:961][812]LogTexture:Display: Building textures: ShadowMapTexture2D_57 (BGRA8)
+[2016.03.21-19.25.35:986][812]LogTexture:Display: Building textures: ShadowMapTexture2D_58 (BGRA8)
+[2016.03.21-19.25.36:024][812]Lightmass on DDW-G238-MAC12: 52.9 sec total, 204 ms importing, 2 ms setup, 4.96 sec photons, 47.6 sec processing, 0 ms extra exporting [45/45 mappings]. Threads: 3:09 min total, 1:26 min processing.
+[2016.03.21-19.25.36:024][812]LogStaticLightingSystem: Illumination: 51.8 sec (8.51 sec encoding lightmaps)
+[2016.03.21-19.25.36:024][812]LogStaticLightingSystem: Lightmap texture memory:  13.1 MB (13.1 MB streaming, 0.0 MB non-streaming), 60 textures
+[2016.03.21-19.25.36:024][812]LogStaticLightingSystem: Shadowmap texture memory: 52.3 MB (52.3 MB streaming, 0.0 MB non-streaming), 59 textures
+[2016.03.21-19.25.40:874][813]Cmd: MAP CHECK NOTIFYRESULTS
+[2016.03.21-19.25.40:874][813]MapCheck: New page: UEDPIE_0_SideScrollerExampleMap - Mar 21, 2016, 11:25:40 AM
+[2016.03.21-19.25.40:881][813]MapCheck:Warning: Performance Warning Wall3_11 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2016.03.21-19.25.40:882][813]MapCheck:Error: Error WorldInfo_0 Maps need lighting rebuilt 
+[2016.03.21-19.25.41:106][813]MapCheck: Info Map check complete: 1 Error(s), 1 Warning(s), took 231.865ms to complete.
+[2016.03.21-19.25.41:109][813]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.26.06:275][813]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000F16C9A0
+[2016.03.21-19.26.14:728][144]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube18)
+[2016.03.21-19.26.25:536][798]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube6)
+[2016.03.21-19.26.29:219][146]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2016.03.21-19.26.37:393][899]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube8)
+[2016.03.21-19.26.41:740][244]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube6)
+[2016.03.21-19.26.49:497][781]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube8)
+[2016.03.21-19.26.53:899][193]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube19)
+[2016.03.21-19.27.03:753][126]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube8)
+[2016.03.21-19.27.13:956][652]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube11)
+[2016.03.21-19.27.24:235][482]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube8)
+[2016.03.21-19.27.33:115][878]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube17)
+[2016.03.21-19.27.46:304][752]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube20)
+[2016.03.21-19.28.21:688][556]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube21)
+[2016.03.21-19.28.27:771][800]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube20)
+[2016.03.21-19.28.38:582][574]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2016.03.21-19.28.39:183][628]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube20)
+[2016.03.21-19.28.41:861][903]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.28.42:444][961]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.28.42:478][963]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.28.42:760][990]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.28.43:033][ 16]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.28.43:818][ 97]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.28.45:163][234]Cmd: DELETE
+[2016.03.21-19.28.45:163][234]Cmd: ACTOR DELETE
+[2016.03.21-19.28.45:168][234]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.03.21-19.28.45:189][234]LogEditorActor: Deleted 1 Actors (0.026 secs)
+[2016.03.21-19.28.46:495][346]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube8)
+[2016.03.21-19.28.47:066][395]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube17)
+[2016.03.21-19.28.48:276][459]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube8)
+[2016.03.21-19.28.54:616][ 10]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube17)
+[2016.03.21-19.28.56:835][233]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube17)
+[2016.03.21-19.28.56:843][233]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.28.57:309][274]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.28.58:625][404]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.28.59:807][522]Cmd: DELETE
+[2016.03.21-19.28.59:807][522]Cmd: ACTOR DELETE
+[2016.03.21-19.28.59:811][522]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.03.21-19.28.59:832][522]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2016.03.21-19.29.19:892][537]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
+[2016.03.21-19.29.20:937][625]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2016.03.21-19.29.21:744][700]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube7)
+[2016.03.21-19.29.22:545][773]LogEditorViewport: Clicking on Actor (LMB): SideScrollerCharacter_C (SideScrollerCharacter)
+[2016.03.21-19.29.23:325][778]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.03.21-19.29.24:692][907]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.03.21-19.29.25:821][ 21]LogEditorViewport: Clicking on Actor (LMB): SideScrollerCharacter_C (SideScrollerCharacter)
+[2016.03.21-19.29.28:770][222]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube7)
+[2016.03.21-19.29.33:949][659]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
+[2016.03.21-19.29.37:955][984]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2016.03.21-19.29.47:533][463]MapCheck: New page: Map Check
+[2016.03.21-19.29.47:544][463]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.29.47:551][463]Cmd: MAP REBUILD ALLVISIBLE
+[2016.03.21-19.29.47:551][463]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2016.03.21-19.29.47:636][463]LightingResults: New page: Lighting Build - Mar 21, 2016, 11:29:47 AM
+[2016.03.21-19.29.52:152][463]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2016.03.21-19.29.52:152][463]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2016.03.21-19.29.52:152][463]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2016.03.21-19.29.52:152][463]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2016.03.21-19.29.52:152][463]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2016.03.21-19.29.52:279][463]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.29.52:300][463]LogEditorBuildUtils: Build time 0:00:04
+[2016.03.21-19.29.52:376][463]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.30.00:616][199]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2016.03.21-19.30.00:616][199]PIE: New page: PIE session: SideScrollerExampleMap (Mar 21, 2016, 11:30:00 AM)
+[2016.03.21-19.30.00:617][199]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2016.03.21-19.30.00:975][199]LogPlayLevel: PIE: StaticDuplicateObject took: (0.357680s)
+[2016.03.21-19.30.00:975][199]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2016.03.21-19.30.00:976][199]LogPlayLevel: PIE: World Init took: (0.001488s)
+[2016.03.21-19.30.00:976][199]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.359420s)
+[2016.03.21-19.30.01:463][199]LogInit: XAudio2 using 'Speakers (Cirrus Logic CS4206B (AB 32))' : 4 channels at 48 kHz using 32 bits per sample (channel mask 0x33)
+[2016.03.21-19.30.02:314][199]LogInit: FAudioDevice initialized.
+[2016.03.21-19.30.02:379][199]LogWorld: Game class is 'SideScrollerGameMode_C'
+[2016.03.21-19.30.02:442][199]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2016.03.21-15.30.02
+[2016.03.21-19.30.02:442][199]LogActor:Warning: GameSession /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.21-19.30.02:443][199]LogActor:Warning: GameNetworkManager /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.21-19.30.02:443][199]LogWorld: Bringing up level for play took: 0.023418
+[2016.03.21-19.30.02:445][199]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 2.468
+[2016.03.21-19.30.03:569][202]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.03.21-19.30.15:390][628]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000F066200
+[2016.03.21-19.30.17:826][859]MapCheck: New page: Map Check
+[2016.03.21-19.30.17:833][859]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.30.17:866][859]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.30.17:866][859]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2016.03.21-19.30.17:866][859]MapCheck: New page: SideScrollerExampleMap - Mar 21, 2016, 11:30:17 AM
+[2016.03.21-19.30.17:878][859]MapCheck:Warning: Performance Warning Wall3_11 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2016.03.21-19.30.17:878][859]MapCheck:Error: Error WorldInfo_0 Maps need lighting rebuilt 
+[2016.03.21-19.30.17:940][859]MapCheck: Info Map check complete: 1 Error(s), 1 Warning(s), took 73.548ms to complete.
+[2016.03.21-19.30.17:960][859]LogEditorBuildUtils: Build time 0:00:00
+[2016.03.21-19.30.18:010][859]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.30.23:137][142]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.30.24:360][142]Job has failed! Job is closed while Tasks are still PENDING
+[2016.03.21-19.30.27:523][386]MapCheck: New page: Map Check
+[2016.03.21-19.30.27:536][386]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.30.27:555][386]Cmd: MAP REBUILD ALLVISIBLE
+[2016.03.21-19.30.27:555][386]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2016.03.21-19.30.27:620][386]LightingResults: New page: Lighting Build - Mar 21, 2016, 11:30:27 AM
+[2016.03.21-19.30.32:135][386]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2016.03.21-19.30.32:135][386]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2016.03.21-19.30.32:135][386]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2016.03.21-19.30.32:135][386]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2016.03.21-19.30.32:135][386]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2016.03.21-19.30.32:316][386]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.30.32:337][386]LogEditorBuildUtils: Build time 0:00:04
+[2016.03.21-19.30.32:345][386]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.31.15:881][736]Job is a success!
+[2016.03.21-19.31.15:894][737]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.31.15:898][737]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.31.17:191][737]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT)
+[2016.03.21-19.31.17:342][737]LogTexture:Display: Building textures: LQ_Lightmap_0_29 (DXT1)
+[2016.03.21-19.31.17:347][737]LogTexture:Display: Building textures: HQ_Lightmap0_29 (AutoDXT)
+[2016.03.21-19.31.17:348][737]LogTexture:Display: Building textures: SkyOcclusion0_29 (AutoDXT)
+[2016.03.21-19.31.17:351][737]LogTexture:Display: Building textures: LQ_Lightmap_0_28 (DXT1)
+[2016.03.21-19.31.17:362][737]LogTexture:Display: Building textures: HQ_Lightmap0_28 (AutoDXT)
+[2016.03.21-19.31.17:393][737]LogTexture:Display: Building textures: SkyOcclusion0_28 (AutoDXT)
+[2016.03.21-19.31.17:412][737]LogTexture:Display: Building textures: LQ_Lightmap_0_27 (DXT1)
+[2016.03.21-19.31.17:429][737]LogTexture:Display: Building textures: HQ_Lightmap0_27 (AutoDXT)
+[2016.03.21-19.31.17:471][737]LogTexture:Display: Building textures: SkyOcclusion0_27 (AutoDXT)
+[2016.03.21-19.31.17:504][737]LogTexture:Display: Building textures: LQ_Lightmap_0_26 (DXT1)
+[2016.03.21-19.31.17:524][737]LogTexture:Display: Building textures: HQ_Lightmap0_26 (AutoDXT)
+[2016.03.21-19.31.17:628][737]LogTexture:Display: Building textures: SkyOcclusion0_26 (AutoDXT)
+[2016.03.21-19.31.17:662][737]LogTexture:Display: Building textures: LQ_Lightmap_0_25 (DXT1)
+[2016.03.21-19.31.17:690][737]LogTexture:Display: Building textures: HQ_Lightmap0_25 (AutoDXT)
+[2016.03.21-19.31.17:784][737]LogTexture:Display: Building textures: SkyOcclusion0_25 (AutoDXT)
+[2016.03.21-19.31.17:820][737]LogTexture:Display: Building textures: LQ_Lightmap_0_24 (DXT1)
+[2016.03.21-19.31.17:842][737]LogTexture:Display: Building textures: HQ_Lightmap0_24 (AutoDXT)
+[2016.03.21-19.31.17:884][737]LogTexture:Display: Building textures: SkyOcclusion0_24 (AutoDXT)
+[2016.03.21-19.31.17:913][737]LogTexture:Display: Building textures: LQ_Lightmap_0_23 (DXT1)
+[2016.03.21-19.31.17:928][737]LogTexture:Display: Building textures: HQ_Lightmap0_23 (AutoDXT)
+[2016.03.21-19.31.18:007][737]LogTexture:Display: Building textures: SkyOcclusion0_23 (AutoDXT)
+[2016.03.21-19.31.18:032][737]LogTexture:Display: Building textures: LQ_Lightmap_0_22 (DXT1)
+[2016.03.21-19.31.18:057][737]LogTexture:Display: Building textures: HQ_Lightmap0_22 (AutoDXT)
+[2016.03.21-19.31.18:139][737]LogTexture:Display: Building textures: SkyOcclusion0_22 (AutoDXT)
+[2016.03.21-19.31.18:175][737]LogTexture:Display: Building textures: LQ_Lightmap_0_21 (DXT1)
+[2016.03.21-19.31.18:198][737]LogTexture:Display: Building textures: HQ_Lightmap0_21 (AutoDXT)
+[2016.03.21-19.31.18:271][737]LogTexture:Display: Building textures: SkyOcclusion0_21 (AutoDXT)
+[2016.03.21-19.31.18:312][737]LogTexture:Display: Building textures: LQ_Lightmap_0_20 (DXT1)
+[2016.03.21-19.31.18:331][737]LogTexture:Display: Building textures: HQ_Lightmap0_20 (AutoDXT)
+[2016.03.21-19.31.18:422][737]LogTexture:Display: Building textures: SkyOcclusion0_20 (AutoDXT)
+[2016.03.21-19.31.18:455][737]LogTexture:Display: Building textures: LQ_Lightmap_0_19 (DXT1)
+[2016.03.21-19.31.18:479][737]LogTexture:Display: Building textures: HQ_Lightmap0_19 (AutoDXT)
+[2016.03.21-19.31.18:563][737]LogTexture:Display: Building textures: SkyOcclusion0_19 (AutoDXT)
+[2016.03.21-19.31.18:597][737]LogTexture:Display: Building textures: LQ_Lightmap_0_18 (DXT1)
+[2016.03.21-19.31.18:636][737]LogTexture:Display: Building textures: HQ_Lightmap0_18 (AutoDXT)
+[2016.03.21-19.31.18:720][737]LogTexture:Display: Building textures: SkyOcclusion0_18 (AutoDXT)
+[2016.03.21-19.31.18:766][737]LogTexture:Display: Building textures: LQ_Lightmap_0_17 (DXT1)
+[2016.03.21-19.31.18:789][737]LogTexture:Display: Building textures: HQ_Lightmap0_17 (AutoDXT)
+[2016.03.21-19.31.18:874][737]LogTexture:Display: Building textures: SkyOcclusion0_17 (AutoDXT)
+[2016.03.21-19.31.18:915][737]LogTexture:Display: Building textures: LQ_Lightmap_0_16 (DXT1)
+[2016.03.21-19.31.18:948][737]LogTexture:Display: Building textures: HQ_Lightmap0_16 (AutoDXT)
+[2016.03.21-19.31.19:045][737]LogTexture:Display: Building textures: SkyOcclusion0_16 (AutoDXT)
+[2016.03.21-19.31.19:086][737]LogTexture:Display: Building textures: LQ_Lightmap_0_15 (DXT1)
+[2016.03.21-19.31.19:109][737]LogTexture:Display: Building textures: HQ_Lightmap0_15 (AutoDXT)
+[2016.03.21-19.31.19:196][737]LogTexture:Display: Building textures: SkyOcclusion0_15 (AutoDXT)
+[2016.03.21-19.31.19:234][737]LogTexture:Display: Building textures: LQ_Lightmap_0_14 (DXT1)
+[2016.03.21-19.31.19:262][737]LogTexture:Display: Building textures: HQ_Lightmap0_14 (AutoDXT)
+[2016.03.21-19.31.19:333][737]LogTexture:Display: Building textures: SkyOcclusion0_14 (AutoDXT)
+[2016.03.21-19.31.19:367][737]LogTexture:Display: Building textures: LQ_Lightmap_0_13 (DXT1)
+[2016.03.21-19.31.19:390][737]LogTexture:Display: Building textures: HQ_Lightmap0_13 (AutoDXT)
+[2016.03.21-19.31.19:498][737]LogTexture:Display: Building textures: SkyOcclusion0_13 (AutoDXT)
+[2016.03.21-19.31.19:536][737]LogTexture:Display: Building textures: LQ_Lightmap_0_12 (DXT1)
+[2016.03.21-19.31.19:572][737]LogTexture:Display: Building textures: HQ_Lightmap0_12 (AutoDXT)
+[2016.03.21-19.31.19:664][737]LogTexture:Display: Building textures: SkyOcclusion0_12 (AutoDXT)
+[2016.03.21-19.31.19:699][737]LogTexture:Display: Building textures: LQ_Lightmap_1_11 (DXT1)
+[2016.03.21-19.31.19:724][737]LogTexture:Display: Building textures: HQ_Lightmap1_11 (AutoDXT)
+[2016.03.21-19.31.19:814][737]LogTexture:Display: Building textures: SkyOcclusion1_11 (AutoDXT)
+[2016.03.21-19.31.19:854][737]LogTexture:Display: Building textures: LQ_Lightmap_0_10 (DXT1)
+[2016.03.21-19.31.19:881][737]LogTexture:Display: Building textures: HQ_Lightmap0_10 (AutoDXT)
+[2016.03.21-19.31.19:993][737]LogTexture:Display: Building textures: SkyOcclusion0_10 (AutoDXT)
+[2016.03.21-19.31.20:036][737]LogTexture:Display: Building textures: LQ_Lightmap_0_9 (DXT1)
+[2016.03.21-19.31.20:056][737]LogTexture:Display: Building textures: HQ_Lightmap0_9 (AutoDXT)
+[2016.03.21-19.31.20:110][737]LogTexture:Display: Building textures: SkyOcclusion0_9 (AutoDXT)
+[2016.03.21-19.31.20:137][737]LogTexture:Display: Building textures: LQ_Lightmap_0_8 (DXT1)
+[2016.03.21-19.31.20:161][737]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT)
+[2016.03.21-19.31.20:257][737]LogTexture:Display: Building textures: SkyOcclusion0_8 (AutoDXT)
+[2016.03.21-19.31.20:294][737]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1)
+[2016.03.21-19.31.20:334][737]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT)
+[2016.03.21-19.31.20:434][737]LogTexture:Display: Building textures: SkyOcclusion0_7 (AutoDXT)
+[2016.03.21-19.31.20:461][737]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1)
+[2016.03.21-19.31.20:488][737]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT)
+[2016.03.21-19.31.20:564][737]LogTexture:Display: Building textures: SkyOcclusion0_6 (AutoDXT)
+[2016.03.21-19.31.20:607][737]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1)
+[2016.03.21-19.31.20:631][737]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT)
+[2016.03.21-19.31.20:705][737]LogTexture:Display: Building textures: SkyOcclusion0_5 (AutoDXT)
+[2016.03.21-19.31.20:739][737]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
+[2016.03.21-19.31.20:797][737]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
+[2016.03.21-19.31.20:956][737]LogTexture:Display: Building textures: SkyOcclusion0_4 (AutoDXT)
+[2016.03.21-19.31.21:045][737]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2016.03.21-19.31.21:122][737]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2016.03.21-19.31.21:534][737]LogTexture:Display: Building textures: SkyOcclusion0_3 (AutoDXT)
+[2016.03.21-19.31.21:715][737]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2016.03.21-19.31.21:806][737]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2016.03.21-19.31.22:217][737]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT)
+[2016.03.21-19.31.22:379][737]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2016.03.21-19.31.22:456][737]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2016.03.21-19.31.22:983][737]LogTexture:Display: Building textures: ShadowMapTexture2D_59 (BGRA8)
+[2016.03.21-19.31.23:153][737]LogTexture:Display: Building textures: ShadowMapTexture2D_60 (BGRA8)
+[2016.03.21-19.31.23:322][737]LogTexture:Display: Building textures: ShadowMapTexture2D_61 (BGRA8)
+[2016.03.21-19.31.23:492][737]LogTexture:Display: Building textures: ShadowMapTexture2D_62 (BGRA8)
+[2016.03.21-19.31.23:556][737]LogTexture:Display: Building textures: ShadowMapTexture2D_63 (BGRA8)
+[2016.03.21-19.31.23:600][737]LogTexture:Display: Building textures: ShadowMapTexture2D_64 (BGRA8)
+[2016.03.21-19.31.23:641][737]LogTexture:Display: Building textures: ShadowMapTexture2D_65 (BGRA8)
+[2016.03.21-19.31.23:682][737]LogTexture:Display: Building textures: ShadowMapTexture2D_66 (BGRA8)
+[2016.03.21-19.31.23:723][737]LogTexture:Display: Building textures: ShadowMapTexture2D_67 (BGRA8)
+[2016.03.21-19.31.23:765][737]LogTexture:Display: Building textures: ShadowMapTexture2D_68 (BGRA8)
+[2016.03.21-19.31.23:806][737]LogTexture:Display: Building textures: ShadowMapTexture2D_69 (BGRA8)
+[2016.03.21-19.31.23:861][737]LogTexture:Display: Building textures: ShadowMapTexture2D_70 (BGRA8)
+[2016.03.21-19.31.23:903][737]LogTexture:Display: Building textures: ShadowMapTexture2D_71 (BGRA8)
+[2016.03.21-19.31.23:945][737]LogTexture:Display: Building textures: ShadowMapTexture2D_72 (BGRA8)
+[2016.03.21-19.31.23:988][737]LogTexture:Display: Building textures: ShadowMapTexture2D_73 (BGRA8)
+[2016.03.21-19.31.24:030][737]LogTexture:Display: Building textures: ShadowMapTexture2D_74 (BGRA8)
+[2016.03.21-19.31.24:073][737]LogTexture:Display: Building textures: ShadowMapTexture2D_75 (BGRA8)
+[2016.03.21-19.31.24:114][737]LogTexture:Display: Building textures: ShadowMapTexture2D_76 (BGRA8)
+[2016.03.21-19.31.24:155][737]LogTexture:Display: Building textures: ShadowMapTexture2D_77 (BGRA8)
+[2016.03.21-19.31.24:198][737]LogTexture:Display: Building textures: ShadowMapTexture2D_78 (BGRA8)
+[2016.03.21-19.31.24:239][737]LogTexture:Display: Building textures: ShadowMapTexture2D_79 (BGRA8)
+[2016.03.21-19.31.24:281][737]LogTexture:Display: Building textures: ShadowMapTexture2D_80 (BGRA8)
+[2016.03.21-19.31.24:331][737]LogTexture:Display: Building textures: ShadowMapTexture2D_81 (BGRA8)
+[2016.03.21-19.31.24:373][737]LogTexture:Display: Building textures: ShadowMapTexture2D_82 (BGRA8)
+[2016.03.21-19.31.24:431][737]LogTexture:Display: Building textures: ShadowMapTexture2D_83 (BGRA8)
+[2016.03.21-19.31.24:473][737]LogTexture:Display: Building textures: ShadowMapTexture2D_84 (BGRA8)
+[2016.03.21-19.31.24:503][737]LogTexture:Display: Building textures: ShadowMapTexture2D_85 (BGRA8)
+[2016.03.21-19.31.24:514][737]LogTexture:Display: Building textures: ShadowMapTexture2D_86 (BGRA8)
+[2016.03.21-19.31.24:529][737]LogTexture:Display: Building textures: ShadowMapTexture2D_87 (BGRA8)
+[2016.03.21-19.31.24:579][737]Lightmass on DDW-G238-MAC12: 51.4 sec total, 194 ms importing, 4 ms setup, 4.48 sec photons, 46.6 sec processing, 0 ms extra exporting [43/43 mappings]. Threads: 3:06 min total, 1:43 min processing.
+[2016.03.21-19.31.24:583][737]LogStaticLightingSystem: Illumination: 56.9 sec (8.27 sec encoding lightmaps)
+[2016.03.21-19.31.24:583][737]LogStaticLightingSystem: Lightmap texture memory:  12.8 MB (12.8 MB streaming, 0.0 MB non-streaming), 58 textures
+[2016.03.21-19.31.24:583][737]LogStaticLightingSystem: Shadowmap texture memory: 77.9 MB (77.9 MB streaming, 0.0 MB non-streaming), 88 textures
+[2016.03.21-19.31.25:141][738]Cmd: MAP CHECK NOTIFYRESULTS
+[2016.03.21-19.31.25:141][738]MapCheck: New page: SideScrollerExampleMap - Mar 21, 2016, 11:31:25 AM
+[2016.03.21-19.31.25:143][738]MapCheck:Warning: Performance Warning Wall3_11 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2016.03.21-19.31.25:207][738]MapCheck: Info Map check complete: 0 Error(s), 1 Warning(s), took 65.07ms to complete.
+[2016.03.21-19.31.25:210][738]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.31.29:667][154]MapCheck: New page: Map Check
+[2016.03.21-19.31.29:679][154]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.31.29:688][154]Cmd: MAP REBUILD ALLVISIBLE
+[2016.03.21-19.31.29:688][154]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2016.03.21-19.31.29:754][154]LightingResults: New page: Lighting Build - Mar 21, 2016, 11:31:29 AM
+[2016.03.21-19.31.34:271][154]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2016.03.21-19.31.34:271][154]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2016.03.21-19.31.34:271][154]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2016.03.21-19.31.34:271][154]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2016.03.21-19.31.34:271][154]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2016.03.21-19.31.34:385][154]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.31.34:407][154]LogEditorBuildUtils: Build time 0:00:04
+[2016.03.21-19.31.34:412][154]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.32.20:350][783]Job is a success!
+[2016.03.21-19.32.20:364][784]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.32.20:368][784]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.32.21:678][784]LogTexture:Display: Building textures: SkyOcclusion1_1 (AutoDXT)
+[2016.03.21-19.32.21:854][784]LogTexture:Display: Building textures: LQ_Lightmap_1_29 (DXT1)
+[2016.03.21-19.32.21:859][784]LogTexture:Display: Building textures: HQ_Lightmap1_29 (AutoDXT)
+[2016.03.21-19.32.21:859][784]LogTexture:Display: Building textures: SkyOcclusion1_29 (AutoDXT)
+[2016.03.21-19.32.21:862][784]LogTexture:Display: Building textures: LQ_Lightmap_1_28 (DXT1)
+[2016.03.21-19.32.21:873][784]LogTexture:Display: Building textures: HQ_Lightmap1_28 (AutoDXT)
+[2016.03.21-19.32.21:924][784]LogTexture:Display: Building textures: SkyOcclusion1_28 (AutoDXT)
+[2016.03.21-19.32.21:949][784]LogTexture:Display: Building textures: LQ_Lightmap_1_27 (DXT1)
+[2016.03.21-19.32.21:965][784]LogTexture:Display: Building textures: HQ_Lightmap1_27 (AutoDXT)
+[2016.03.21-19.32.22:019][784]LogTexture:Display: Building textures: SkyOcclusion1_27 (AutoDXT)
+[2016.03.21-19.32.22:052][784]LogTexture:Display: Building textures: LQ_Lightmap_1_26 (DXT1)
+[2016.03.21-19.32.22:072][784]LogTexture:Display: Building textures: HQ_Lightmap1_26 (AutoDXT)
+[2016.03.21-19.32.22:215][784]LogTexture:Display: Building textures: SkyOcclusion1_26 (AutoDXT)
+[2016.03.21-19.32.22:268][784]LogTexture:Display: Building textures: LQ_Lightmap_1_25 (DXT1)
+[2016.03.21-19.32.22:325][784]LogTexture:Display: Building textures: HQ_Lightmap1_25 (AutoDXT)
+[2016.03.21-19.32.22:428][784]LogTexture:Display: Building textures: SkyOcclusion1_25 (AutoDXT)
+[2016.03.21-19.32.22:492][784]LogTexture:Display: Building textures: LQ_Lightmap_1_24 (DXT1)
+[2016.03.21-19.32.22:508][784]LogTexture:Display: Building textures: HQ_Lightmap1_24 (AutoDXT)
+[2016.03.21-19.32.22:593][784]LogTexture:Display: Building textures: SkyOcclusion1_24 (AutoDXT)
+[2016.03.21-19.32.22:633][784]LogTexture:Display: Building textures: LQ_Lightmap_1_23 (DXT1)
+[2016.03.21-19.32.22:649][784]LogTexture:Display: Building textures: HQ_Lightmap1_23 (AutoDXT)
+[2016.03.21-19.32.22:736][784]LogTexture:Display: Building textures: SkyOcclusion1_23 (AutoDXT)
+[2016.03.21-19.32.22:764][784]LogTexture:Display: Building textures: LQ_Lightmap_1_22 (DXT1)
+[2016.03.21-19.32.22:788][784]LogTexture:Display: Building textures: HQ_Lightmap1_22 (AutoDXT)
+[2016.03.21-19.32.22:881][784]LogTexture:Display: Building textures: SkyOcclusion1_22 (AutoDXT)
+[2016.03.21-19.32.22:935][784]LogTexture:Display: Building textures: LQ_Lightmap_1_21 (DXT1)
+[2016.03.21-19.32.22:958][784]LogTexture:Display: Building textures: HQ_Lightmap1_21 (AutoDXT)
+[2016.03.21-19.32.23:029][784]LogTexture:Display: Building textures: SkyOcclusion1_21 (AutoDXT)
+[2016.03.21-19.32.23:068][784]LogTexture:Display: Building textures: LQ_Lightmap_1_20 (DXT1)
+[2016.03.21-19.32.23:087][784]LogTexture:Display: Building textures: HQ_Lightmap1_20 (AutoDXT)
+[2016.03.21-19.32.23:176][784]LogTexture:Display: Building textures: SkyOcclusion1_20 (AutoDXT)
+[2016.03.21-19.32.23:217][784]LogTexture:Display: Building textures: LQ_Lightmap_1_19 (DXT1)
+[2016.03.21-19.32.23:241][784]LogTexture:Display: Building textures: HQ_Lightmap1_19 (AutoDXT)
+[2016.03.21-19.32.23:326][784]LogTexture:Display: Building textures: SkyOcclusion1_19 (AutoDXT)
+[2016.03.21-19.32.23:366][784]LogTexture:Display: Building textures: LQ_Lightmap_1_18 (DXT1)
+[2016.03.21-19.32.23:417][784]LogTexture:Display: Building textures: HQ_Lightmap1_18 (AutoDXT)
+[2016.03.21-19.32.23:510][784]LogTexture:Display: Building textures: SkyOcclusion1_18 (AutoDXT)
+[2016.03.21-19.32.23:552][784]LogTexture:Display: Building textures: LQ_Lightmap_1_17 (DXT1)
+[2016.03.21-19.32.23:575][784]LogTexture:Display: Building textures: HQ_Lightmap1_17 (AutoDXT)
+[2016.03.21-19.32.23:666][784]LogTexture:Display: Building textures: SkyOcclusion1_17 (AutoDXT)
+[2016.03.21-19.32.23:705][784]LogTexture:Display: Building textures: LQ_Lightmap_1_16 (DXT1)
+[2016.03.21-19.32.23:745][784]LogTexture:Display: Building textures: HQ_Lightmap1_16 (AutoDXT)
+[2016.03.21-19.32.23:848][784]LogTexture:Display: Building textures: SkyOcclusion1_16 (AutoDXT)
+[2016.03.21-19.32.23:881][784]LogTexture:Display: Building textures: LQ_Lightmap_1_15 (DXT1)
+[2016.03.21-19.32.23:903][784]LogTexture:Display: Building textures: HQ_Lightmap1_15 (AutoDXT)
+[2016.03.21-19.32.23:989][784]LogTexture:Display: Building textures: SkyOcclusion1_15 (AutoDXT)
+[2016.03.21-19.32.24:027][784]LogTexture:Display: Building textures: LQ_Lightmap_1_14 (DXT1)
+[2016.03.21-19.32.24:055][784]LogTexture:Display: Building textures: HQ_Lightmap1_14 (AutoDXT)
+[2016.03.21-19.32.24:127][784]LogTexture:Display: Building textures: SkyOcclusion1_14 (AutoDXT)
+[2016.03.21-19.32.24:168][784]LogTexture:Display: Building textures: LQ_Lightmap_1_13 (DXT1)
+[2016.03.21-19.32.24:190][784]LogTexture:Display: Building textures: HQ_Lightmap1_13 (AutoDXT)
+[2016.03.21-19.32.24:284][784]LogTexture:Display: Building textures: SkyOcclusion1_13 (AutoDXT)
+[2016.03.21-19.32.24:323][784]LogTexture:Display: Building textures: LQ_Lightmap_1_12 (DXT1)
+[2016.03.21-19.32.24:366][784]LogTexture:Display: Building textures: HQ_Lightmap1_12 (AutoDXT)
+[2016.03.21-19.32.24:456][784]LogTexture:Display: Building textures: SkyOcclusion1_12 (AutoDXT)
+[2016.03.21-19.32.24:489][784]LogTexture:Display: Building textures: LQ_Lightmap_0_11 (DXT1)
+[2016.03.21-19.32.24:513][784]LogTexture:Display: Building textures: HQ_Lightmap0_11 (AutoDXT)
+[2016.03.21-19.32.24:606][784]LogTexture:Display: Building textures: SkyOcclusion0_11 (AutoDXT)
+[2016.03.21-19.32.24:657][784]LogTexture:Display: Building textures: LQ_Lightmap_1_10 (DXT1)
+[2016.03.21-19.32.24:680][784]LogTexture:Display: Building textures: HQ_Lightmap1_10 (AutoDXT)
+[2016.03.21-19.32.24:770][784]LogTexture:Display: Building textures: SkyOcclusion1_10 (AutoDXT)
+[2016.03.21-19.32.24:814][784]LogTexture:Display: Building textures: LQ_Lightmap_1_9 (DXT1)
+[2016.03.21-19.32.24:835][784]LogTexture:Display: Building textures: HQ_Lightmap1_9 (AutoDXT)
+[2016.03.21-19.32.24:882][784]LogTexture:Display: Building textures: SkyOcclusion1_9 (AutoDXT)
+[2016.03.21-19.32.24:909][784]LogTexture:Display: Building textures: LQ_Lightmap_1_8 (DXT1)
+[2016.03.21-19.32.24:933][784]LogTexture:Display: Building textures: HQ_Lightmap1_8 (AutoDXT)
+[2016.03.21-19.32.25:032][784]LogTexture:Display: Building textures: SkyOcclusion1_8 (AutoDXT)
+[2016.03.21-19.32.25:077][784]LogTexture:Display: Building textures: LQ_Lightmap_1_7 (DXT1)
+[2016.03.21-19.32.25:101][784]LogTexture:Display: Building textures: HQ_Lightmap1_7 (AutoDXT)
+[2016.03.21-19.32.25:200][784]LogTexture:Display: Building textures: SkyOcclusion1_7 (AutoDXT)
+[2016.03.21-19.32.25:227][784]LogTexture:Display: Building textures: LQ_Lightmap_1_6 (DXT1)
+[2016.03.21-19.32.25:253][784]LogTexture:Display: Building textures: HQ_Lightmap1_6 (AutoDXT)
+[2016.03.21-19.32.25:321][784]LogTexture:Display: Building textures: SkyOcclusion1_6 (AutoDXT)
+[2016.03.21-19.32.25:361][784]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1)
+[2016.03.21-19.32.25:382][784]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT)
+[2016.03.21-19.32.25:456][784]LogTexture:Display: Building textures: SkyOcclusion1_5 (AutoDXT)
+[2016.03.21-19.32.25:490][784]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1)
+[2016.03.21-19.32.25:547][784]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT)
+[2016.03.21-19.32.25:704][784]LogTexture:Display: Building textures: SkyOcclusion1_4 (AutoDXT)
+[2016.03.21-19.32.25:793][784]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
+[2016.03.21-19.32.25:867][784]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
+[2016.03.21-19.32.26:279][784]LogTexture:Display: Building textures: SkyOcclusion1_3 (AutoDXT)
+[2016.03.21-19.32.26:453][784]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2016.03.21-19.32.26:527][784]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2016.03.21-19.32.26:946][784]LogTexture:Display: Building textures: SkyOcclusion1_2 (AutoDXT)
+[2016.03.21-19.32.27:116][784]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2016.03.21-19.32.27:195][784]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2016.03.21-19.32.27:734][784]LogTexture:Display: Building textures: ShadowMapTexture2D_88 (BGRA8)
+[2016.03.21-19.32.27:910][784]LogTexture:Display: Building textures: ShadowMapTexture2D_89 (BGRA8)
+[2016.03.21-19.32.28:086][784]LogTexture:Display: Building textures: ShadowMapTexture2D_90 (BGRA8)
+[2016.03.21-19.32.28:251][784]LogTexture:Display: Building textures: ShadowMapTexture2D_91 (BGRA8)
+[2016.03.21-19.32.28:316][784]LogTexture:Display: Building textures: ShadowMapTexture2D_92 (BGRA8)
+[2016.03.21-19.32.28:357][784]LogTexture:Display: Building textures: ShadowMapTexture2D_93 (BGRA8)
+[2016.03.21-19.32.28:398][784]LogTexture:Display: Building textures: ShadowMapTexture2D_94 (BGRA8)
+[2016.03.21-19.32.28:440][784]LogTexture:Display: Building textures: ShadowMapTexture2D_95 (BGRA8)
+[2016.03.21-19.32.28:480][784]LogTexture:Display: Building textures: ShadowMapTexture2D_96 (BGRA8)
+[2016.03.21-19.32.28:526][784]LogTexture:Display: Building textures: ShadowMapTexture2D_97 (BGRA8)
+[2016.03.21-19.32.28:573][784]LogTexture:Display: Building textures: ShadowMapTexture2D_98 (BGRA8)
+[2016.03.21-19.32.28:618][784]LogTexture:Display: Building textures: ShadowMapTexture2D_99 (BGRA8)
+[2016.03.21-19.32.28:662][784]LogTexture:Display: Building textures: ShadowMapTexture2D_100 (BGRA8)
+[2016.03.21-19.32.28:714][784]LogTexture:Display: Building textures: ShadowMapTexture2D_101 (BGRA8)
+[2016.03.21-19.32.28:761][784]LogTexture:Display: Building textures: ShadowMapTexture2D_102 (BGRA8)
+[2016.03.21-19.32.28:808][784]LogTexture:Display: Building textures: ShadowMapTexture2D_103 (BGRA8)
+[2016.03.21-19.32.28:854][784]LogTexture:Display: Building textures: ShadowMapTexture2D_104 (BGRA8)
+[2016.03.21-19.32.28:900][784]LogTexture:Display: Building textures: ShadowMapTexture2D_105 (BGRA8)
+[2016.03.21-19.32.28:947][784]LogTexture:Display: Building textures: ShadowMapTexture2D_106 (BGRA8)
+[2016.03.21-19.32.28:993][784]LogTexture:Display: Building textures: ShadowMapTexture2D_107 (BGRA8)
+[2016.03.21-19.32.29:038][784]LogTexture:Display: Building textures: ShadowMapTexture2D_108 (BGRA8)
+[2016.03.21-19.32.29:081][784]LogTexture:Display: Building textures: ShadowMapTexture2D_109 (BGRA8)
+[2016.03.21-19.32.29:124][784]LogTexture:Display: Building textures: ShadowMapTexture2D_110 (BGRA8)
+[2016.03.21-19.32.29:170][784]LogTexture:Display: Building textures: ShadowMapTexture2D_111 (BGRA8)
+[2016.03.21-19.32.29:215][784]LogTexture:Display: Building textures: ShadowMapTexture2D_112 (BGRA8)
+[2016.03.21-19.32.29:259][784]LogTexture:Display: Building textures: ShadowMapTexture2D_113 (BGRA8)
+[2016.03.21-19.32.29:275][784]LogTexture:Display: Building textures: ShadowMapTexture2D_114 (BGRA8)
+[2016.03.21-19.32.29:286][784]LogTexture:Display: Building textures: ShadowMapTexture2D_115 (BGRA8)
+[2016.03.21-19.32.29:288][784]LogTexture:Display: Building textures: ShadowMapTexture2D_116 (BGRA8)
+[2016.03.21-19.32.29:340][784]LogStaticLightingSystem: Illumination: 59.5 sec (8.57 sec encoding lightmaps)
+[2016.03.21-19.32.29:340][784]LogStaticLightingSystem: Lightmap texture memory:  12.8 MB (12.8 MB streaming, 0.0 MB non-streaming), 58 textures
+[2016.03.21-19.32.29:340][784]LogStaticLightingSystem: Shadowmap texture memory: 103.6 MB (103.6 MB streaming, 0.0 MB non-streaming), 117 textures
+[2016.03.21-19.32.29:410][784]Lightmass on DDW-G238-MAC12: 54.1 sec total, 199 ms importing, 2 ms setup, 5.08 sec photons, 48.6 sec processing, 0 ms extra exporting [43/43 mappings]. Threads: 3:14 min total, 1:47 min processing.
+[2016.03.21-19.32.30:281][785]Cmd: MAP CHECK NOTIFYRESULTS
+[2016.03.21-19.32.30:281][785]MapCheck: New page: SideScrollerExampleMap - Mar 21, 2016, 11:32:30 AM
+[2016.03.21-19.32.30:283][785]MapCheck:Warning: Performance Warning Wall3_11 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2016.03.21-19.32.30:337][785]MapCheck: Info Map check complete: 0 Error(s), 1 Warning(s), took 56.34ms to complete.
+[2016.03.21-19.32.30:340][785]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.32.35:066][277]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2016.03.21-19.32.35:066][277]PIE: New page: PIE session: SideScrollerExampleMap (Mar 21, 2016, 11:32:35 AM)
+[2016.03.21-19.32.35:066][277]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2016.03.21-19.32.35:106][277]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039703s)
+[2016.03.21-19.32.35:107][277]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2016.03.21-19.32.35:108][277]LogPlayLevel: PIE: World Init took: (0.001522s)
+[2016.03.21-19.32.35:108][277]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.041455s)
+[2016.03.21-19.32.35:150][277]LogInit: XAudio2 using 'Speakers (Cirrus Logic CS4206B (AB 32))' : 4 channels at 48 kHz using 32 bits per sample (channel mask 0x33)
+[2016.03.21-19.32.35:155][277]LogInit: FAudioDevice initialized.
+[2016.03.21-19.32.35:186][277]LogWorld: Game class is 'SideScrollerGameMode_C'
+[2016.03.21-19.32.35:199][277]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2016.03.21-15.32.35
+[2016.03.21-19.32.35:199][277]LogActor:Warning: GameSession /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.21-19.32.35:199][277]LogActor:Warning: GameNetworkManager /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.21-19.32.35:200][277]LogWorld: Bringing up level for play took: 0.011309
+[2016.03.21-19.32.35:201][277]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap -0.77
+[2016.03.21-19.33.46:272][170]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000024682F20
+[2016.03.21-19.33.56:304][524]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube18)
+[2016.03.21-19.34.06:547][384]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube21)
+[2016.03.21-19.34.12:033][901]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube9)
+[2016.03.21-19.34.15:255][208]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube9)
+[2016.03.21-19.34.34:293][ 48]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube21)
+[2016.03.21-19.34.38:505][364]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube18)
+[2016.03.21-19.34.48:019][784]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube6)
+[2016.03.21-19.34.50:748][ 47]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube11)
+[2016.03.21-19.35.01:926][580]LogEditorViewport: Clicking on Actor (LMB): SideScrollerCharacter_C (SideScrollerCharacter)
+[2016.03.21-19.35.06:460][826]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2016.03.21-19.35.09:417][ 53]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
+[2016.03.21-19.35.10:560][153]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2016.03.21-19.35.12:649][323]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
+[2016.03.21-19.35.16:589][653]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube7)
+[2016.03.21-19.35.19:321][859]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2016.03.21-19.35.20:678][998]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
+[2016.03.21-19.35.26:731][513]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube7)
+[2016.03.21-19.35.35:542][134]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube7)
+[2016.03.21-19.35.35:550][134]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.35.36:376][214]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall3)
+[2016.03.21-19.35.38:907][416]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube7)
+[2016.03.21-19.35.56:151][515]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
+[2016.03.21-19.35.57:248][602]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
+[2016.03.21-19.36.14:608][795]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2016.03.21-19.36.28:296][761]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
+[2016.03.21-19.36.35:167][274]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2016.03.21-19.36.40:316][673]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
+[2016.03.21-19.36.43:230][893]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube7)
+[2016.03.21-19.36.54:045][654]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2016.03.21-19.36.54:045][654]PIE: New page: PIE session: SideScrollerExampleMap (Mar 21, 2016, 11:36:54 AM)
+[2016.03.21-19.36.54:055][654]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2016.03.21-19.36.54:119][654]LogPlayLevel: PIE: StaticDuplicateObject took: (0.064305s)
+[2016.03.21-19.36.54:121][654]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2016.03.21-19.36.54:121][654]LogPlayLevel: PIE: World Init took: (0.001912s)
+[2016.03.21-19.36.54:121][654]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.066499s)
+[2016.03.21-19.36.54:151][654]LogInit: XAudio2 using 'Speakers (Cirrus Logic CS4206B (AB 32))' : 4 channels at 48 kHz using 32 bits per sample (channel mask 0x33)
+[2016.03.21-19.36.54:156][654]LogInit: FAudioDevice initialized.
+[2016.03.21-19.36.54:192][654]LogWorld: Game class is 'SideScrollerGameMode_C'
+[2016.03.21-19.36.54:205][654]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2016.03.21-15.36.54
+[2016.03.21-19.36.54:205][654]LogActor:Warning: GameSession /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.21-19.36.54:205][654]LogActor:Warning: GameNetworkManager /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.21-19.36.54:206][654]LogWorld: Bringing up level for play took: 0.011737
+[2016.03.21-19.36.54:208][654]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 0.245
+[2016.03.21-19.37.02:875][990]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001076C5E0
+[2016.03.21-19.37.17:374][552]Cmd: EDIT COPY
+[2016.03.21-19.37.17:989][617]Cmd: EDIT PASTE
+[2016.03.21-19.37.39:502][612]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube24)
+[2016.03.21-19.37.47:602][142]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube12)
+[2016.03.21-19.38.12:659][435]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.38.21:660][397]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.38.23:041][397]LogSavePackage: Save=997.441101ms
+[2016.03.21-19.38.23:042][397]LogSavePackage: Moving '../../../../../../Users/quinonn/Documents/GitHub/Gamefiles/projectcode/Saved/SideScrollerExampleMap_Auto3EA4C6D554903FFF4EAA340A58C7235E0.tmp' to '../../../../../../Users/quinonn/Documents/GitHub/Gamefiles/projectcode/Saved/Autosaves/Game/SideScrollerBP/Maps/SideScrollerExampleMap_Auto3.umap'
+[2016.03.21-19.38.23:046][397]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SideScrollerBP/Maps/SideScrollerExampleMap' took 1.252
+[2016.03.21-19.38.23:046][397]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.252
+[2016.03.21-19.39.26:070][666]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2016.03.21-19.39.35:359][986]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube12)
+[2016.03.21-19.39.37:722][226]Cmd: EDIT COPY
+[2016.03.21-19.39.38:163][270]Cmd: EDIT PASTE
+[2016.03.21-19.39.53:492][897]Cmd: EDIT PASTE
+[2016.03.21-19.39.54:466][997]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube14)
+[2016.03.21-19.39.57:422][258]Cmd: EDIT PASTE
+[2016.03.21-19.39.58:573][378]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube14)
+[2016.03.21-19.40.03:310][832]Cmd: TRANSACTION UNDO
+[2016.03.21-19.40.03:310][832]LogEditorTransaction: Undo Move Actors
+[2016.03.21-19.40.03:322][832]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.40.03:807][866]Cmd: TRANSACTION UNDO
+[2016.03.21-19.40.03:807][866]LogEditorTransaction: Undo Clicking on Actors
+[2016.03.21-19.40.04:491][934]Cmd: TRANSACTION UNDO
+[2016.03.21-19.40.04:491][934]LogEditorTransaction: Undo Paste
+[2016.03.21-19.40.05:174][  0]Cmd: TRANSACTION UNDO
+[2016.03.21-19.40.05:174][  0]LogEditorTransaction: Undo Move Actors
+[2016.03.21-19.40.05:887][ 73]Cmd: TRANSACTION UNDO
+[2016.03.21-19.40.05:887][ 73]LogEditorTransaction: Undo Clicking on Actors
+[2016.03.21-19.40.06:910][178]Cmd: TRANSACTION UNDO
+[2016.03.21-19.40.06:910][178]LogEditorTransaction: Undo Paste
+[2016.03.21-19.40.07:566][241]Cmd: TRANSACTION UNDO
+[2016.03.21-19.40.07:566][241]LogEditorTransaction: Undo Move Actors
+[2016.03.21-19.40.41:480][649]Cmd: EDIT COPY
+[2016.03.21-19.40.42:531][752]Cmd: EDIT PASTE
+[2016.03.21-19.40.55:592][828]Cmd: EDIT PASTE
+[2016.03.21-19.41.22:444][693]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube15)
+[2016.03.21-19.41.34:869][712]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube15)
+[2016.03.21-19.41.34:877][712]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.41.35:396][757]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.41.35:477][763]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.41.35:643][778]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.41.35:666][779]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.41.35:689][780]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.41.36:571][869]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.41.37:865][  0]Cmd: DELETE
+[2016.03.21-19.41.37:865][  0]Cmd: ACTOR DELETE
+[2016.03.21-19.41.37:869][  0]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.03.21-19.41.37:894][  0]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2016.03.21-19.41.38:797][100]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube16)
+[2016.03.21-19.41.42:037][448]Cmd: EDIT COPY
+[2016.03.21-19.41.42:997][541]Cmd: EDIT PASTE
+[2016.03.21-19.42.11:472][790]Cmd: TRANSACTION UNDO
+[2016.03.21-19.42.11:472][790]LogEditorTransaction: Undo Move Actors
+[2016.03.21-19.42.11:490][790]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.42.22:379][165]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2016.03.21-19.42.24:649][377]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube17)
+[2016.03.21-19.42.32:671][912]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2016.03.21-19.43.01:537][205]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall21)
+[2016.03.21-19.43.04:161][408]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall22)
+[2016.03.21-19.43.38:770][580]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2016.03.21-19.43.39:153][587]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (Sky Sphere mesh)
+[2016.03.21-19.43.53:599][168]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall16)
+[2016.03.21-19.43.58:448][596]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall14)
+[2016.03.21-19.43.59:372][687]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2016.03.21-19.44.08:620][977]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall21)
+[2016.03.21-19.44.35:285][279]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall16)
+[2016.03.21-19.45.17:895][890]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall16)
+[2016.03.21-19.45.32:812][497]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall22)
+[2016.03.21-19.45.38:727][823]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall21)
+[2016.03.21-19.46.15:934][320]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube17)
+[2016.03.21-19.46.29:373][911]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2016.03.21-19.46.30:960][ 75]MapCheck: New page: Map Check
+[2016.03.21-19.46.30:972][ 75]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.46.30:990][ 75]Cmd: MAP REBUILD ALLVISIBLE
+[2016.03.21-19.46.30:991][ 75]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2016.03.21-19.46.31:051][ 75]LightingResults: New page: Lighting Build - Mar 21, 2016, 11:46:31 AM
+[2016.03.21-19.46.35:568][ 75]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2016.03.21-19.46.35:568][ 75]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2016.03.21-19.46.35:568][ 75]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2016.03.21-19.46.35:568][ 75]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2016.03.21-19.46.35:568][ 75]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2016.03.21-19.46.35:679][ 75]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.46.35:700][ 75]LogEditorBuildUtils: Build time 0:00:04
+[2016.03.21-19.46.35:705][ 75]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.47.12:580][479]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall5)
+[2016.03.21-19.47.12:618][479]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.47.17:671][659]Job is a success!
+[2016.03.21-19.47.17:720][660]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.47.17:725][660]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.47.19:007][660]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT)
+[2016.03.21-19.47.19:155][660]LogTexture:Display: Building textures: LQ_Lightmap_0_30 (DXT1)
+[2016.03.21-19.47.19:160][660]LogTexture:Display: Building textures: HQ_Lightmap0_30 (AutoDXT)
+[2016.03.21-19.47.19:161][660]LogTexture:Display: Building textures: SkyOcclusion0_30 (AutoDXT)
+[2016.03.21-19.47.19:164][660]LogTexture:Display: Building textures: LQ_Lightmap_0_29 (DXT1)
+[2016.03.21-19.47.19:179][660]LogTexture:Display: Building textures: HQ_Lightmap0_29 (AutoDXT)
+[2016.03.21-19.47.19:216][660]LogTexture:Display: Building textures: SkyOcclusion0_29 (AutoDXT)
+[2016.03.21-19.47.19:244][660]LogTexture:Display: Building textures: LQ_Lightmap_0_28 (DXT1)
+[2016.03.21-19.47.19:256][660]LogTexture:Display: Building textures: HQ_Lightmap0_28 (AutoDXT)
+[2016.03.21-19.47.19:294][660]LogTexture:Display: Building textures: SkyOcclusion0_28 (AutoDXT)
+[2016.03.21-19.47.19:316][660]LogTexture:Display: Building textures: LQ_Lightmap_0_27 (DXT1)
+[2016.03.21-19.47.19:324][660]LogTexture:Display: Building textures: HQ_Lightmap0_27 (AutoDXT)
+[2016.03.21-19.47.19:348][660]LogTexture:Display: Building textures: SkyOcclusion0_27 (AutoDXT)
+[2016.03.21-19.47.19:366][660]LogTexture:Display: Building textures: LQ_Lightmap_0_26 (DXT1)
+[2016.03.21-19.47.19:381][660]LogTexture:Display: Building textures: HQ_Lightmap0_26 (AutoDXT)
+[2016.03.21-19.47.19:424][660]LogTexture:Display: Building textures: SkyOcclusion0_26 (AutoDXT)
+[2016.03.21-19.47.19:453][660]LogTexture:Display: Building textures: LQ_Lightmap_0_25 (DXT1)
+[2016.03.21-19.47.19:473][660]LogTexture:Display: Building textures: HQ_Lightmap0_25 (AutoDXT)
+[2016.03.21-19.47.19:560][660]LogTexture:Display: Building textures: SkyOcclusion0_25 (AutoDXT)
+[2016.03.21-19.47.19:600][660]LogTexture:Display: Building textures: LQ_Lightmap_0_24 (DXT1)
+[2016.03.21-19.47.19:624][660]LogTexture:Display: Building textures: HQ_Lightmap0_24 (AutoDXT)
+[2016.03.21-19.47.19:713][660]LogTexture:Display: Building textures: SkyOcclusion0_24 (AutoDXT)
+[2016.03.21-19.47.19:751][660]LogTexture:Display: Building textures: LQ_Lightmap_0_23 (DXT1)
+[2016.03.21-19.47.19:776][660]LogTexture:Display: Building textures: HQ_Lightmap0_23 (AutoDXT)
+[2016.03.21-19.47.19:855][660]LogTexture:Display: Building textures: SkyOcclusion0_23 (AutoDXT)
+[2016.03.21-19.47.19:897][660]LogTexture:Display: Building textures: LQ_Lightmap_0_22 (DXT1)
+[2016.03.21-19.47.19:921][660]LogTexture:Display: Building textures: HQ_Lightmap0_22 (AutoDXT)
+[2016.03.21-19.47.20:011][660]LogTexture:Display: Building textures: SkyOcclusion0_22 (AutoDXT)
+[2016.03.21-19.47.20:044][660]LogTexture:Display: Building textures: LQ_Lightmap_0_21 (DXT1)
+[2016.03.21-19.47.20:071][660]LogTexture:Display: Building textures: HQ_Lightmap0_21 (AutoDXT)
+[2016.03.21-19.47.20:163][660]LogTexture:Display: Building textures: SkyOcclusion0_21 (AutoDXT)
+[2016.03.21-19.47.20:200][660]LogTexture:Display: Building textures: LQ_Lightmap_0_20 (DXT1)
+[2016.03.21-19.47.20:231][660]LogTexture:Display: Building textures: HQ_Lightmap0_20 (AutoDXT)
+[2016.03.21-19.47.20:317][660]LogTexture:Display: Building textures: SkyOcclusion0_20 (AutoDXT)
+[2016.03.21-19.47.20:361][660]LogTexture:Display: Building textures: LQ_Lightmap_0_19 (DXT1)
+[2016.03.21-19.47.20:385][660]LogTexture:Display: Building textures: HQ_Lightmap0_19 (AutoDXT)
+[2016.03.21-19.47.20:468][660]LogTexture:Display: Building textures: SkyOcclusion0_19 (AutoDXT)
+[2016.03.21-19.47.20:512][660]LogTexture:Display: Building textures: LQ_Lightmap_0_18 (DXT1)
+[2016.03.21-19.47.20:554][660]LogTexture:Display: Building textures: HQ_Lightmap0_18 (AutoDXT)
+[2016.03.21-19.47.20:661][660]LogTexture:Display: Building textures: SkyOcclusion0_18 (AutoDXT)
+[2016.03.21-19.47.20:700][660]LogTexture:Display: Building textures: LQ_Lightmap_0_17 (DXT1)
+[2016.03.21-19.47.20:722][660]LogTexture:Display: Building textures: HQ_Lightmap0_17 (AutoDXT)
+[2016.03.21-19.47.20:812][660]LogTexture:Display: Building textures: SkyOcclusion0_17 (AutoDXT)
+[2016.03.21-19.47.20:848][660]LogTexture:Display: Building textures: LQ_Lightmap_0_16 (DXT1)
+[2016.03.21-19.47.20:877][660]LogTexture:Display: Building textures: HQ_Lightmap0_16 (AutoDXT)
+[2016.03.21-19.47.20:948][660]LogTexture:Display: Building textures: SkyOcclusion0_16 (AutoDXT)
+[2016.03.21-19.47.20:985][660]LogTexture:Display: Building textures: LQ_Lightmap_0_15 (DXT1)
+[2016.03.21-19.47.21:007][660]LogTexture:Display: Building textures: HQ_Lightmap0_15 (AutoDXT)
+[2016.03.21-19.47.21:117][660]LogTexture:Display: Building textures: SkyOcclusion0_15 (AutoDXT)
+[2016.03.21-19.47.21:154][660]LogTexture:Display: Building textures: LQ_Lightmap_0_14 (DXT1)
+[2016.03.21-19.47.21:181][660]LogTexture:Display: Building textures: HQ_Lightmap0_14 (AutoDXT)
+[2016.03.21-19.47.21:272][660]LogTexture:Display: Building textures: SkyOcclusion0_14 (AutoDXT)
+[2016.03.21-19.47.21:308][660]LogTexture:Display: Building textures: LQ_Lightmap_0_13 (DXT1)
+[2016.03.21-19.47.21:341][660]LogTexture:Display: Building textures: HQ_Lightmap0_13 (AutoDXT)
+[2016.03.21-19.47.21:430][660]LogTexture:Display: Building textures: SkyOcclusion0_13 (AutoDXT)
+[2016.03.21-19.47.21:472][660]LogTexture:Display: Building textures: LQ_Lightmap_0_12 (DXT1)
+[2016.03.21-19.47.21:486][660]LogTexture:Display: Building textures: HQ_Lightmap0_12 (AutoDXT)
+[2016.03.21-19.47.21:560][660]LogTexture:Display: Building textures: SkyOcclusion0_12 (AutoDXT)
+[2016.03.21-19.47.21:589][660]LogTexture:Display: Building textures: LQ_Lightmap_0_11 (DXT1)
+[2016.03.21-19.47.21:604][660]LogTexture:Display: Building textures: HQ_Lightmap0_11 (AutoDXT)
+[2016.03.21-19.47.21:692][660]LogTexture:Display: Building textures: SkyOcclusion0_11 (AutoDXT)
+[2016.03.21-19.47.21:731][660]LogTexture:Display: Building textures: LQ_Lightmap_0_10 (DXT1)
+[2016.03.21-19.47.21:757][660]LogTexture:Display: Building textures: HQ_Lightmap0_10 (AutoDXT)
+[2016.03.21-19.47.21:850][660]LogTexture:Display: Building textures: SkyOcclusion0_10 (AutoDXT)
+[2016.03.21-19.47.21:886][660]LogTexture:Display: Building textures: LQ_Lightmap_0_9 (DXT1)
+[2016.03.21-19.47.21:902][660]LogTexture:Display: Building textures: HQ_Lightmap0_9 (AutoDXT)
+[2016.03.21-19.47.21:945][660]LogTexture:Display: Building textures: SkyOcclusion0_9 (AutoDXT)
+[2016.03.21-19.47.21:977][660]LogTexture:Display: Building textures: LQ_Lightmap_0_8 (DXT1)
+[2016.03.21-19.47.22:001][660]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT)
+[2016.03.21-19.47.22:095][660]LogTexture:Display: Building textures: SkyOcclusion0_8 (AutoDXT)
+[2016.03.21-19.47.22:140][660]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1)
+[2016.03.21-19.47.22:168][660]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT)
+[2016.03.21-19.47.22:266][660]LogTexture:Display: Building textures: SkyOcclusion0_7 (AutoDXT)
+[2016.03.21-19.47.22:294][660]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1)
+[2016.03.21-19.47.22:315][660]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT)
+[2016.03.21-19.47.22:385][660]LogTexture:Display: Building textures: SkyOcclusion0_6 (AutoDXT)
+[2016.03.21-19.47.22:421][660]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1)
+[2016.03.21-19.47.22:451][660]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT)
+[2016.03.21-19.47.22:522][660]LogTexture:Display: Building textures: SkyOcclusion0_5 (AutoDXT)
+[2016.03.21-19.47.22:557][660]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
+[2016.03.21-19.47.22:615][660]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
+[2016.03.21-19.47.22:773][660]LogTexture:Display: Building textures: SkyOcclusion0_4 (AutoDXT)
+[2016.03.21-19.47.22:857][660]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2016.03.21-19.47.22:931][660]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2016.03.21-19.47.23:338][660]LogTexture:Display: Building textures: SkyOcclusion0_3 (AutoDXT)
+[2016.03.21-19.47.23:514][660]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2016.03.21-19.47.23:596][660]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2016.03.21-19.47.24:004][660]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT)
+[2016.03.21-19.47.24:153][660]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2016.03.21-19.47.24:233][660]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2016.03.21-19.47.24:761][660]LogTexture:Display: Building textures: ShadowMapTexture2D_117 (BGRA8)
+[2016.03.21-19.47.24:933][660]LogTexture:Display: Building textures: ShadowMapTexture2D_118 (BGRA8)
+[2016.03.21-19.47.25:104][660]LogTexture:Display: Building textures: ShadowMapTexture2D_119 (BGRA8)
+[2016.03.21-19.47.25:273][660]LogTexture:Display: Building textures: ShadowMapTexture2D_120 (BGRA8)
+[2016.03.21-19.47.25:337][660]LogTexture:Display: Building textures: ShadowMapTexture2D_121 (BGRA8)
+[2016.03.21-19.47.25:379][660]LogTexture:Display: Building textures: ShadowMapTexture2D_122 (BGRA8)
+[2016.03.21-19.47.25:420][660]LogTexture:Display: Building textures: ShadowMapTexture2D_123 (BGRA8)
+[2016.03.21-19.47.25:460][660]LogTexture:Display: Building textures: ShadowMapTexture2D_124 (BGRA8)
+[2016.03.21-19.47.25:501][660]LogTexture:Display: Building textures: ShadowMapTexture2D_125 (BGRA8)
+[2016.03.21-19.47.25:544][660]LogTexture:Display: Building textures: ShadowMapTexture2D_126 (BGRA8)
+[2016.03.21-19.47.25:583][660]LogTexture:Display: Building textures: ShadowMapTexture2D_127 (BGRA8)
+[2016.03.21-19.47.25:624][660]LogTexture:Display: Building textures: ShadowMapTexture2D_128 (BGRA8)
+[2016.03.21-19.47.25:664][660]LogTexture:Display: Building textures: ShadowMapTexture2D_129 (BGRA8)
+[2016.03.21-19.47.25:705][660]LogTexture:Display: Building textures: ShadowMapTexture2D_130 (BGRA8)
+[2016.03.21-19.47.25:752][660]LogTexture:Display: Building textures: ShadowMapTexture2D_131 (BGRA8)
+[2016.03.21-19.47.25:794][660]LogTexture:Display: Building textures: ShadowMapTexture2D_132 (BGRA8)
+[2016.03.21-19.47.25:838][660]LogTexture:Display: Building textures: ShadowMapTexture2D_133 (BGRA8)
+[2016.03.21-19.47.25:880][660]LogTexture:Display: Building textures: ShadowMapTexture2D_134 (BGRA8)
+[2016.03.21-19.47.25:923][660]LogTexture:Display: Building textures: ShadowMapTexture2D_135 (BGRA8)
+[2016.03.21-19.47.25:967][660]LogTexture:Display: Building textures: ShadowMapTexture2D_136 (BGRA8)
+[2016.03.21-19.47.26:009][660]LogTexture:Display: Building textures: ShadowMapTexture2D_137 (BGRA8)
+[2016.03.21-19.47.26:051][660]LogTexture:Display: Building textures: ShadowMapTexture2D_138 (BGRA8)
+[2016.03.21-19.47.26:092][660]LogTexture:Display: Building textures: ShadowMapTexture2D_139 (BGRA8)
+[2016.03.21-19.47.26:132][660]LogTexture:Display: Building textures: ShadowMapTexture2D_140 (BGRA8)
+[2016.03.21-19.47.26:175][660]LogTexture:Display: Building textures: ShadowMapTexture2D_141 (BGRA8)
+[2016.03.21-19.47.26:217][660]LogTexture:Display: Building textures: ShadowMapTexture2D_142 (BGRA8)
+[2016.03.21-19.47.26:232][660]LogTexture:Display: Building textures: ShadowMapTexture2D_143 (BGRA8)
+[2016.03.21-19.47.26:243][660]LogTexture:Display: Building textures: ShadowMapTexture2D_144 (BGRA8)
+[2016.03.21-19.47.26:254][660]LogTexture:Display: Building textures: ShadowMapTexture2D_145 (BGRA8)
+[2016.03.21-19.47.26:256][660]LogTexture:Display: Building textures: ShadowMapTexture2D_146 (BGRA8)
+[2016.03.21-19.47.26:299][660]Lightmass on DDW-G238-MAC12: 49.7 sec total, 193 ms importing, 2 ms setup, 5.14 sec photons, 44.3 sec processing, 0 ms extra exporting [47/47 mappings]. Threads: 2:57 min total, 1:38 min processing.
+[2016.03.21-19.47.26:302][660]LogStaticLightingSystem: Illumination: 55.2 sec (8.19 sec encoding lightmaps)
+[2016.03.21-19.47.26:302][660]LogStaticLightingSystem: Lightmap texture memory:  12.9 MB (12.9 MB streaming, 0.0 MB non-streaming), 60 textures
+[2016.03.21-19.47.26:302][660]LogStaticLightingSystem: Shadowmap texture memory: 129.5 MB (129.5 MB streaming, 0.0 MB non-streaming), 147 textures
+[2016.03.21-19.47.26:591][661]Cmd: MAP CHECK NOTIFYRESULTS
+[2016.03.21-19.47.26:591][661]MapCheck: New page: SideScrollerExampleMap - Mar 21, 2016, 11:47:26 AM
+[2016.03.21-19.47.26:592][661]MapCheck:Warning: Performance Warning Wall3_11 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2016.03.21-19.47.26:648][661]MapCheck: Info Map check complete: 0 Error(s), 1 Warning(s), took 56.774ms to complete.
+[2016.03.21-19.47.26:651][661]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.47.54:492][ 32]MapCheck: New page: Map Check
+[2016.03.21-19.47.54:504][ 32]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.47.54:524][ 32]Cmd: MAP REBUILD ALLVISIBLE
+[2016.03.21-19.47.54:524][ 32]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2016.03.21-19.47.54:574][ 32]LightingResults: New page: Lighting Build - Mar 21, 2016, 11:47:54 AM
+[2016.03.21-19.47.59:090][ 32]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2016.03.21-19.47.59:090][ 32]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2016.03.21-19.47.59:090][ 32]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2016.03.21-19.47.59:090][ 32]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2016.03.21-19.47.59:090][ 32]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2016.03.21-19.47.59:288][ 32]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.47.59:309][ 32]LogEditorBuildUtils: Build time 0:00:04
+[2016.03.21-19.47.59:384][ 32]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.48.23:041][476]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.48.32:043][365]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.48.33:747][365]LogSavePackage: Save=1492.674438ms
+[2016.03.21-19.48.33:747][365]LogSavePackage: Moving '../../../../../../Users/quinonn/Documents/GitHub/Gamefiles/projectcode/Saved/SideScrollerExampleMap_Auto452216C70444881312DB21A925E4333E2.tmp' to '../../../../../../Users/quinonn/Documents/GitHub/Gamefiles/projectcode/Saved/Autosaves/Game/SideScrollerBP/Maps/SideScrollerExampleMap_Auto4.umap'
+[2016.03.21-19.48.33:751][365]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SideScrollerBP/Maps/SideScrollerExampleMap' took 1.557
+[2016.03.21-19.48.33:751][365]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.557
+[2016.03.21-19.48.45:451][563]Job is a success!
+[2016.03.21-19.48.45:464][564]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.48.45:468][564]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.48.46:751][564]LogTexture:Display: Building textures: SkyOcclusion1_1 (AutoDXT)
+[2016.03.21-19.48.46:897][564]LogTexture:Display: Building textures: LQ_Lightmap_1_30 (DXT1)
+[2016.03.21-19.48.46:902][564]LogTexture:Display: Building textures: HQ_Lightmap1_30 (AutoDXT)
+[2016.03.21-19.48.46:902][564]LogTexture:Display: Building textures: SkyOcclusion1_30 (AutoDXT)
+[2016.03.21-19.48.46:905][564]LogTexture:Display: Building textures: LQ_Lightmap_1_29 (DXT1)
+[2016.03.21-19.48.46:920][564]LogTexture:Display: Building textures: HQ_Lightmap1_29 (AutoDXT)
+[2016.03.21-19.48.46:967][564]LogTexture:Display: Building textures: SkyOcclusion1_29 (AutoDXT)
+[2016.03.21-19.48.46:994][564]LogTexture:Display: Building textures: LQ_Lightmap_1_28 (DXT1)
+[2016.03.21-19.48.47:006][564]LogTexture:Display: Building textures: HQ_Lightmap1_28 (AutoDXT)
+[2016.03.21-19.48.47:034][564]LogTexture:Display: Building textures: SkyOcclusion1_28 (AutoDXT)
+[2016.03.21-19.48.47:059][564]LogTexture:Display: Building textures: LQ_Lightmap_1_27 (DXT1)
+[2016.03.21-19.48.47:066][564]LogTexture:Display: Building textures: HQ_Lightmap1_27 (AutoDXT)
+[2016.03.21-19.48.47:091][564]LogTexture:Display: Building textures: SkyOcclusion1_27 (AutoDXT)
+[2016.03.21-19.48.47:109][564]LogTexture:Display: Building textures: LQ_Lightmap_1_26 (DXT1)
+[2016.03.21-19.48.47:123][564]LogTexture:Display: Building textures: HQ_Lightmap1_26 (AutoDXT)
+[2016.03.21-19.48.47:165][564]LogTexture:Display: Building textures: SkyOcclusion1_26 (AutoDXT)
+[2016.03.21-19.48.47:194][564]LogTexture:Display: Building textures: LQ_Lightmap_1_25 (DXT1)
+[2016.03.21-19.48.47:212][564]LogTexture:Display: Building textures: HQ_Lightmap1_25 (AutoDXT)
+[2016.03.21-19.48.47:294][564]LogTexture:Display: Building textures: SkyOcclusion1_25 (AutoDXT)
+[2016.03.21-19.48.47:323][564]LogTexture:Display: Building textures: LQ_Lightmap_1_24 (DXT1)
+[2016.03.21-19.48.47:347][564]LogTexture:Display: Building textures: HQ_Lightmap1_24 (AutoDXT)
+[2016.03.21-19.48.47:438][564]LogTexture:Display: Building textures: SkyOcclusion1_24 (AutoDXT)
+[2016.03.21-19.48.47:471][564]LogTexture:Display: Building textures: LQ_Lightmap_1_23 (DXT1)
+[2016.03.21-19.48.47:495][564]LogTexture:Display: Building textures: HQ_Lightmap1_23 (AutoDXT)
+[2016.03.21-19.48.47:570][564]LogTexture:Display: Building textures: SkyOcclusion1_23 (AutoDXT)
+[2016.03.21-19.48.47:612][564]LogTexture:Display: Building textures: LQ_Lightmap_1_22 (DXT1)
+[2016.03.21-19.48.47:635][564]LogTexture:Display: Building textures: HQ_Lightmap1_22 (AutoDXT)
+[2016.03.21-19.48.47:723][564]LogTexture:Display: Building textures: SkyOcclusion1_22 (AutoDXT)
+[2016.03.21-19.48.47:765][564]LogTexture:Display: Building textures: LQ_Lightmap_1_21 (DXT1)
+[2016.03.21-19.48.47:788][564]LogTexture:Display: Building textures: HQ_Lightmap1_21 (AutoDXT)
+[2016.03.21-19.48.47:877][564]LogTexture:Display: Building textures: SkyOcclusion1_21 (AutoDXT)
+[2016.03.21-19.48.47:916][564]LogTexture:Display: Building textures: LQ_Lightmap_1_20 (DXT1)
+[2016.03.21-19.48.47:950][564]LogTexture:Display: Building textures: HQ_Lightmap1_20 (AutoDXT)
+[2016.03.21-19.48.48:030][564]LogTexture:Display: Building textures: SkyOcclusion1_20 (AutoDXT)
+[2016.03.21-19.48.48:073][564]LogTexture:Display: Building textures: LQ_Lightmap_1_19 (DXT1)
+[2016.03.21-19.48.48:094][564]LogTexture:Display: Building textures: HQ_Lightmap1_19 (AutoDXT)
+[2016.03.21-19.48.48:174][564]LogTexture:Display: Building textures: SkyOcclusion1_19 (AutoDXT)
+[2016.03.21-19.48.48:215][564]LogTexture:Display: Building textures: LQ_Lightmap_1_18 (DXT1)
+[2016.03.21-19.48.48:250][564]LogTexture:Display: Building textures: HQ_Lightmap1_18 (AutoDXT)
+[2016.03.21-19.48.48:356][564]LogTexture:Display: Building textures: SkyOcclusion1_18 (AutoDXT)
+[2016.03.21-19.48.48:396][564]LogTexture:Display: Building textures: LQ_Lightmap_1_17 (DXT1)
+[2016.03.21-19.48.48:418][564]LogTexture:Display: Building textures: HQ_Lightmap1_17 (AutoDXT)
+[2016.03.21-19.48.48:501][564]LogTexture:Display: Building textures: SkyOcclusion1_17 (AutoDXT)
+[2016.03.21-19.48.48:540][564]LogTexture:Display: Building textures: LQ_Lightmap_1_16 (DXT1)
+[2016.03.21-19.48.48:567][564]LogTexture:Display: Building textures: HQ_Lightmap1_16 (AutoDXT)
+[2016.03.21-19.48.48:641][564]LogTexture:Display: Building textures: SkyOcclusion1_16 (AutoDXT)
+[2016.03.21-19.48.48:678][564]LogTexture:Display: Building textures: LQ_Lightmap_1_15 (DXT1)
+[2016.03.21-19.48.48:702][564]LogTexture:Display: Building textures: HQ_Lightmap1_15 (AutoDXT)
+[2016.03.21-19.48.48:800][564]LogTexture:Display: Building textures: SkyOcclusion1_15 (AutoDXT)
+[2016.03.21-19.48.48:840][564]LogTexture:Display: Building textures: LQ_Lightmap_1_14 (DXT1)
+[2016.03.21-19.48.48:865][564]LogTexture:Display: Building textures: HQ_Lightmap1_14 (AutoDXT)
+[2016.03.21-19.48.48:968][564]LogTexture:Display: Building textures: SkyOcclusion1_14 (AutoDXT)
+[2016.03.21-19.48.49:012][564]LogTexture:Display: Building textures: LQ_Lightmap_1_13 (DXT1)
+[2016.03.21-19.48.49:043][564]LogTexture:Display: Building textures: HQ_Lightmap1_13 (AutoDXT)
+[2016.03.21-19.48.49:133][564]LogTexture:Display: Building textures: SkyOcclusion1_13 (AutoDXT)
+[2016.03.21-19.48.49:180][564]LogTexture:Display: Building textures: LQ_Lightmap_1_12 (DXT1)
+[2016.03.21-19.48.49:196][564]LogTexture:Display: Building textures: HQ_Lightmap1_12 (AutoDXT)
+[2016.03.21-19.48.49:269][564]LogTexture:Display: Building textures: SkyOcclusion1_12 (AutoDXT)
+[2016.03.21-19.48.49:297][564]LogTexture:Display: Building textures: LQ_Lightmap_1_11 (DXT1)
+[2016.03.21-19.48.49:314][564]LogTexture:Display: Building textures: HQ_Lightmap1_11 (AutoDXT)
+[2016.03.21-19.48.49:404][564]LogTexture:Display: Building textures: SkyOcclusion1_11 (AutoDXT)
+[2016.03.21-19.48.49:443][564]LogTexture:Display: Building textures: LQ_Lightmap_1_10 (DXT1)
+[2016.03.21-19.48.49:465][564]LogTexture:Display: Building textures: HQ_Lightmap1_10 (AutoDXT)
+[2016.03.21-19.48.49:559][564]LogTexture:Display: Building textures: SkyOcclusion1_10 (AutoDXT)
+[2016.03.21-19.48.49:602][564]LogTexture:Display: Building textures: LQ_Lightmap_1_9 (DXT1)
+[2016.03.21-19.48.49:621][564]LogTexture:Display: Building textures: HQ_Lightmap1_9 (AutoDXT)
+[2016.03.21-19.48.49:664][564]LogTexture:Display: Building textures: SkyOcclusion1_9 (AutoDXT)
+[2016.03.21-19.48.49:691][564]LogTexture:Display: Building textures: LQ_Lightmap_1_8 (DXT1)
+[2016.03.21-19.48.49:717][564]LogTexture:Display: Building textures: HQ_Lightmap1_8 (AutoDXT)
+[2016.03.21-19.48.49:814][564]LogTexture:Display: Building textures: SkyOcclusion1_8 (AutoDXT)
+[2016.03.21-19.48.49:859][564]LogTexture:Display: Building textures: LQ_Lightmap_1_7 (DXT1)
+[2016.03.21-19.48.49:883][564]LogTexture:Display: Building textures: HQ_Lightmap1_7 (AutoDXT)
+[2016.03.21-19.48.49:975][564]LogTexture:Display: Building textures: SkyOcclusion1_7 (AutoDXT)
+[2016.03.21-19.48.50:002][564]LogTexture:Display: Building textures: LQ_Lightmap_1_6 (DXT1)
+[2016.03.21-19.48.50:024][564]LogTexture:Display: Building textures: HQ_Lightmap1_6 (AutoDXT)
+[2016.03.21-19.48.50:100][564]LogTexture:Display: Building textures: SkyOcclusion1_6 (AutoDXT)
+[2016.03.21-19.48.50:142][564]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1)
+[2016.03.21-19.48.50:164][564]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT)
+[2016.03.21-19.48.50:232][564]LogTexture:Display: Building textures: SkyOcclusion1_5 (AutoDXT)
+[2016.03.21-19.48.50:271][564]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1)
+[2016.03.21-19.48.50:330][564]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT)
+[2016.03.21-19.48.50:492][564]LogTexture:Display: Building textures: SkyOcclusion1_4 (AutoDXT)
+[2016.03.21-19.48.50:579][564]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
+[2016.03.21-19.48.50:653][564]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
+[2016.03.21-19.48.51:062][564]LogTexture:Display: Building textures: SkyOcclusion1_3 (AutoDXT)
+[2016.03.21-19.48.51:240][564]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2016.03.21-19.48.51:321][564]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2016.03.21-19.48.51:737][564]LogTexture:Display: Building textures: SkyOcclusion1_2 (AutoDXT)
+[2016.03.21-19.48.51:892][564]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2016.03.21-19.48.51:978][564]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2016.03.21-19.48.52:503][564]LogTexture:Display: Building textures: ShadowMapTexture2D_147 (BGRA8)
+[2016.03.21-19.48.52:670][564]LogTexture:Display: Building textures: ShadowMapTexture2D_148 (BGRA8)
+[2016.03.21-19.48.52:838][564]LogTexture:Display: Building textures: ShadowMapTexture2D_149 (BGRA8)
+[2016.03.21-19.48.53:008][564]LogTexture:Display: Building textures: ShadowMapTexture2D_150 (BGRA8)
+[2016.03.21-19.48.53:072][564]LogTexture:Display: Building textures: ShadowMapTexture2D_151 (BGRA8)
+[2016.03.21-19.48.53:115][564]LogTexture:Display: Building textures: ShadowMapTexture2D_152 (BGRA8)
+[2016.03.21-19.48.53:158][564]LogTexture:Display: Building textures: ShadowMapTexture2D_153 (BGRA8)
+[2016.03.21-19.48.53:200][564]LogTexture:Display: Building textures: ShadowMapTexture2D_154 (BGRA8)
+[2016.03.21-19.48.53:241][564]LogTexture:Display: Building textures: ShadowMapTexture2D_155 (BGRA8)
+[2016.03.21-19.48.53:283][564]LogTexture:Display: Building textures: ShadowMapTexture2D_156 (BGRA8)
+[2016.03.21-19.48.53:324][564]LogTexture:Display: Building textures: ShadowMapTexture2D_157 (BGRA8)
+[2016.03.21-19.48.53:366][564]LogTexture:Display: Building textures: ShadowMapTexture2D_158 (BGRA8)
+[2016.03.21-19.48.53:430][564]LogTexture:Display: Building textures: ShadowMapTexture2D_159 (BGRA8)
+[2016.03.21-19.48.53:472][564]LogTexture:Display: Building textures: ShadowMapTexture2D_160 (BGRA8)
+[2016.03.21-19.48.53:515][564]LogTexture:Display: Building textures: ShadowMapTexture2D_161 (BGRA8)
+[2016.03.21-19.48.53:557][564]LogTexture:Display: Building textures: ShadowMapTexture2D_162 (BGRA8)
+[2016.03.21-19.48.53:616][564]LogTexture:Display: Building textures: ShadowMapTexture2D_163 (BGRA8)
+[2016.03.21-19.48.53:657][564]LogTexture:Display: Building textures: ShadowMapTexture2D_164 (BGRA8)
+[2016.03.21-19.48.53:698][564]LogTexture:Display: Building textures: ShadowMapTexture2D_165 (BGRA8)
+[2016.03.21-19.48.53:742][564]LogTexture:Display: Building textures: ShadowMapTexture2D_166 (BGRA8)
+[2016.03.21-19.48.53:786][564]LogTexture:Display: Building textures: ShadowMapTexture2D_167 (BGRA8)
+[2016.03.21-19.48.53:831][564]LogTexture:Display: Building textures: ShadowMapTexture2D_168 (BGRA8)
+[2016.03.21-19.48.53:876][564]LogTexture:Display: Building textures: ShadowMapTexture2D_169 (BGRA8)
+[2016.03.21-19.48.53:917][564]LogTexture:Display: Building textures: ShadowMapTexture2D_170 (BGRA8)
+[2016.03.21-19.48.53:961][564]LogTexture:Display: Building textures: ShadowMapTexture2D_171 (BGRA8)
+[2016.03.21-19.48.54:002][564]LogTexture:Display: Building textures: ShadowMapTexture2D_172 (BGRA8)
+[2016.03.21-19.48.54:018][564]LogTexture:Display: Building textures: ShadowMapTexture2D_173 (BGRA8)
+[2016.03.21-19.48.54:028][564]LogTexture:Display: Building textures: ShadowMapTexture2D_174 (BGRA8)
+[2016.03.21-19.48.54:039][564]LogTexture:Display: Building textures: ShadowMapTexture2D_175 (BGRA8)
+[2016.03.21-19.48.54:042][564]LogTexture:Display: Building textures: ShadowMapTexture2D_176 (BGRA8)
+[2016.03.21-19.48.54:095][564]Lightmass on DDW-G238-MAC12: 54.0 sec total, 173 ms importing, 2 ms setup, 5.25 sec photons, 48.5 sec processing, 0 ms extra exporting [47/47 mappings]. Threads: 3:14 min total, 1:54 min processing.
+[2016.03.21-19.48.54:099][564]LogStaticLightingSystem: Illumination: 59.5 sec (8.22 sec encoding lightmaps)
+[2016.03.21-19.48.54:099][564]LogStaticLightingSystem: Lightmap texture memory:  12.9 MB (12.9 MB streaming, 0.0 MB non-streaming), 60 textures
+[2016.03.21-19.48.54:099][564]LogStaticLightingSystem: Shadowmap texture memory: 155.3 MB (155.3 MB streaming, 0.0 MB non-streaming), 177 textures
+[2016.03.21-19.48.54:514][565]Cmd: MAP CHECK NOTIFYRESULTS
+[2016.03.21-19.48.54:515][565]MapCheck: New page: SideScrollerExampleMap - Mar 21, 2016, 11:48:54 AM
+[2016.03.21-19.48.54:517][565]MapCheck:Warning: Performance Warning Wall3_11 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2016.03.21-19.48.54:576][565]MapCheck: Info Map check complete: 0 Error(s), 1 Warning(s), took 61.81ms to complete.
+[2016.03.21-19.48.54:580][565]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.49.23:427][515]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube13)
+[2016.03.21-19.49.25:936][753]Cmd: EDIT COPY
+[2016.03.21-19.49.27:602][910]Cmd: EDIT PASTE
+[2016.03.21-19.49.45:904][987]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube14)
+[2016.03.21-19.49.47:594][165]Cmd: EDIT COPY
+[2016.03.21-19.49.47:932][197]Cmd: EDIT PASTE
+[2016.03.21-19.53.15:062][989]LogEditorViewport: Clicking on Actor (LMB): SideScrollerCharacter_C (SideScrollerCharacter)
+[2016.03.21-19.53.29:385][ 59]MapCheck: New page: Map Check
+[2016.03.21-19.53.29:397][ 59]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.53.29:415][ 59]Cmd: MAP REBUILD ALLVISIBLE
+[2016.03.21-19.53.29:416][ 59]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2016.03.21-19.53.29:475][ 59]LightingResults: New page: Lighting Build - Mar 21, 2016, 11:53:29 AM
+[2016.03.21-19.53.33:991][ 59]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2016.03.21-19.53.33:991][ 59]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2016.03.21-19.53.33:991][ 59]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2016.03.21-19.53.33:991][ 59]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2016.03.21-19.53.33:991][ 59]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2016.03.21-19.53.34:117][ 59]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.53.34:138][ 59]LogEditorBuildUtils: Build time 0:00:04
+[2016.03.21-19.53.34:144][ 59]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.54.16:261][ 88]Job is a success!
+[2016.03.21-19.54.16:274][ 90]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.54.16:278][ 90]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.54.17:485][ 90]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT)
+[2016.03.21-19.54.17:632][ 90]LogTexture:Display: Building textures: LQ_Lightmap_0_31 (DXT1)
+[2016.03.21-19.54.17:637][ 90]LogTexture:Display: Building textures: HQ_Lightmap0_31 (AutoDXT)
+[2016.03.21-19.54.17:638][ 90]LogTexture:Display: Building textures: SkyOcclusion0_31 (AutoDXT)
+[2016.03.21-19.54.17:641][ 90]LogTexture:Display: Building textures: LQ_Lightmap_0_30 (DXT1)
+[2016.03.21-19.54.17:644][ 90]LogTexture:Display: Building textures: HQ_Lightmap0_30 (AutoDXT)
+[2016.03.21-19.54.17:652][ 90]LogTexture:Display: Building textures: SkyOcclusion0_30 (AutoDXT)
+[2016.03.21-19.54.17:657][ 90]LogTexture:Display: Building textures: LQ_Lightmap_0_29 (DXT1)
+[2016.03.21-19.54.17:672][ 90]LogTexture:Display: Building textures: HQ_Lightmap0_29 (AutoDXT)
+[2016.03.21-19.54.17:717][ 90]LogTexture:Display: Building textures: SkyOcclusion0_29 (AutoDXT)
+[2016.03.21-19.54.17:744][ 90]LogTexture:Display: Building textures: LQ_Lightmap_0_28 (DXT1)
+[2016.03.21-19.54.17:747][ 90]LogTexture:Display: Building textures: HQ_Lightmap0_28 (AutoDXT)
+[2016.03.21-19.54.17:756][ 90]LogTexture:Display: Building textures: SkyOcclusion0_28 (AutoDXT)
+[2016.03.21-19.54.17:762][ 90]LogTexture:Display: Building textures: LQ_Lightmap_0_27 (DXT1)
+[2016.03.21-19.54.17:776][ 90]LogTexture:Display: Building textures: HQ_Lightmap0_27 (AutoDXT)
+[2016.03.21-19.54.17:827][ 90]LogTexture:Display: Building textures: SkyOcclusion0_27 (AutoDXT)
+[2016.03.21-19.54.17:861][ 90]LogTexture:Display: Building textures: LQ_Lightmap_0_26 (DXT1)
+[2016.03.21-19.54.17:878][ 90]LogTexture:Display: Building textures: HQ_Lightmap0_26 (AutoDXT)
+[2016.03.21-19.54.17:983][ 90]LogTexture:Display: Building textures: SkyOcclusion0_26 (AutoDXT)
+[2016.03.21-19.54.18:014][ 90]LogTexture:Display: Building textures: LQ_Lightmap_0_25 (DXT1)
+[2016.03.21-19.54.18:028][ 90]LogTexture:Display: Building textures: HQ_Lightmap0_25 (AutoDXT)
+[2016.03.21-19.54.18:073][ 90]LogTexture:Display: Building textures: SkyOcclusion0_25 (AutoDXT)
+[2016.03.21-19.54.18:101][ 90]LogTexture:Display: Building textures: LQ_Lightmap_0_24 (DXT1)
+[2016.03.21-19.54.18:126][ 90]LogTexture:Display: Building textures: HQ_Lightmap0_24 (AutoDXT)
+[2016.03.21-19.54.18:217][ 90]LogTexture:Display: Building textures: SkyOcclusion0_24 (AutoDXT)
+[2016.03.21-19.54.18:249][ 90]LogTexture:Display: Building textures: LQ_Lightmap_0_23 (DXT1)
+[2016.03.21-19.54.18:279][ 90]LogTexture:Display: Building textures: HQ_Lightmap0_23 (AutoDXT)
+[2016.03.21-19.54.18:373][ 90]LogTexture:Display: Building textures: SkyOcclusion0_23 (AutoDXT)
+[2016.03.21-19.54.18:418][ 90]LogTexture:Display: Building textures: LQ_Lightmap_0_22 (DXT1)
+[2016.03.21-19.54.18:443][ 90]LogTexture:Display: Building textures: HQ_Lightmap0_22 (AutoDXT)
+[2016.03.21-19.54.18:530][ 90]LogTexture:Display: Building textures: SkyOcclusion0_22 (AutoDXT)
+[2016.03.21-19.54.18:571][ 90]LogTexture:Display: Building textures: LQ_Lightmap_0_21 (DXT1)
+[2016.03.21-19.54.18:593][ 90]LogTexture:Display: Building textures: HQ_Lightmap0_21 (AutoDXT)
+[2016.03.21-19.54.18:692][ 90]LogTexture:Display: Building textures: SkyOcclusion0_21 (AutoDXT)
+[2016.03.21-19.54.18:736][ 90]LogTexture:Display: Building textures: LQ_Lightmap_0_20 (DXT1)
+[2016.03.21-19.54.18:770][ 90]LogTexture:Display: Building textures: HQ_Lightmap0_20 (AutoDXT)
+[2016.03.21-19.54.18:848][ 90]LogTexture:Display: Building textures: SkyOcclusion0_20 (AutoDXT)
+[2016.03.21-19.54.18:885][ 90]LogTexture:Display: Building textures: LQ_Lightmap_0_19 (DXT1)
+[2016.03.21-19.54.18:907][ 90]LogTexture:Display: Building textures: HQ_Lightmap0_19 (AutoDXT)
+[2016.03.21-19.54.18:997][ 90]LogTexture:Display: Building textures: SkyOcclusion0_19 (AutoDXT)
+[2016.03.21-19.54.19:044][ 90]LogTexture:Display: Building textures: LQ_Lightmap_0_18 (DXT1)
+[2016.03.21-19.54.19:078][ 90]LogTexture:Display: Building textures: HQ_Lightmap0_18 (AutoDXT)
+[2016.03.21-19.54.19:181][ 90]LogTexture:Display: Building textures: SkyOcclusion0_18 (AutoDXT)
+[2016.03.21-19.54.19:226][ 90]LogTexture:Display: Building textures: LQ_Lightmap_0_17 (DXT1)
+[2016.03.21-19.54.19:248][ 90]LogTexture:Display: Building textures: HQ_Lightmap0_17 (AutoDXT)
+[2016.03.21-19.54.19:332][ 90]LogTexture:Display: Building textures: SkyOcclusion0_17 (AutoDXT)
+[2016.03.21-19.54.19:365][ 90]LogTexture:Display: Building textures: LQ_Lightmap_0_16 (DXT1)
+[2016.03.21-19.54.19:393][ 90]LogTexture:Display: Building textures: HQ_Lightmap0_16 (AutoDXT)
+[2016.03.21-19.54.19:472][ 90]LogTexture:Display: Building textures: SkyOcclusion0_16 (AutoDXT)
+[2016.03.21-19.54.19:514][ 90]LogTexture:Display: Building textures: LQ_Lightmap_0_15 (DXT1)
+[2016.03.21-19.54.19:537][ 90]LogTexture:Display: Building textures: HQ_Lightmap0_15 (AutoDXT)
+[2016.03.21-19.54.19:629][ 90]LogTexture:Display: Building textures: SkyOcclusion0_15 (AutoDXT)
+[2016.03.21-19.54.19:662][ 90]LogTexture:Display: Building textures: LQ_Lightmap_0_14 (DXT1)
+[2016.03.21-19.54.19:693][ 90]LogTexture:Display: Building textures: HQ_Lightmap0_14 (AutoDXT)
+[2016.03.21-19.54.19:785][ 90]LogTexture:Display: Building textures: SkyOcclusion0_14 (AutoDXT)
+[2016.03.21-19.54.19:825][ 90]LogTexture:Display: Building textures: LQ_Lightmap_0_13 (DXT1)
+[2016.03.21-19.54.19:848][ 90]LogTexture:Display: Building textures: HQ_Lightmap0_13 (AutoDXT)
+[2016.03.21-19.54.19:921][ 90]LogTexture:Display: Building textures: SkyOcclusion0_13 (AutoDXT)
+[2016.03.21-19.54.19:963][ 90]LogTexture:Display: Building textures: LQ_Lightmap_0_12 (DXT1)
+[2016.03.21-19.54.19:982][ 90]LogTexture:Display: Building textures: HQ_Lightmap0_12 (AutoDXT)
+[2016.03.21-19.54.20:068][ 90]LogTexture:Display: Building textures: SkyOcclusion0_12 (AutoDXT)
+[2016.03.21-19.54.20:106][ 90]LogTexture:Display: Building textures: LQ_Lightmap_0_11 (DXT1)
+[2016.03.21-19.54.20:121][ 90]LogTexture:Display: Building textures: HQ_Lightmap0_11 (AutoDXT)
+[2016.03.21-19.54.20:196][ 90]LogTexture:Display: Building textures: SkyOcclusion0_11 (AutoDXT)
+[2016.03.21-19.54.20:225][ 90]LogTexture:Display: Building textures: LQ_Lightmap_0_10 (DXT1)
+[2016.03.21-19.54.20:257][ 90]LogTexture:Display: Building textures: HQ_Lightmap0_10 (AutoDXT)
+[2016.03.21-19.54.20:353][ 90]LogTexture:Display: Building textures: SkyOcclusion0_10 (AutoDXT)
+[2016.03.21-19.54.20:391][ 90]LogTexture:Display: Building textures: LQ_Lightmap_0_9 (DXT1)
+[2016.03.21-19.54.20:407][ 90]LogTexture:Display: Building textures: HQ_Lightmap0_9 (AutoDXT)
+[2016.03.21-19.54.20:450][ 90]LogTexture:Display: Building textures: SkyOcclusion0_9 (AutoDXT)
+[2016.03.21-19.54.20:479][ 90]LogTexture:Display: Building textures: LQ_Lightmap_0_8 (DXT1)
+[2016.03.21-19.54.20:506][ 90]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT)
+[2016.03.21-19.54.20:601][ 90]LogTexture:Display: Building textures: SkyOcclusion0_8 (AutoDXT)
+[2016.03.21-19.54.20:646][ 90]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1)
+[2016.03.21-19.54.20:671][ 90]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT)
+[2016.03.21-19.54.20:759][ 90]LogTexture:Display: Building textures: SkyOcclusion0_7 (AutoDXT)
+[2016.03.21-19.54.20:783][ 90]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1)
+[2016.03.21-19.54.20:808][ 90]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT)
+[2016.03.21-19.54.20:881][ 90]LogTexture:Display: Building textures: SkyOcclusion0_6 (AutoDXT)
+[2016.03.21-19.54.20:918][ 90]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1)
+[2016.03.21-19.54.20:940][ 90]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT)
+[2016.03.21-19.54.21:015][ 90]LogTexture:Display: Building textures: SkyOcclusion0_5 (AutoDXT)
+[2016.03.21-19.54.21:058][ 90]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
+[2016.03.21-19.54.21:117][ 90]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
+[2016.03.21-19.54.21:259][ 90]LogTexture:Display: Building textures: SkyOcclusion0_4 (AutoDXT)
+[2016.03.21-19.54.21:347][ 90]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2016.03.21-19.54.21:421][ 90]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2016.03.21-19.54.21:834][ 90]LogTexture:Display: Building textures: SkyOcclusion0_3 (AutoDXT)
+[2016.03.21-19.54.22:011][ 90]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2016.03.21-19.54.22:097][ 90]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2016.03.21-19.54.22:521][ 90]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT)
+[2016.03.21-19.54.22:676][ 90]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2016.03.21-19.54.22:757][ 90]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2016.03.21-19.54.23:291][ 90]LogTexture:Display: Building textures: ShadowMapTexture2D_177 (BGRA8)
+[2016.03.21-19.54.23:470][ 90]LogTexture:Display: Building textures: ShadowMapTexture2D_178 (BGRA8)
+[2016.03.21-19.54.23:646][ 90]LogTexture:Display: Building textures: ShadowMapTexture2D_179 (BGRA8)
+[2016.03.21-19.54.23:817][ 90]LogTexture:Display: Building textures: ShadowMapTexture2D_180 (BGRA8)
+[2016.03.21-19.54.23:884][ 90]LogTexture:Display: Building textures: ShadowMapTexture2D_181 (BGRA8)
+[2016.03.21-19.54.23:927][ 90]LogTexture:Display: Building textures: ShadowMapTexture2D_182 (BGRA8)
+[2016.03.21-19.54.23:971][ 90]LogTexture:Display: Building textures: ShadowMapTexture2D_183 (BGRA8)
+[2016.03.21-19.54.24:015][ 90]LogTexture:Display: Building textures: ShadowMapTexture2D_184 (BGRA8)
+[2016.03.21-19.54.24:058][ 90]LogTexture:Display: Building textures: ShadowMapTexture2D_185 (BGRA8)
+[2016.03.21-19.54.24:103][ 90]LogTexture:Display: Building textures: ShadowMapTexture2D_186 (BGRA8)
+[2016.03.21-19.54.24:147][ 90]LogTexture:Display: Building textures: ShadowMapTexture2D_187 (BGRA8)
+[2016.03.21-19.54.24:190][ 90]LogTexture:Display: Building textures: ShadowMapTexture2D_188 (BGRA8)
+[2016.03.21-19.54.24:233][ 90]LogTexture:Display: Building textures: ShadowMapTexture2D_189 (BGRA8)
+[2016.03.21-19.54.24:280][ 90]LogTexture:Display: Building textures: ShadowMapTexture2D_190 (BGRA8)
+[2016.03.21-19.54.24:325][ 90]LogTexture:Display: Building textures: ShadowMapTexture2D_191 (BGRA8)
+[2016.03.21-19.54.24:368][ 90]LogTexture:Display: Building textures: ShadowMapTexture2D_192 (BGRA8)
+[2016.03.21-19.54.24:411][ 90]LogTexture:Display: Building textures: ShadowMapTexture2D_193 (BGRA8)
+[2016.03.21-19.54.24:455][ 90]LogTexture:Display: Building textures: ShadowMapTexture2D_194 (BGRA8)
+[2016.03.21-19.54.24:499][ 90]LogTexture:Display: Building textures: ShadowMapTexture2D_195 (BGRA8)
+[2016.03.21-19.54.24:544][ 90]LogTexture:Display: Building textures: ShadowMapTexture2D_196 (BGRA8)
+[2016.03.21-19.54.24:587][ 90]LogTexture:Display: Building textures: ShadowMapTexture2D_197 (BGRA8)
+[2016.03.21-19.54.24:630][ 90]LogTexture:Display: Building textures: ShadowMapTexture2D_198 (BGRA8)
+[2016.03.21-19.54.24:673][ 90]LogTexture:Display: Building textures: ShadowMapTexture2D_199 (BGRA8)
+[2016.03.21-19.54.24:715][ 90]LogTexture:Display: Building textures: ShadowMapTexture2D_200 (BGRA8)
+[2016.03.21-19.54.24:760][ 90]LogTexture:Display: Building textures: ShadowMapTexture2D_201 (BGRA8)
+[2016.03.21-19.54.24:803][ 90]LogTexture:Display: Building textures: ShadowMapTexture2D_202 (BGRA8)
+[2016.03.21-19.54.24:819][ 90]LogTexture:Display: Building textures: ShadowMapTexture2D_203 (BGRA8)
+[2016.03.21-19.54.24:823][ 90]LogTexture:Display: Building textures: ShadowMapTexture2D_204 (BGRA8)
+[2016.03.21-19.54.24:833][ 90]LogTexture:Display: Building textures: ShadowMapTexture2D_205 (BGRA8)
+[2016.03.21-19.54.24:837][ 90]LogTexture:Display: Building textures: ShadowMapTexture2D_206 (BGRA8)
+[2016.03.21-19.54.24:839][ 90]LogTexture:Display: Building textures: ShadowMapTexture2D_207 (BGRA8)
+[2016.03.21-19.54.24:895][ 90]LogStaticLightingSystem: Illumination: 55.4 sec (8.28 sec encoding lightmaps)
+[2016.03.21-19.54.24:895][ 90]LogStaticLightingSystem: Lightmap texture memory:  12.9 MB (12.9 MB streaming, 0.0 MB non-streaming), 62 textures
+[2016.03.21-19.54.24:895][ 90]LogStaticLightingSystem: Shadowmap texture memory: 181.1 MB (181.1 MB streaming, 0.0 MB non-streaming), 208 textures
+[2016.03.21-19.54.24:912][ 90]Lightmass on DDW-G238-MAC12: 49.9 sec total, 214 ms importing, 2 ms setup, 5.14 sec photons, 44.4 sec processing, 0 ms extra exporting [49/49 mappings]. Threads: 2:57 min total, 1:37 min processing.
+[2016.03.21-19.54.26:019][ 91]Cmd: MAP CHECK NOTIFYRESULTS
+[2016.03.21-19.54.26:019][ 91]MapCheck: New page: SideScrollerExampleMap - Mar 21, 2016, 11:54:26 AM
+[2016.03.21-19.54.26:021][ 91]MapCheck:Warning: Performance Warning Wall3_11 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2016.03.21-19.54.26:076][ 91]MapCheck: Info Map check complete: 0 Error(s), 1 Warning(s), took 56.611ms to complete.
+[2016.03.21-19.54.26:079][ 91]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.54.26:666][134]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2016.03.21-19.54.26:666][134]PIE: New page: PIE session: SideScrollerExampleMap (Mar 21, 2016, 11:54:26 AM)
+[2016.03.21-19.54.26:666][134]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2016.03.21-19.54.26:751][134]LogPlayLevel: PIE: StaticDuplicateObject took: (0.084559s)
+[2016.03.21-19.54.26:753][134]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2016.03.21-19.54.26:753][134]LogPlayLevel: PIE: World Init took: (0.002250s)
+[2016.03.21-19.54.26:754][134]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.087112s)
+[2016.03.21-19.54.26:799][134]LogInit: XAudio2 using 'Speakers (Cirrus Logic CS4206B (AB 32))' : 4 channels at 48 kHz using 32 bits per sample (channel mask 0x33)
+[2016.03.21-19.54.26:806][134]LogInit: FAudioDevice initialized.
+[2016.03.21-19.54.26:855][134]LogWorld: Game class is 'SideScrollerGameMode_C'
+[2016.03.21-19.54.26:868][134]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2016.03.21-15.54.26
+[2016.03.21-19.54.26:868][134]LogActor:Warning: GameSession /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.21-19.54.26:869][134]LogActor:Warning: GameNetworkManager /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.21-19.54.26:869][134]LogWorld: Bringing up level for play took: 0.012280
+[2016.03.21-19.54.26:871][134]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 0.946
+[2016.03.21-19.54.43:900][826]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000021544CC0
+[2016.03.21-19.54.47:722][ 11]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube15)
+[2016.03.21-19.54.50:557][307]Cmd: EDIT COPY
+[2016.03.21-19.54.50:927][345]Cmd: EDIT PASTE
+[2016.03.21-19.54.54:437][608]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube20)
+[2016.03.21-19.55.51:524][904]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube16)
+[2016.03.21-19.55.53:751][136]Cmd: EDIT COPY
+[2016.03.21-19.55.55:511][326]Cmd: EDIT PASTE
+[2016.03.21-19.56.16:552][620]Cmd: EDIT COPY
+[2016.03.21-19.56.17:101][678]Cmd: EDIT PASTE
+[2016.03.21-19.56.47:956][601]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall25)
+[2016.03.21-19.57.21:863][204]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2016.03.21-19.57.38:646][725]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2016.03.21-19.57.39:330][792]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall18)
+[2016.03.21-19.57.45:960][320]LogEditorViewport: Clicking on Actor (LMB): LightmassImportanceVolume (LightmassImportanceVolume3)
+[2016.03.21-19.57.46:589][373]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor6)
+[2016.03.21-19.58.14:242][624]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall18)
+[2016.03.21-19.58.37:261][568]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor6)
+[2016.03.21-19.58.41:816][  7]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall18)
+[2016.03.21-19.58.41:837][  7]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.58.42:504][ 68]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.58.43:288][144]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.58.45:386][354]Cmd: DELETE
+[2016.03.21-19.58.45:386][354]Cmd: ACTOR DELETE
+[2016.03.21-19.58.45:390][354]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.03.21-19.58.45:390][354]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.03.21-19.58.45:390][354]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.03.21-19.58.45:391][354]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.03.21-19.58.45:412][354]LogEditorActor: Deleted 4 Actors (0.026 secs)
+[2016.03.21-19.58.52:937][718]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor3)
+[2016.03.21-19.58.54:641][893]Cmd: EDIT COPY
+[2016.03.21-19.58.55:100][939]Cmd: EDIT PASTE
+[2016.03.21-19.59.10:881][839]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall19)
+[2016.03.21-19.59.14:516][219]Cmd: EDIT CUT
+[2016.03.21-19.59.14:530][219]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.03.21-19.59.14:550][219]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2016.03.21-19.59.16:077][391]Cmd: TRANSACTION UNDO
+[2016.03.21-19.59.16:077][391]LogEditorTransaction: Undo Cut
+[2016.03.21-19.59.16:132][391]LogD3D11RHI: InitD3DDevice
+[2016.03.21-19.59.17:449][515]Cmd: EDIT COPY
+[2016.03.21-19.59.17:875][558]Cmd: EDIT PASTE
+[2016.03.21-19.59.43:477][239]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2016.03.21-19.59.53:759][642]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall19)
+[2016.03.21-20.00.19:406][434]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2016.03.21-20.00.20:146][506]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor4)
+[2016.03.21-20.00.38:291][272]LogD3D11RHI: InitD3DDevice
+[2016.03.21-20.00.40:621][279]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2016.03.21-20.00.42:014][420]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor4)
+[2016.03.21-20.01.14:899][451]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall26)
+[2016.03.21-20.01.16:256][590]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall25)
+[2016.03.21-20.01.21:973][155]Cmd: EDIT COPY
+[2016.03.21-20.01.22:372][194]Cmd: EDIT PASTE
+[2016.03.21-20.01.40:835][ 71]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall26)
+[2016.03.21-20.01.44:052][411]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall26)
+[2016.03.21-20.01.44:060][411]LogD3D11RHI: InitD3DDevice
+[2016.03.21-20.01.44:469][446]LogD3D11RHI: InitD3DDevice
+[2016.03.21-20.01.44:520][448]LogD3D11RHI: InitD3DDevice
+[2016.03.21-20.01.44:549][449]LogD3D11RHI: InitD3DDevice
+[2016.03.21-20.01.45:412][531]LogD3D11RHI: InitD3DDevice
+[2016.03.21-20.01.48:065][793]Cmd: DELETE
+[2016.03.21-20.01.48:065][793]Cmd: ACTOR DELETE
+[2016.03.21-20.01.48:068][793]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.03.21-20.01.48:090][793]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2016.03.21-20.01.50:078][  7]LogD3D11RHI: InitD3DDevice
+[2016.03.21-20.01.51:179][  7]LogSavePackage: Save=1008.671509ms
+[2016.03.21-20.01.51:180][  7]LogSavePackage: Moving '../../../../../../Users/quinonn/Documents
