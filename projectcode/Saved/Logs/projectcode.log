@@ -1,372 +1,584 @@
-﻿[2016.03.21-18.33.01:476][  0]Log file open, 03/21/16 14:33:01
-[2016.03.21-18.33.01:476][  0]LogInit:Display: Running engine for game: projectcode
-[2016.03.21-18.33.01:476][  0]LogInit:Display: RandInit(-2131464032) SRandInit(-2131464031).
-[2016.03.21-18.33.01:476][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
-[2016.03.21-18.33.01:476][  0]LogStats: Stats thread started
-[2016.03.21-18.33.01:476][  0]LogInit: Version: 4.8.3-2634408+++depot+UE4-Releases+4.8
-[2016.03.21-18.33.01:476][  0]LogInit: API Version: 2579680
-[2016.03.21-18.33.01:476][  0]LogInit: Compiled (64-bit): Jul 27 2015 16:24:33
-[2016.03.21-18.33.01:476][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
-[2016.03.21-18.33.01:476][  0]LogInit: Build Configuration: Development
-[2016.03.21-18.33.01:476][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
-[2016.03.21-18.33.01:476][  0]LogInit: Command line:  
-[2016.03.21-18.33.01:476][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.8/Engine/Binaries/Win64/
-[2016.03.21-18.33.01:476][  0]LogInit: Rocket: 1
-[2016.03.21-18.33.01:523][  0]LogInit: Using libcurl 7.41.0
-[2016.03.21-18.33.01:523][  0]LogInit:  - built for x86_64-pc-win32
-[2016.03.21-18.33.01:523][  0]LogInit:  - supports SSL with WinSSL
-[2016.03.21-18.33.01:523][  0]LogInit:  - other features:
-[2016.03.21-18.33.01:523][  0]LogInit:      CURL_VERSION_SSL
-[2016.03.21-18.33.01:523][  0]LogInit:      CURL_VERSION_IPV6
-[2016.03.21-18.33.01:523][  0]LogInit:      CURL_VERSION_ASYNCHDNS
-[2016.03.21-18.33.01:523][  0]LogInit:      CURL_VERSION_LARGEFILE
-[2016.03.21-18.33.01:523][  0]LogInit:      CURL_VERSION_IDN
-[2016.03.21-18.33.01:523][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
-[2016.03.21-18.33.01:523][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
-[2016.03.21-18.33.01:523][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
-[2016.03.21-18.33.01:523][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
-[2016.03.21-18.33.01:523][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
-[2016.03.21-18.33.01:539][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
-[2016.03.21-18.33.01:664][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2016.03.21-18.33.01:788][  0]LogInit: Object subsystem initialized
-[2016.03.21-18.33.01:898][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
-[2016.03.21-18.33.01:898][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/quinonn/Documents/GitHub/Gamefiles/projectcode/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2016.03.21-18.33.01:898][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
-[2016.03.21-18.33.01:898][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/quinonn/Documents/GitHub/Gamefiles/projectcode/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2016.03.21-18.33.01:898][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
-[2016.03.21-18.33.01:898][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/quinonn/Documents/GitHub/Gamefiles/projectcode/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2016.03.21-18.33.01:976][  0]LogInit: Selected Device Profile: [Windows]
-[2016.03.21-18.33.01:976][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2016.03.21-18.33.02:147][  0]LogInit: Computer: DDW-G238-MAC12
-[2016.03.21-18.33.02:147][  0]LogInit: User: quinonn
-[2016.03.21-18.33.02:147][  0]LogInit: CPU Page size=4096, Cores=4
-[2016.03.21-18.33.02:147][  0]LogInit: High frequency timer resolution =2.630800 MHz
-[2016.03.21-18.33.02:147][  0]LogMemory: Memory total: Physical=4.0GB (4GB approx)
-[2016.03.21-18.33.02:147][  0]LogMemory: Platform Memory Stats for Windows
-[2016.03.21-18.33.02:147][  0]LogMemory: Process Physical Memory: 49.64 MB used, 49.64 MB peak
-[2016.03.21-18.33.02:147][  0]LogMemory: Process Virtual Memory: 23.76 MB used, 23.76 MB peak
-[2016.03.21-18.33.02:147][  0]LogMemory: Physical Memory: 1679.88 MB used, 4071.74 MB total
-[2016.03.21-18.33.02:147][  0]LogMemory: Virtual Memory: 281.46 MB used, 8388608.00 MB total
-[2016.03.21-18.33.03:579][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
-[2016.03.21-18.33.04:327][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
-Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
-Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
-[2016.03.21-18.33.05:534][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon HD 6700M Series (Feature Level 11_0)
-[2016.03.21-18.33.05:534][  0]LogD3D11RHI: Adapter has 501MB of dedicated video memory, 0MB of dedicated system memory, and 1779MB of shared system memory, 1 output[s]
-[2016.03.21-18.33.05:534][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2016.03.21-18.33.05:552][  0]LogD3D11RHI: InitD3DDevice
-[2016.03.21-18.33.05:553][  0]LogD3D11RHI: !Direct3DDevice
-[2016.03.21-18.33.05:554][  0]LogRHI: Texture pool is 351 MB (70% of 501 MB)
-[2016.03.21-18.33.05:570][  0]LogD3D11RHI: Async texture creation disabled: no driver support
-[2016.03.21-18.33.06:638][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2016.03.21-18.33.13:747][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
-[2016.03.21-18.33.13:781][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2016.03.21-18.33.13:807][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2016.03.21-18.33.13:827][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2016.03.21-18.33.13:849][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2016.03.21-18.33.13:897][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2016.03.21-18.33.13:915][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2016.03.21-18.33.13:933][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2016.03.21-18.33.13:951][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2016.03.21-18.33.13:968][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2016.03.21-18.33.13:985][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2016.03.21-18.33.14:003][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2016.03.21-18.33.14:096][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2016.03.21-18.33.14:112][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2016.03.21-18.33.14:127][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2016.03.21-18.33.14:166][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2016.03.21-18.33.14:166][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2016.03.21-18.33.14:928][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2016.03.21-18.33.15:527][  0]LogDerivedDataCache: Loaded boot cache 0.58s 53MB C:/Users/quinonn/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
-[2016.03.21-18.33.15:527][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/quinonn/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
-[2016.03.21-18.33.15:527][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/quinonn/Documents/GitHub/Gamefiles/projectcode/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2016.03.21-18.33.15:527][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2016.03.21-18.33.15:528][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/quinonn/Documents/GitHub/Gamefiles/projectcode/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2016.03.21-18.33.15:528][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2016.03.21-18.33.15:796][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2016.03.21-18.33.15:839][  0]LogDerivedDataCache: Using Local data cache path C:/Users/quinonn/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2016.03.21-18.33.22:605][  0]LogInit: Selected Device Profile: [Windows]
-[2016.03.21-18.33.22:754][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
-[2016.03.21-18.33.22:755][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
-[2016.03.21-18.33.23:119][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2016.03.21-18.33.23:119][  0]LogMeshUtilities: No automatic mesh merging module available
-[2016.03.21-18.33.27:265][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2016.03.21-18.33.50:810][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2016.03.21-18.33.52:941][  0]LogConfig:Warning: Failed to saved backup for config[SourceControlSettings]
-[2016.03.21-18.33.52:942][  0]SourceControl: Info Source control is disabled
-[2016.03.21-18.33.52:959][  0]SourceControl: Info Source control is disabled
-[2016.03.21-18.33.53:013][  0]SourceControl: Info Source control is disabled
-[2016.03.21-18.33.53:076][  0]SourceControl: Info Source control is disabled
-[2016.03.21-18.33.54:444][  0]LogObj: 26273 objects as part of root set at end of initial load.
-[2016.03.21-18.33.54:444][  0]LogUObjectAllocator: 5409248 out of 0 bytes used by permanent object pool.
-[2016.03.21-18.33.55:067][  0]LogEngine: Initializing Engine...
-[2016.03.21-18.33.55:091][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
-[2016.03.21-18.33.55:232][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 110
-[2016.03.21-18.33.56:293][  0]LogAIModule: Creating AISystem for world NewWorld
-[2016.03.21-18.33.56:479][  0]LogInit: XAudio2 using 'Speakers (Cirrus Logic CS4206B (AB 32))' : 4 channels at 48 kHz using 32 bits per sample (channel mask 0x33)
-[2016.03.21-18.33.56:676][  0]LogInit: FAudioDevice initialized.
-[2016.03.21-18.33.56:722][  0]LogDerivedDataCache: Saved boot cache 0.05s 53MB C:/Users/quinonn/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
-[2016.03.21-18.33.56:729][  0]LogInit: Texture streaming: Disabled
-[2016.03.21-18.33.56:779][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
-[2016.03.21-18.33.56:780][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.3-2634408+++depot+UE4-Releases+4.8
-[2016.03.21-18.33.56:780][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 479c140b49949353dfd44181c39e5924|3557c17ee8f74e5b944a80d4b2743391|c51c7447-7047-4a8f-8115-e65efa9fd28a
-[2016.03.21-18.33.56:785][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
-[2016.03.21-18.33.57:168][  0]LogInit: Transaction tracking system initialized
-[2016.03.21-18.33.58:065][  0]BlueprintLog: New page: Editor Load
-[2016.03.21-18.33.58:328][  0]LogAssetRegistry: FAssetRegistry took 0.0534 seconds to start up
-[2016.03.21-18.33.58:416][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
-[2016.03.21-18.34.11:023][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'SystemSettingsIni')
-[2016.03.21-18.34.11:024][  0]LogConsoleResponse:Display: 
-[2016.03.21-18.34.14:310][  0]LogCook:Display: Done creating registry. It took  0.00s.
-[2016.03.21-18.34.16:963][  0]SourceControl: Info Source control is disabled
-[2016.03.21-18.34.17:074][  0]Cmd: MAP LOAD FILE="../../../../../../Users/quinonn/Documents/GitHub/Gamefiles/projectcode/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2016.03.21-18.34.17:092][  0]LightingResults: New page: Lighting Build
-[2016.03.21-18.34.17:777][  0]MapCheck: New page: Map Check
-[2016.03.21-18.34.17:777][  0]LightingResults: New page: Lighting Build
-[2016.03.21-18.34.18:188][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001BD72F20
-[2016.03.21-18.34.27:561][  0]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
-[2016.03.21-18.34.30:054][  0]LogTexture:Display: Building textures: HQ_Lightmap1_22 (AutoDXT)
-[2016.03.21-18.34.31:619][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_12 (DXT1)
-[2016.03.21-18.34.31:692][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
-[2016.03.21-18.34.32:117][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1)
-[2016.03.21-18.34.32:853][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_14 (DXT1)
-[2016.03.21-18.34.33:031][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_17 (DXT1)
-[2016.03.21-18.34.34:391][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_25 (DXT1)
-[2016.03.21-18.34.35:591][  0]LogTexture:Display: Building textures: SkyOcclusion0_4 (AutoDXT)
-[2016.03.21-18.34.37:168][  0]LogTexture:Display: Building textures: SkyOcclusion1_18 (AutoDXT)
-[2016.03.21-18.34.37:855][  0]LogTexture:Display: Building textures: SkyOcclusion1_21 (AutoDXT)
-[2016.03.21-18.34.39:373][  0]LogTexture:Warning: GetMipData failed for /Game/SideScrollerBP/Maps/SideScrollerExampleMap.ShadowMapTexture2D_104 (B8G8R8A8)
-[2016.03.21-18.34.39:424][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_104 (BGRA8)
-[2016.03.21-18.34.40:148][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_107 (BGRA8)
-[2016.03.21-18.34.42:996][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_91 (BGRA8)
-[2016.03.21-18.34.44:473][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_96 (BGRA8)
-[2016.03.21-18.34.45:007][  0]LogAIModule: Creating AISystem for world SideScrollerExampleMap
-[2016.03.21-18.34.47:304][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2016.03.21-18.34.49:307][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2016.03.21-18.34.49:618][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 310.93ms to complete.
-[2016.03.21-18.34.49:618][  0]LogFileHelpers: Loading map 'SideScrollerExampleMap' took 32.593
-[2016.03.21-18.34.53:982][  0]LogCollectionManager: Loaded 0 collections in 0.004636 seconds
-[2016.03.21-18.34.54:012][  0]LogContentBrowser: Native class hierarchy populated in 0.0227 seconds. Added 1792 classes and 301 folders.
-[2016.03.21-18.34.54:802][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2016.03.21-18.35.01:022][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
-[2016.03.21-18.35.01:618][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
-[2016.03.21-18.35.08:814][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2016.03.21-18.35.09:944][  0]LogD3D11RHI: InitD3DDevice
-[2016.03.21-18.35.10:448][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2016.03.21-18.35.11:582][  0]LogLoad: Full Startup: 138.00 seconds (BP compile: 1.38 seconds)
-[2016.03.21-18.35.18:348][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2016.03.21-18.35.20:136][  0]LogContentStreaming: Texture pool size now 400 MB
-[2016.03.21-18.35.23:449][  0]LogRenderer: Reallocating scene render targets to support 1576x776 (Frame:2).
-[2016.03.21-18.35.31:711][  1]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
-[2016.03.21-18.35.43:447][ 11]LogAssetRegistry: Asset discovery search completed in 105.1464 seconds
-[2016.03.21-18.37.04:225][251]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2016.03.21-18.37.04:725][252]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2016.03.21-18.37.05:226][253]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2016.03.21-18.37.43:069][367]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2016.03.21-18.37.44:455][370]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2016.03.21-18.37.44:955][371]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2016.03.21-18.38.52:542][574]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2016.03.21-18.38.53:043][575]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2016.03.21-18.38.53:543][576]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2016.03.21-18.38.54:044][577]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
-[2016.03.21-18.42.12:527][172]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2016.03.21-18.43.15:828][351]Cmd: QUIT_EDITOR
-[2016.03.21-18.43.16:643][351]LogExit: Preparing to exit.
-[2016.03.21-18.43.18:387][351]LogExit: Editor shut down
-[2016.03.21-18.43.18:402][351]LogExit: Transaction tracking system shut down
-[2016.03.21-18.43.18:407][351]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000109EC7C0
-[2016.03.21-18.43.20:504][351]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000204A13A0
-[2016.03.21-18.43.20:504][351]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000022075BC0
-[2016.03.21-18.43.20:504][351]LogExit: Object subsystem successfully closed.
-[2016.03.21-18.43.21:811][351]LogD3D11RHI: Shutdown
-[2016.03.21-18.43.21:813][351]LogD3D11RHI: CleanupD3DDevice
-[2016.03.21-18.43.22:261][351]LogD3D11RHI: ~FD3D11DynamicRHI
-[2016.03.21-18.43.22:489][351]LogModuleManager: Shutting down and abandoning module CrashTracker (188)
-[2016.03.21-18.43.22:489][351]LogModuleManager: Shutting down and abandoning module SceneOutliner (187)
-[2016.03.21-18.43.22:489][351]LogModuleManager: Shutting down and abandoning module SuperSearch (186)
-[2016.03.21-18.43.22:489][351]LogModuleManager: Shutting down and abandoning module WidgetCarousel (185)
-[2016.03.21-18.43.22:496][351]LogModuleManager: Shutting down and abandoning module AddContentDialog (184)
-[2016.03.21-18.43.22:503][351]LogModuleManager: Shutting down and abandoning module EditorWidgets (183)
-[2016.03.21-18.43.22:503][351]LogModuleManager: Shutting down and abandoning module CollectionManager (182)
-[2016.03.21-18.43.22:524][351]LogModuleManager: Shutting down and abandoning module StatsViewer (181)
-[2016.03.21-18.43.22:542][351]LogModuleManager: Shutting down and abandoning module FoliageEdit (180)
-[2016.03.21-18.43.22:544][351]LogModuleManager: Shutting down and abandoning module LandscapeEditor (179)
-[2016.03.21-18.43.22:555][351]LogModuleManager: Shutting down and abandoning module ActorPickerMode (178)
-[2016.03.21-18.43.22:555][351]LogModuleManager: Shutting down and abandoning module GeometryMode (177)
-[2016.03.21-18.43.22:555][351]LogModuleManager: Shutting down and abandoning module TextureAlignMode (176)
-[2016.03.21-18.43.22:555][351]LogModuleManager: Shutting down and abandoning module BspMode (175)
-[2016.03.21-18.43.22:555][351]LogModuleManager: Shutting down and abandoning module PlacementMode (174)
-[2016.03.21-18.43.22:564][351]LogModuleManager: Shutting down and abandoning module AutomationWorker (173)
-[2016.03.21-18.43.22:564][351]LogModuleManager: Shutting down and abandoning module CharacterAI (172)
-[2016.03.21-18.43.22:564][351]LogModuleManager: Shutting down and abandoning module SmartSnapping (171)
-[2016.03.21-18.43.22:564][351]LogModuleManager: Shutting down and abandoning module ViewportSnapping (170)
-[2016.03.21-18.43.22:564][351]LogModuleManager: Shutting down and abandoning module LogVisualizer (169)
-[2016.03.21-18.43.22:591][351]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (168)
-[2016.03.21-18.43.22:605][351]LogModuleManager: Shutting down and abandoning module IntroTutorials (167)
-[2016.03.21-18.43.22:621][351]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (166)
-[2016.03.21-18.43.22:621][351]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (165)
-[2016.03.21-18.43.22:626][351]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (164)
-[2016.03.21-18.43.22:626][351]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (163)
-[2016.03.21-18.43.22:935][351]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (162)
-[2016.03.21-18.43.22:935][351]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (161)
-[2016.03.21-18.43.22:935][351]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (160)
-[2016.03.21-18.43.22:935][351]LogModuleManager: Shutting down and abandoning module MergeActors (159)
-[2016.03.21-18.43.22:961][351]LogModuleManager: Shutting down and abandoning module SizeMap (158)
-[2016.03.21-18.43.22:961][351]LogModuleManager: Shutting down and abandoning module TreeMap (157)
-[2016.03.21-18.43.22:978][351]LogModuleManager: Shutting down and abandoning module ReferenceViewer (156)
-[2016.03.21-18.43.22:978][351]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (155)
-[2016.03.21-18.43.22:986][351]LogModuleManager: Shutting down and abandoning module HardwareTargeting (154)
-[2016.03.21-18.43.22:986][351]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (153)
-[2016.03.21-18.43.22:994][351]LogModuleManager: Shutting down and abandoning module UndoHistory (152)
-[2016.03.21-18.43.23:009][351]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (151)
-[2016.03.21-18.43.23:019][351]LogModuleManager: Shutting down and abandoning module UserFeedback (150)
-[2016.03.21-18.43.23:019][351]LogModuleManager: Shutting down and abandoning module XmlParser (149)
-[2016.03.21-18.43.23:033][351]LogModuleManager: Shutting down and abandoning module Blutility (148)
-[2016.03.21-18.43.23:033][351]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (147)
-[2016.03.21-18.43.23:033][351]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (146)
-[2016.03.21-18.43.23:033][351]LogModuleManager: Shutting down and abandoning module InputBindingEditor (145)
-[2016.03.21-18.43.23:059][351]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (144)
-[2016.03.21-18.43.23:059][351]LogModuleManager: Shutting down and abandoning module SettingsEditor (143)
-[2016.03.21-18.43.23:066][351]LogModuleManager: Shutting down and abandoning module ProjectLauncher (142)
-[2016.03.21-18.43.23:081][351]LogModuleManager: Shutting down and abandoning module SessionFrontend (141)
-[2016.03.21-18.43.23:090][351]LogModuleManager: Shutting down and abandoning module ProfilerClient (140)
-[2016.03.21-18.43.23:093][351]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (139)
-[2016.03.21-18.43.23:099][351]LogModuleManager: Shutting down and abandoning module DeviceManager (138)
-[2016.03.21-18.43.23:104][351]LogModuleManager: Shutting down and abandoning module AutomationController (137)
-[2016.03.21-18.43.23:109][351]LogModuleManager: Shutting down and abandoning module AutomationWindow (136)
-[2016.03.21-18.43.23:118][351]LogModuleManager: Shutting down and abandoning module Layers (135)
-[2016.03.21-18.43.23:137][351]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (134)
-[2016.03.21-18.43.23:137][351]LogModuleManager: Shutting down and abandoning module DetailCustomizations (133)
-[2016.03.21-18.43.23:137][351]LogModuleManager: Shutting down and abandoning module PackagesDialog (132)
-[2016.03.21-18.43.23:146][351]LogModuleManager: Shutting down and abandoning module AssetRegistry (131)
-[2016.03.21-18.43.23:366][351]LogModuleManager: Shutting down and abandoning module Persona (130)
-[2016.03.21-18.43.23:383][351]LogModuleManager: Shutting down and abandoning module Kismet (129)
-[2016.03.21-18.43.23:409][351]LogModuleManager: Shutting down and abandoning module GraphEditor (128)
-[2016.03.21-18.43.23:441][351]LogModuleManager: Shutting down and abandoning module ClassViewer (127)
-[2016.03.21-18.43.23:447][351]LogModuleManager: Shutting down and abandoning module Toolbox (126)
-[2016.03.21-18.43.23:447][351]LogModuleManager: Shutting down and abandoning module ModuleUI (125)
-[2016.03.21-18.43.23:451][351]LogModuleManager: Shutting down and abandoning module MovieSceneTools (124)
-[2016.03.21-18.43.23:468][351]LogModuleManager: Shutting down and abandoning module OutputLog (123)
-[2016.03.21-18.43.23:468][351]LogModuleManager: Shutting down and abandoning module GammaUI (122)
-[2016.03.21-18.43.23:485][351]LogModuleManager: Shutting down and abandoning module Documentation (121)
-[2016.03.21-18.43.23:485][351]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (120)
-[2016.03.21-18.43.23:489][351]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (119)
-[2016.03.21-18.43.23:489][351]LogModuleManager: Shutting down and abandoning module AnalyticsET (118)
-[2016.03.21-18.43.23:489][351]LogModuleManager: Shutting down and abandoning module Analytics (117)
-[2016.03.21-18.43.23:489][351]LogModuleManager: Shutting down and abandoning module AITestSuite (116)
-[2016.03.21-18.43.23:499][351]LogModuleManager: Shutting down and abandoning module GameplayDebugger (115)
-[2016.03.21-18.43.23:504][351]LogModuleManager: Shutting down and abandoning module AIModule (114)
-[2016.03.21-18.43.23:505][351]LogModuleManager: Shutting down and abandoning module ProfilerService (113)
-[2016.03.21-18.43.23:619][351]LogModuleManager: Shutting down and abandoning module TaskGraph (112)
-[2016.03.21-18.43.23:641][351]LogModuleManager: Shutting down and abandoning module SlateRemote (111)
-[2016.03.21-18.43.23:641][351]LogModuleManager: Shutting down and abandoning module SteamVRController (110)
-[2016.03.21-18.43.23:641][351]LogModuleManager: Shutting down and abandoning module SteamVR (109)
-[2016.03.21-18.43.23:641][351]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (108)
-[2016.03.21-18.43.23:641][351]LogModuleManager: Shutting down and abandoning module OculusRift (107)
-[2016.03.21-18.43.23:641][351]LogModuleManager: Shutting down and abandoning module LeapMotionController (106)
-[2016.03.21-18.43.23:765][351]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (105)
-[2016.03.21-18.43.23:765][351]LogModuleManager: Shutting down and abandoning module CableComponent (104)
-[2016.03.21-18.43.23:782][351]LogModuleManager: Shutting down and abandoning module MessagingDebugger (103)
-[2016.03.21-18.43.23:806][351]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (102)
-[2016.03.21-18.43.23:818][351]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (101)
-[2016.03.21-18.43.23:818][351]LogModuleManager: Shutting down and abandoning module PluginBrowser (100)
-[2016.03.21-18.43.23:820][351]LogModuleManager: Shutting down and abandoning module EpicSurvey (99)
-[2016.03.21-18.43.23:858][351]LogModuleManager: Shutting down and abandoning module DesktopPlatform (98)
-[2016.03.21-18.43.23:928][351]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (97)
-[2016.03.21-18.43.23:945][351]LogModuleManager: Shutting down and abandoning module UObjectPlugin (96)
-[2016.03.21-18.43.23:945][351]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (95)
-[2016.03.21-18.43.23:956][351]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (94)
-[2016.03.21-18.43.24:000][351]LogModuleManager: Shutting down and abandoning module SourceControl (93)
-[2016.03.21-18.43.24:033][351]LogModuleManager: Shutting down and abandoning module GitSourceControl (92)
-[2016.03.21-18.43.24:041][351]LogModuleManager: Shutting down and abandoning module BlankPlugin (91)
-[2016.03.21-18.43.24:041][351]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (90)
-[2016.03.21-18.43.24:041][351]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (89)
-[2016.03.21-18.43.24:041][351]LogModuleManager: Shutting down and abandoning module MeshPaint (88)
-[2016.03.21-18.43.24:048][351]LogModuleManager: Shutting down and abandoning module SlateReflector (87)
-[2016.03.21-18.43.24:071][351]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (86)
-[2016.03.21-18.43.24:071][351]LogModuleManager: Shutting down and abandoning module HotReload (85)
-[2016.03.21-18.43.24:071][351]LogModuleManager: Shutting down and abandoning module MainFrame (84)
-[2016.03.21-18.43.24:071][351]LogModuleManager: Shutting down and abandoning module LevelEditor (83)
-[2016.03.21-18.43.24:109][351]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
-[2016.03.21-18.43.24:109][351]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
-[2016.03.21-18.43.24:134][351]LogModuleManager: Shutting down and abandoning module UdpMessaging (80)
-[2016.03.21-18.43.24:234][351]LogModuleManager: Shutting down and abandoning module Paper2D (79)
-[2016.03.21-18.43.24:270][351]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (78)
-[2016.03.21-18.43.24:318][351]LogModuleManager: Shutting down and abandoning module Media (77)
-[2016.03.21-18.43.24:318][351]LogModuleManager: Shutting down and abandoning module WmfMedia (76)
-[2016.03.21-18.43.24:360][351]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (75)
-[2016.03.21-18.43.24:360][351]LogModuleManager: Shutting down and abandoning module PropertyEditor (74)
-[2016.03.21-18.43.24:370][351]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (73)
-[2016.03.21-18.43.24:399][351]LogModuleManager: Shutting down and abandoning module FunctionalTesting (72)
-[2016.03.21-18.43.24:408][351]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (71)
-[2016.03.21-18.43.24:421][351]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (70)
-[2016.03.21-18.43.24:431][351]LogModuleManager: Shutting down and abandoning module MessageLog (69)
-[2016.03.21-18.43.24:431][351]LogModuleManager: Shutting down and abandoning module Sequencer (68)
-[2016.03.21-18.43.24:433][351]LogModuleManager: Shutting down and abandoning module AssetTools (67)
-[2016.03.21-18.43.24:450][351]LogModuleManager: Shutting down and abandoning module UMGEditor (66)
-[2016.03.21-18.43.24:486][351]LogModuleManager: Shutting down and abandoning module UMG (65)
-[2016.03.21-18.43.24:505][351]LogModuleManager: Shutting down and abandoning module Slate (64)
-[2016.03.21-18.43.24:505][351]LogModuleManager: Shutting down and abandoning module EditorStyle (63)
-[2016.03.21-18.43.24:612][351]LogModuleManager: Shutting down and abandoning module SessionServices (62)
-[2016.03.21-18.43.24:612][351]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (61)
-[2016.03.21-18.43.24:612][351]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (60)
-[2016.03.21-18.43.24:612][351]LogModuleManager: Shutting down and abandoning module XAudio2 (59)
-[2016.03.21-18.43.24:612][351]LogModuleManager: Shutting down and abandoning module Networking (57)
-[2016.03.21-18.43.24:612][351]LogModuleManager: Shutting down and abandoning module Core (56)
-[2016.03.21-18.43.24:612][351]LogModuleManager: Shutting down and abandoning module KismetCompiler (55)
-[2016.03.21-18.43.24:623][351]LogModuleManager: Shutting down and abandoning module PhysXFormats (54)
-[2016.03.21-18.43.24:632][351]LogModuleManager: Shutting down and abandoning module MeshUtilities (53)
-[2016.03.21-18.43.24:656][351]LogModuleManager: Shutting down and abandoning module DerivedDataCache (52)
-[2016.03.21-18.43.24:705][351]LogDerivedDataCache: Shutdown
-[2016.03.21-18.43.24:705][351]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (51)
-[2016.03.21-18.43.24:713][351]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (50)
-[2016.03.21-18.43.24:725][351]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (49)
-[2016.03.21-18.43.24:744][351]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (48)
-[2016.03.21-18.43.24:744][351]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (47)
-[2016.03.21-18.43.24:748][351]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (46)
-[2016.03.21-18.43.24:757][351]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (45)
-[2016.03.21-18.43.24:757][351]LogModuleManager: Shutting down and abandoning module ImageWrapper (44)
-[2016.03.21-18.43.24:757][351]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (43)
-[2016.03.21-18.43.24:757][351]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (42)
-[2016.03.21-18.43.24:757][351]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (41)
-[2016.03.21-18.43.24:771][351]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (40)
-[2016.03.21-18.43.24:774][351]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (39)
-[2016.03.21-18.43.24:774][351]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (38)
-[2016.03.21-18.43.24:774][351]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (37)
-[2016.03.21-18.43.24:781][351]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (36)
-[2016.03.21-18.43.24:785][351]LogModuleManager: Shutting down and abandoning module Messaging (35)
-[2016.03.21-18.43.24:785][351]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (34)
-[2016.03.21-18.43.24:785][351]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (33)
-[2016.03.21-18.43.24:785][351]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (32)
-[2016.03.21-18.43.24:785][351]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (31)
-[2016.03.21-18.43.24:785][351]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (30)
-[2016.03.21-18.43.24:785][351]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (29)
-[2016.03.21-18.43.24:785][351]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (28)
-[2016.03.21-18.43.24:785][351]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (27)
-[2016.03.21-18.43.24:785][351]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
-[2016.03.21-18.43.24:785][351]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
-[2016.03.21-18.43.24:800][351]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
-[2016.03.21-18.43.24:800][351]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
-[2016.03.21-18.43.24:800][351]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
-[2016.03.21-18.43.24:800][351]LogModuleManager: Shutting down and abandoning module DesktopTargetPlatform (21)
-[2016.03.21-18.43.24:800][351]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
-[2016.03.21-18.43.24:816][351]LogModuleManager: Shutting down and abandoning module InputCore (19)
-[2016.03.21-18.43.24:823][351]LogModuleManager: Shutting down and abandoning module Settings (18)
-[2016.03.21-18.43.24:823][351]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
-[2016.03.21-18.43.24:823][351]LogModuleManager: Shutting down and abandoning module HTTP (15)
-[2016.03.21-18.43.24:843][351]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
-[2016.03.21-18.43.24:846][351]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
-[2016.03.21-18.43.24:859][351]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
-[2016.03.21-18.43.24:859][351]LogModuleManager: Shutting down and abandoning module Landscape (11)
-[2016.03.21-18.43.24:859][351]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
-[2016.03.21-18.43.24:874][351]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
-[2016.03.21-18.43.24:882][351]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
-[2016.03.21-18.43.24:882][351]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2016.03.21-18.43.24:882][351]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2016.03.21-18.43.24:882][351]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2016.03.21-18.43.24:882][351]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2016.03.21-18.43.24:903][351]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2016.03.21-18.43.24:913][351]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2016.03.21-18.43.24:918][351]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2016.03.21-18.43.24:989][351]LogExit: Exiting.
-[2016.03.21-18.43.25:209][351]Log file closed, 03/21/16 14:43:25
+﻿[2016.03.24-20.47.22:555][  0]Log file open, 03/24/16 16:47:22
+[2016.03.24-20.47.22:555][  0]LogInit:Display: Running engine for game: projectcode
+[2016.03.24-20.47.22:555][  0]LogPlatformFile: Not using cached read wrapper
+[2016.03.24-20.47.22:555][  0]LogInit:Display: RandInit(-1173222373) SRandInit(-1173222371).
+[2016.03.24-20.47.22:555][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.03.24-20.47.22:555][  0]LogStats: Stats thread started at 0.087960
+[2016.03.24-20.47.22:555][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.03.24-20.47.22:555][  0]LogInit: API Version: 2758231
+[2016.03.24-20.47.22:555][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
+[2016.03.24-20.47.22:555][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.03.24-20.47.22:555][  0]LogInit: Build Configuration: Development
+[2016.03.24-20.47.22:555][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.03.24-20.47.22:555][  0]LogInit: Command line:  
+[2016.03.24-20.47.22:555][  0]LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.03.24-20.47.22:555][  0]LogInit: Rocket: 1
+[2016.03.24-20.47.22:564][  0]LogInit: Using libcurl 7.41.0
+[2016.03.24-20.47.22:564][  0]LogInit:  - built for x86_64-pc-win32
+[2016.03.24-20.47.22:564][  0]LogInit:  - supports SSL with WinSSL
+[2016.03.24-20.47.22:564][  0]LogInit:  - other features:
+[2016.03.24-20.47.22:564][  0]LogInit:      CURL_VERSION_SSL
+[2016.03.24-20.47.22:564][  0]LogInit:      CURL_VERSION_IPV6
+[2016.03.24-20.47.22:564][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.03.24-20.47.22:564][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.03.24-20.47.22:564][  0]LogInit:      CURL_VERSION_IDN
+[2016.03.24-20.47.22:564][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.03.24-20.47.22:564][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.03.24-20.47.22:564][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.03.24-20.47.22:564][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.03.24-20.47.22:564][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.03.24-20.47.22:573][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.03.24-20.47.22:580][  0]LogInit: Object subsystem initialized
+[2016.03.24-20.47.22:581][  0]LogInit: Selected Device Profile: [Windows]
+[2016.03.24-20.47.22:581][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.03.24-20.47.22:597][  0]LogInit: Computer: BILLY_NORKUS_PC
+[2016.03.24-20.47.22:597][  0]LogInit: User: William
+[2016.03.24-20.47.22:597][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.03.24-20.47.22:597][  0]LogInit: High frequency timer resolution =2.338447 MHz
+[2016.03.24-20.47.22:597][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.03.24-20.47.22:597][  0]LogMemory: Platform Memory Stats for Windows
+[2016.03.24-20.47.22:598][  0]LogMemory: Process Physical Memory: 55.98 MB used, 55.98 MB peak
+[2016.03.24-20.47.22:598][  0]LogMemory: Process Virtual Memory: 56.78 MB used, 56.78 MB peak
+[2016.03.24-20.47.22:598][  0]LogMemory: Physical Memory: 5341.58 MB used, 8077.48 MB total
+[2016.03.24-20.47.22:598][  0]LogMemory: Virtual Memory: 382.86 MB used, 134217728.00 MB total
+[2016.03.24-20.47.22:652][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.03.24-20.47.23:102][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 4000 (Feature Level 11_0)
+[2016.03.24-20.47.23:102][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1760MB of shared system memory, 1 output[s]
+[2016.03.24-20.47.23:123][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce GT 635M      (Feature Level 11_0)
+[2016.03.24-20.47.23:123][  0]LogD3D11RHI: Adapter has 1996MB of dedicated video memory, 0MB of dedicated system memory, and 2047MB of shared system memory, 0 output[s]
+[2016.03.24-20.47.23:127][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.03.24-20.47.23:127][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 4038MB of shared system memory, 0 output[s]
+[2016.03.24-20.47.23:127][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.03.24-20.47.23:147][  0]LogD3D11RHI: !Direct3DDevice
+[2016.03.24-20.47.23:147][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.03.24-20.47.23:165][  0]LogD3D11RHI: Async texture creation enabled
+[2016.03.24-20.47.23:182][  0]LogShaderCompilers: Guid format shader working directory is -24 characters bigger than the processId version (../../../../../../Users/William/Documents/GitHub/Gamefiles/projectcode/Intermediate/Shaders/WorkingDirectory/138644/).
+[2016.03.24-20.47.23:183][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/William/AppData/Local/Temp/UnrealShaderWorkingDir/557E4CC243C19C05EC9EB4B18BB2DEAD/'.
+[2016.03.24-20.47.23:183][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.03.24-20.47.24:368][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.03.24-20.47.24:375][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.03.24-20.47.24:381][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.03.24-20.47.24:388][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.03.24-20.47.24:394][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.03.24-20.47.24:400][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.03.24-20.47.24:404][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.03.24-20.47.24:409][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.03.24-20.47.24:413][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.03.24-20.47.24:417][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.03.24-20.47.24:422][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.03.24-20.47.24:431][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.03.24-20.47.24:431][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.03.24-20.47.24:432][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.03.24-20.47.24:452][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.03.24-20.47.24:456][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.03.24-20.47.24:460][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.03.24-20.47.24:482][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.03.24-20.47.24:482][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.03.24-20.47.24:597][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.03.24-20.47.25:069][  0]LogDerivedDataCache: Loaded boot cache 0.47s 41MB C:/Users/William/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.03.24-20.47.25:069][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/William/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.03.24-20.47.25:069][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/William/Documents/GitHub/Gamefiles/projectcode/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.03.24-20.47.25:069][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.03.24-20.47.25:069][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/William/Documents/GitHub/Gamefiles/projectcode/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.03.24-20.47.25:069][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.03.24-20.47.25:129][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.03.24-20.47.25:141][  0]LogDerivedDataCache: Using Local data cache path C:/Users/William/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.03.24-20.47.25:382][  0]LogInit: Selected Device Profile: [Windows]
+[2016.03.24-20.47.25:385][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.03.24-20.47.25:522][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.03.24-20.47.25:522][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.03.24-20.47.25:835][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.03.24-20.47.31:292][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.03.24-20.47.31:410][  0]LogAssetRegistry: FAssetRegistry took 0.0108 seconds to start up
+[2016.03.24-20.47.31:688][  0]SourceControl: Info Source control is disabled
+[2016.03.24-20.47.31:690][  0]SourceControl: Info Source control is disabled
+[2016.03.24-20.47.31:705][  0]SourceControl: Info Source control is disabled
+[2016.03.24-20.47.31:721][  0]SourceControl: Info Source control is disabled
+[2016.03.24-20.47.32:070][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2016.03.24-20.47.32:070][  0]LogUObjectAllocator: 6099744 out of 0 bytes used by permanent object pool.
+[2016.03.24-20.47.32:133][  0]LogEngine: Initializing Engine...
+[2016.03.24-20.47.32:139][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.03.24-20.47.32:147][  0]LogHMD: SteamVR failed to initialize.  Err: 108
+[2016.03.24-20.47.32:286][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.03.24-20.47.32:291][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.24-20.47.32:303][  0]LogInit: FAudioDevice initialized.
+[2016.03.24-20.47.32:324][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/William/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.03.24-20.47.32:326][  0]LogInit: Texture streaming: Enabled
+[2016.03.24-20.47.32:334][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.03.24-20.47.32:334][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.03.24-20.47.32:334][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 72444714410b922455c77e93c6144045|8411ddb22b2f494c92e9811c0ae28706|17f1f086-29c5-4a30-9e06-3a1ffd453891
+[2016.03.24-20.47.32:334][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.03.24-20.47.32:358][  0]LogInit: Transaction tracking system initialized
+[2016.03.24-20.47.32:394][  0]BlueprintLog: New page: Editor Load
+[2016.03.24-20.47.32:505][  0]LocalizationService: Info Localization service is disabled
+[2016.03.24-20.47.32:883][  0]LogConsoleResponse:Display: 
+[2016.03.24-20.47.33:029][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.03.24-20.47.33:125][  0]LogFileCache: Scanning file cache for directory 'C:/Users/William/Documents/GitHub/Gamefiles/projectcode/Content/' took 0.01s
+[2016.03.24-20.47.33:125][  0]SourceControl: Info Source control is disabled
+[2016.03.24-20.47.33:126][  0]Cmd: MAP LOAD FILE="../../../../../../Users/William/Documents/GitHub/Gamefiles/projectcode/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.03.24-20.47.33:186][  0]LightingResults: New page: Lighting Build
+[2016.03.24-20.47.33:190][  0]MapCheck: New page: Map Check
+[2016.03.24-20.47.33:190][  0]LightingResults: New page: Lighting Build
+[2016.03.24-20.47.33:202][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000019969C12160
+[2016.03.24-20.47.36:440][  0]LogTexture:Display: Building textures: T_ML_Rubber_Blue_01_D (AutoDXT)
+[2016.03.24-20.47.36:753][  0]LogTexture:Display: Building textures: T_ML_Rubber_Blue_01_N (BC5)
+[2016.03.24-20.47.36:814][  0]LogTexture:Display: Building textures: T_ML_Aluminum01 (AutoDXT)
+[2016.03.24-20.47.37:039][  0]LogTexture:Display: Building textures: T_ML_Aluminum01_N (BC5)
+[2016.03.24-20.47.37:166][  0]LogTexture:Display: Building textures: UE4_Mannequin_occlusion_Mobile (AutoDXT)
+[2016.03.24-20.47.37:285][  0]LogMaterial: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2016.03.24-20.47.38:017][  0]LogStaticMesh: Building static mesh CubeMesh...
+[2016.03.24-20.47.38:067][  0]LogStaticMesh: Built static mesh [0.050660.2s] /Game/SideScrollerBP/Meshes/CubeMesh.CubeMesh
+[2016.03.24-20.47.39:477][  0]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2016.03.24-20.47.39:873][  0]LogTexture:Display: Building textures: HQ_Lightmap0_10 (AutoDXT)
+[2016.03.24-20.47.40:062][  0]LogTexture:Display: Building textures: HQ_Lightmap0_14 (AutoDXT)
+[2016.03.24-20.47.40:165][  0]LogTexture:Display: Building textures: HQ_Lightmap0_15 (AutoDXT)
+[2016.03.24-20.47.40:389][  0]LogTexture:Display: Building textures: HQ_Lightmap0_16 (AutoDXT)
+[2016.03.24-20.47.40:467][  0]LogTexture:Display: Building textures: HQ_Lightmap0_17 (AutoDXT)
+[2016.03.24-20.47.40:559][  0]LogTexture:Display: Building textures: HQ_Lightmap0_18 (AutoDXT)
+[2016.03.24-20.47.40:730][  0]LogTexture:Display: Building textures: HQ_Lightmap0_19 (AutoDXT)
+[2016.03.24-20.47.40:954][  0]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2016.03.24-20.47.41:345][  0]LogTexture:Display: Building textures: HQ_Lightmap0_20 (AutoDXT)
+[2016.03.24-20.47.41:502][  0]LogTexture:Display: Building textures: HQ_Lightmap0_21 (AutoDXT)
+[2016.03.24-20.47.41:636][  0]LogTexture:Display: Building textures: HQ_Lightmap0_22 (AutoDXT)
+[2016.03.24-20.47.41:776][  0]LogTexture:Display: Building textures: HQ_Lightmap0_23 (AutoDXT)
+[2016.03.24-20.47.41:894][  0]LogTexture:Display: Building textures: HQ_Lightmap0_24 (AutoDXT)
+[2016.03.24-20.47.42:040][  0]LogTexture:Display: Building textures: HQ_Lightmap0_27 (AutoDXT)
+[2016.03.24-20.47.42:095][  0]LogTexture:Display: Building textures: HQ_Lightmap0_28 (AutoDXT)
+[2016.03.24-20.47.42:130][  0]LogTexture:Display: Building textures: HQ_Lightmap0_29 (AutoDXT)
+[2016.03.24-20.47.42:446][  0]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2016.03.24-20.47.42:849][  0]LogTexture:Display: Building textures: HQ_Lightmap0_30 (AutoDXT)
+[2016.03.24-20.47.42:855][  0]LogTexture:Display: Building textures: HQ_Lightmap0_31 (AutoDXT)
+[2016.03.24-20.47.42:867][  0]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT)
+[2016.03.24-20.47.42:944][  0]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT)
+[2016.03.24-20.47.43:033][  0]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT)
+[2016.03.24-20.47.43:111][  0]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT)
+[2016.03.24-20.47.43:232][  0]LogTexture:Display: Building textures: HQ_Lightmap0_9 (AutoDXT)
+[2016.03.24-20.47.43:285][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2016.03.24-20.47.43:468][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_10 (DXT1)
+[2016.03.24-20.47.43:501][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_14 (DXT1)
+[2016.03.24-20.47.43:585][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_15 (DXT1)
+[2016.03.24-20.47.43:719][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_16 (DXT1)
+[2016.03.24-20.47.43:747][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_17 (DXT1)
+[2016.03.24-20.47.43:940][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_18 (DXT1)
+[2016.03.24-20.47.43:979][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_19 (DXT1)
+[2016.03.24-20.47.44:054][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2016.03.24-20.47.44:128][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_20 (DXT1)
+[2016.03.24-20.47.44:247][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_21 (DXT1)
+[2016.03.24-20.47.44:269][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_22 (DXT1)
+[2016.03.24-20.47.44:309][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_23 (DXT1)
+[2016.03.24-20.47.44:349][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_24 (DXT1)
+[2016.03.24-20.47.44:446][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_27 (DXT1)
+[2016.03.24-20.47.44:473][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_28 (DXT1)
+[2016.03.24-20.47.44:496][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_29 (DXT1)
+[2016.03.24-20.47.44:536][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2016.03.24-20.47.44:646][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_30 (DXT1)
+[2016.03.24-20.47.44:654][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_31 (DXT1)
+[2016.03.24-20.47.44:663][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1)
+[2016.03.24-20.47.44:760][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1)
+[2016.03.24-20.47.44:805][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1)
+[2016.03.24-20.47.45:197][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_8 (DXT1)
+[2016.03.24-20.47.45:236][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_9 (DXT1)
+[2016.03.24-20.47.45:274][  0]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT)
+[2016.03.24-20.47.45:532][  0]LogTexture:Display: Building textures: SkyOcclusion0_10 (AutoDXT)
+[2016.03.24-20.47.45:586][  0]LogTexture:Display: Building textures: SkyOcclusion0_14 (AutoDXT)
+[2016.03.24-20.47.45:677][  0]LogTexture:Display: Building textures: SkyOcclusion0_15 (AutoDXT)
+[2016.03.24-20.47.45:719][  0]LogTexture:Display: Building textures: SkyOcclusion0_16 (AutoDXT)
+[2016.03.24-20.47.45:769][  0]LogTexture:Display: Building textures: SkyOcclusion0_17 (AutoDXT)
+[2016.03.24-20.47.45:879][  0]LogTexture:Display: Building textures: SkyOcclusion0_18 (AutoDXT)
+[2016.03.24-20.47.45:930][  0]LogTexture:Display: Building textures: SkyOcclusion0_19 (AutoDXT)
+[2016.03.24-20.47.46:003][  0]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT)
+[2016.03.24-20.47.46:325][  0]LogTexture:Display: Building textures: SkyOcclusion0_20 (AutoDXT)
+[2016.03.24-20.47.46:373][  0]LogTexture:Display: Building textures: SkyOcclusion0_21 (AutoDXT)
+[2016.03.24-20.47.46:472][  0]LogTexture:Display: Building textures: SkyOcclusion0_22 (AutoDXT)
+[2016.03.24-20.47.46:563][  0]LogTexture:Display: Building textures: SkyOcclusion0_23 (AutoDXT)
+[2016.03.24-20.47.46:727][  0]LogTexture:Display: Building textures: SkyOcclusion0_24 (AutoDXT)
+[2016.03.24-20.47.46:813][  0]LogTexture:Display: Building textures: SkyOcclusion0_27 (AutoDXT)
+[2016.03.24-20.47.46:862][  0]LogTexture:Display: Building textures: SkyOcclusion0_28 (AutoDXT)
+[2016.03.24-20.47.46:870][  0]LogTexture:Display: Building textures: SkyOcclusion0_29 (AutoDXT)
+[2016.03.24-20.47.47:018][  0]LogTexture:Display: Building textures: SkyOcclusion0_3 (AutoDXT)
+[2016.03.24-20.47.47:217][  0]LogTexture:Display: Building textures: SkyOcclusion0_30 (AutoDXT)
+[2016.03.24-20.47.47:273][  0]LogTexture:Display: Building textures: SkyOcclusion0_31 (AutoDXT)
+[2016.03.24-20.47.47:289][  0]LogTexture:Display: Building textures: SkyOcclusion0_5 (AutoDXT)
+[2016.03.24-20.47.47:336][  0]LogTexture:Display: Building textures: SkyOcclusion0_6 (AutoDXT)
+[2016.03.24-20.47.47:421][  0]LogTexture:Display: Building textures: SkyOcclusion0_7 (AutoDXT)
+[2016.03.24-20.47.47:504][  0]LogTexture:Display: Building textures: SkyOcclusion0_8 (AutoDXT)
+[2016.03.24-20.47.47:743][  0]LogTexture:Display: Building textures: SkyOcclusion0_9 (AutoDXT)
+[2016.03.24-20.47.47:888][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_177 (BGRA8)
+[2016.03.24-20.47.47:933][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_178 (BGRA8)
+[2016.03.24-20.47.47:975][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_179 (BGRA8)
+[2016.03.24-20.47.48:012][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_181 (BGRA8)
+[2016.03.24-20.47.48:021][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_182 (BGRA8)
+[2016.03.24-20.47.48:031][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_183 (BGRA8)
+[2016.03.24-20.47.48:040][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_184 (BGRA8)
+[2016.03.24-20.47.48:049][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_185 (BGRA8)
+[2016.03.24-20.47.48:059][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_186 (BGRA8)
+[2016.03.24-20.47.48:069][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_190 (BGRA8)
+[2016.03.24-20.47.48:079][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_191 (BGRA8)
+[2016.03.24-20.47.48:088][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_192 (BGRA8)
+[2016.03.24-20.47.48:099][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_193 (BGRA8)
+[2016.03.24-20.47.48:109][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_194 (BGRA8)
+[2016.03.24-20.47.48:119][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_195 (BGRA8)
+[2016.03.24-20.47.48:129][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_196 (BGRA8)
+[2016.03.24-20.47.48:138][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_197 (BGRA8)
+[2016.03.24-20.47.48:151][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_198 (BGRA8)
+[2016.03.24-20.47.48:161][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_199 (BGRA8)
+[2016.03.24-20.47.48:170][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_200 (BGRA8)
+[2016.03.24-20.47.48:178][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_203 (BGRA8)
+[2016.03.24-20.47.48:180][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_204 (BGRA8)
+[2016.03.24-20.47.48:181][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_205 (BGRA8)
+[2016.03.24-20.47.48:184][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_206 (BGRA8)
+[2016.03.24-20.47.48:185][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_207 (BGRA8)
+[2016.03.24-20.47.48:244][  0]LogMaterial: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2016.03.24-20.47.48:436][  0]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2016.03.24-20.47.48:620][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.03.24-20.47.48:704][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.03.24-20.47.48:872][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 167.607ms to complete.
+[2016.03.24-20.47.48:872][  0]LogFileHelpers: Loading map 'SideScrollerExampleMap' took 15.746
+[2016.03.24-20.47.48:960][  0]LogCollectionManager: Loaded 0 collections in 0.004073 seconds
+[2016.03.24-20.47.49:038][  0]LogFileCache: Scanning file cache for directory 'C:/Users/William/Documents/GitHub/Gamefiles/projectcode/Saved/Collections/' took 0.01s
+[2016.03.24-20.47.49:038][  0]LogFileCache: Scanning file cache for directory 'C:/Users/William/Documents/GitHub/Gamefiles/projectcode/Content/Developers/William/Collections/' took 0.01s
+[2016.03.24-20.47.49:038][  0]LogFileCache: Scanning file cache for directory 'C:/Users/William/Documents/GitHub/Gamefiles/projectcode/Content/Collections/' took 0.01s
+[2016.03.24-20.47.49:038][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.03.24-20.47.49:052][  0]LogContentBrowser: Native class hierarchy populated in 0.0143 seconds. Added 1893 classes and 338 folders.
+[2016.03.24-20.47.49:064][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2016.03.24-20.47.49:214][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2016.03.24-20.47.49:279][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2016.03.24-20.47.49:321][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.03.24-20.47.49:327][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.03.24-20.47.49:350][  0]LogLoad: Full Startup: 27.48 seconds (BP compile: 0.16 seconds)
+[2016.03.24-20.47.49:379][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.03.24-20.47.49:518][  0]LogContentStreaming: Texture pool size now 200 MB
+[2016.03.24-20.47.49:801][  2]LogRenderer: Reallocating scene render targets to support 908x600 (Frame:2).
+[2016.03.24-20.47.55:837][ 92]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2016.03.24-20.48.08:279][519]LogAssetRegistry: Asset discovery search completed in 36.8797 seconds
+[2016.03.24-20.48.08:279][519]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.03.24-20.48.08:279][519]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000022 seconds (updated 0 objects)
+[2016.03.24-20.48.13:715][818]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.03.24-20.48.13:739][818]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.03.24-20.48.14:197][818]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0013 seconds. Added 107 classes and 0 folders.
+[2016.03.24-20.48.14:638][818]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2016.03.24-20.48.59:887][993]LogEditorTransaction: Undo Rename Node
+[2016.03.24-20.49.00:010][993]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.24-20.49.00:281][994]LogEditorTransaction: Undo Rename Node
+[2016.03.24-20.49.00:290][994]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2016.03.24-20.49.00:557][995]LogEditorTransaction: Undo Rename Node
+[2016.03.24-20.49.00:565][995]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2016.03.24-20.49.07:813][259]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_1326.EdGraphPin_8076''
+[2016.03.24-20.49.07:821][259]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_6375.EdGraphPin_10494''
+[2016.03.24-20.49.07:821][259]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_12273.EdGraphPin_10455''
+[2016.03.24-20.49.07:821][259]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3913.EdGraphPin_10463''
+[2016.03.24-20.49.07:821][259]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3913.EdGraphPin_10466''
+[2016.03.24-20.49.07:836][259]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_12273.EdGraphPin_10454''
+[2016.03.24-20.49.07:871][259]LogLinker:Warning: Can't find file '/Game/LegacySS/Blueprints/SideScrollerCharacter'
+[2016.03.24-20.49.07:871][259]LogLinker: Can't find file '/Game/LegacySS/Blueprints/SideScrollerCharacter'
+[2016.03.24-20.49.07:871][259]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'BlueprintGeneratedClass'/Game/LegacySS/Blueprints/SideScrollerCharacter.SideScrollerCharacter_C')'
+[2016.03.24-20.49.07:872][259]LogLinker:Warning: Can't find file '/Game/LegacySS/Blueprints/Enemy'
+[2016.03.24-20.49.07:872][259]LogLinker: Can't find file '/Game/LegacySS/Blueprints/Enemy'
+[2016.03.24-20.49.07:872][259]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:DefaultObject: unresolved reference to 'BlueprintGeneratedClass'/Game/LegacySS/Blueprints/Enemy.Enemy_C''
+[2016.03.24-20.49.07:873][259]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3914.EdGraphPin_10488''
+[2016.03.24-20.49.07:873][259]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Self_1.EdGraphPin_6753''
+[2016.03.24-20.49.07:873][259]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3914.EdGraphPin_10487''
+[2016.03.24-20.49.07:874][259]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_ExecutionSequence_601.EdGraphPin_7948''
+[2016.03.24-20.49.07:874][259]LogLinker:Warning: Can't find file '/Game/LegacySS/Effects/Attack'
+[2016.03.24-20.49.07:874][259]LogLinker: Can't find file '/Game/LegacySS/Effects/Attack'
+[2016.03.24-20.49.07:874][259]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:DefaultObject: unresolved reference to 'ParticleSystem'/Game/LegacySS/Effects/Attack.Attack''
+[2016.03.24-20.49.07:875][259]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CommutativeAssociativeBinaryOperator_153.EdGraphPin_11330''
+[2016.03.24-20.49.07:875][259]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_6186.EdGraphPin_7338''
+[2016.03.24-20.49.07:875][259]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CommutativeAssociativeBinaryOperator_153.EdGraphPin_11328''
+[2016.03.24-20.49.07:876][259]LogLinker: Can't find file '/Game/LegacySS/Blueprints/SideScrollerCharacter'
+[2016.03.24-20.49.07:876][259]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'BlueprintGeneratedClass'/Game/LegacySS/Blueprints/SideScrollerCharacter.SideScrollerCharacter_C')'
+[2016.03.24-20.49.07:876][259]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_2046.EdGraphPin_7817''
+[2016.03.24-20.49.07:876][259]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_ExecutionSequence_601.EdGraphPin_7947''
+[2016.03.24-20.49.07:877][259]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_InputAction_128.EdGraphPin_7938''
+[2016.03.24-20.49.07:877][259]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_6611.EdGraphPin_7827''
+[2016.03.24-20.49.07:877][259]LogLinker: Can't find file '/Game/LegacySS/Blueprints/SideScrollerCharacter'
+[2016.03.24-20.49.07:878][259]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'BlueprintGeneratedClass'/Game/LegacySS/Blueprints/SideScrollerCharacter.SideScrollerCharacter_C')'
+[2016.03.24-20.49.07:878][259]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_AddComponent_810.EdGraphPin_11340''
+[2016.03.24-20.49.07:878][259]LogLinker:Warning: Can't find file '/Game/LegacySS/Blueprints/MainProjectile'
+[2016.03.24-20.49.07:878][259]LogLinker: Can't find file '/Game/LegacySS/Blueprints/MainProjectile'
+[2016.03.24-20.49.07:879][259]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:DefaultObject: unresolved reference to 'BlueprintGeneratedClass'/Game/LegacySS/Blueprints/MainProjectile.MainProjectile_C''
+[2016.03.24-20.49.07:879][259]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3414.EdGraphPin_11274''
+[2016.03.24-20.49.07:879][259]LogLinker: Can't find file '/Game/LegacySS/Blueprints/MainProjectile'
+[2016.03.24-20.49.07:879][259]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'BlueprintGeneratedClass'/Game/LegacySS/Blueprints/MainProjectile.MainProjectile_C')'
+[2016.03.24-20.49.07:879][259]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_2476.EdGraphPin_7932''
+[2016.03.24-20.49.07:879][259]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3414.EdGraphPin_11271''
+[2016.03.24-20.49.07:880][259]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_2476.EdGraphPin_7932''
+[2016.03.24-20.49.07:880][259]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3414.EdGraphPin_11272''
+[2016.03.24-20.49.07:881][259]LogLinker: Can't find file '/Game/LegacySS/Blueprints/SideScrollerCharacter'
+[2016.03.24-20.49.07:881][259]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'BlueprintGeneratedClass'/Game/LegacySS/Blueprints/SideScrollerCharacter.SideScrollerCharacter_C')'
+[2016.03.24-20.49.07:881][259]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_8461.EdGraphPin_11285''
+[2016.03.24-20.49.07:881][259]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_8461.EdGraphPin_11287''
+[2016.03.24-20.49.07:881][259]LogLinker: Can't find file '/Game/LegacySS/Blueprints/SideScrollerCharacter'
+[2016.03.24-20.49.07:881][259]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'BlueprintGeneratedClass'/Game/LegacySS/Blueprints/SideScrollerCharacter.SideScrollerCharacter_C')'
+[2016.03.24-20.49.07:883][259]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_8460.EdGraphPin_11297''
+[2016.03.24-20.49.07:883][259]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_5385.EdGraphPin_8010''
+[2016.03.24-20.49.07:883][259]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_8459.EdGraphPin_11315''
+[2016.03.24-20.49.07:884][259]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_8459.EdGraphPin_11317''
+[2016.03.24-20.49.07:884][259]LogLinker: Can't find file '/Game/LegacySS/Blueprints/SideScrollerCharacter'
+[2016.03.24-20.49.07:884][259]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'BlueprintGeneratedClass'/Game/LegacySS/Blueprints/SideScrollerCharacter.SideScrollerCharacter_C')'
+[2016.03.24-20.49.07:884][259]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_5384.EdGraphPin_8016''
+[2016.03.24-20.49.07:885][259]LogLinker: Can't find file '/Game/LegacySS/Blueprints/SideScrollerCharacter'
+[2016.03.24-20.49.07:885][259]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'BlueprintGeneratedClass'/Game/LegacySS/Blueprints/SideScrollerCharacter.SideScrollerCharacter_C')'
+[2016.03.24-20.49.07:885][259]LogLinker: Can't find file '/Game/LegacySS/Blueprints/SideScrollerCharacter'
+[2016.03.24-20.49.07:885][259]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'BlueprintGeneratedClass'/Game/LegacySS/Blueprints/SideScrollerCharacter.SideScrollerCharacter_C')'
+[2016.03.24-20.49.07:886][259]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_1326.EdGraphPin_8078''
+[2016.03.24-20.49.07:887][259]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_3490.EdGraphPin_8088''
+[2016.03.24-20.49.07:887][259]LogLinker: Can't find file '/Game/LegacySS/Blueprints/SideScrollerCharacter'
+[2016.03.24-20.49.07:887][259]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'BlueprintGeneratedClass'/Game/LegacySS/Blueprints/SideScrollerCharacter.SideScrollerCharacter_C')'
+[2016.03.24-20.49.07:941][259]LogBlueprint:Warning: [SideScrollerCharacter] CreatePinForVariable: 'Capsule' variable not found. Base class was probably changed.
+[2016.03.24-20.49.07:942][259]LogBlueprint:Warning: [SideScrollerCharacter] CreatePinForVariable: 'Capsule' variable not found. Base class was probably changed.
+[2016.03.24-20.49.07:943][259]LogBlueprint:Warning: [SideScrollerCharacter] CreatePinForVariable: 'CanDo' variable not found. Base class was probably changed.
+[2016.03.24-20.49.07:943][259]LogBlueprint:Warning: [SideScrollerCharacter] CreatePinForVariable: 'ShootArrow' variable not found. Base class was probably changed.
+[2016.03.24-20.49.07:943][259]LogBlueprint:Warning: [SideScrollerCharacter] CreatePinForVariable: 'ShootLight01' variable not found. Base class was probably changed.
+[2016.03.24-20.49.07:944][259]LogBlueprint:Warning: [SideScrollerCharacter] CreatePinForVariable: 'ShootLight01' variable not found. Base class was probably changed.
+[2016.03.24-20.49.07:944][259]LogBlueprint:Warning: [SideScrollerCharacter] CreatePinForVariable: 'ShootLight02' variable not found. Base class was probably changed.
+[2016.03.24-20.49.07:944][259]LogBlueprint:Warning: [SideScrollerCharacter] CreatePinForVariable: 'ShootLight02' variable not found. Base class was probably changed.
+[2016.03.24-20.49.07:945][259]LogBlueprint:Warning: [SideScrollerCharacter] CreatePinForVariable: 'CanDo' variable not found. Base class was probably changed.
+[2016.03.24-20.49.07:991][259]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2016.03.24-20.50.42:317][499]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_638.EdGraphPin_5232''
+[2016.03.24-20.50.42:317][499]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3016.EdGraphPin_9602''
+[2016.03.24-20.50.42:318][499]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_261.EdGraphPin_5058''
+[2016.03.24-20.50.42:318][499]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_151.EdGraphPin_5014''
+[2016.03.24-20.50.42:318][499]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_InputAction_32.EdGraphPin_5265''
+[2016.03.24-20.50.42:318][499]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_262.EdGraphPin_4991''
+[2016.03.24-20.50.42:318][499]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_638.EdGraphPin_5229''
+[2016.03.24-20.50.42:318][499]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_148.EdGraphPin_5274''
+[2016.03.24-20.50.42:356][499]LogLinker: Can't find file '/Game/LegacySS/Blueprints/SideScrollerCharacter'
+[2016.03.24-20.50.42:357][499]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'BlueprintGeneratedClass'/Game/LegacySS/Blueprints/SideScrollerCharacter.SideScrollerCharacter_C')'
+[2016.03.24-20.50.42:357][499]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2729.EdGraphPin_9567''
+[2016.03.24-20.50.42:357][499]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_280.EdGraphPin_5025''
+[2016.03.24-20.50.42:358][499]LogLinker: Can't find file '/Game/LegacySS/Blueprints/SideScrollerCharacter'
+[2016.03.24-20.50.42:358][499]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'BlueprintGeneratedClass'/Game/LegacySS/Blueprints/SideScrollerCharacter.SideScrollerCharacter_C')'
+[2016.03.24-20.50.42:358][499]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_457.EdGraphPin_5208''
+[2016.03.24-20.50.42:358][499]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3015.EdGraphPin_9620''
+[2016.03.24-20.50.42:359][499]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_501.EdGraphPin_5070''
+[2016.03.24-20.50.42:359][499]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_149.EdGraphPin_5095''
+[2016.03.24-20.50.42:359][499]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_InputAction_31.EdGraphPin_5256''
+[2016.03.24-20.50.42:359][499]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_258.EdGraphPin_5088''
+[2016.03.24-20.50.42:359][499]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_457.EdGraphPin_5205''
+[2016.03.24-20.50.42:360][499]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_148.EdGraphPin_5274''
+[2016.03.24-20.50.42:360][499]LogLinker: Can't find file '/Game/LegacySS/Blueprints/SideScrollerCharacter'
+[2016.03.24-20.50.42:360][499]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'BlueprintGeneratedClass'/Game/LegacySS/Blueprints/SideScrollerCharacter.SideScrollerCharacter_C')'
+[2016.03.24-20.50.42:360][499]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2390.EdGraphPin_9585''
+[2016.03.24-20.50.42:360][499]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_213.EdGraphPin_5106''
+[2016.03.24-20.50.42:361][499]LogLinker: Can't find file '/Game/LegacySS/Blueprints/SideScrollerCharacter'
+[2016.03.24-20.50.42:361][499]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'BlueprintGeneratedClass'/Game/LegacySS/Blueprints/SideScrollerCharacter.SideScrollerCharacter_C')'
+[2016.03.24-20.50.42:361][499]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2543.EdGraphPin_9795''
+[2016.03.24-20.50.42:362][499]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2381.EdGraphPin_9831''
+[2016.03.24-20.50.42:362][499]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_AddComponent_85.EdGraphPin_11042''
+[2016.03.24-20.50.42:363][499]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_AddComponent_84.EdGraphPin_11066''
+[2016.03.24-20.50.42:363][499]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_966.EdGraphPin_5199''
+[2016.03.24-20.50.42:364][499]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_457.EdGraphPin_5206''
+[2016.03.24-20.50.42:364][499]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_AddComponent_84.EdGraphPin_11066''
+[2016.03.24-20.50.42:364][499]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_1111.EdGraphPin_5223''
+[2016.03.24-20.50.42:364][499]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_638.EdGraphPin_5230''
+[2016.03.24-20.50.42:365][499]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_AddComponent_85.EdGraphPin_11042''
+[2016.03.24-20.50.42:365][499]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_148.EdGraphPin_5277''
+[2016.03.24-20.50.42:365][499]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_101.EdGraphPin_5292''
+[2016.03.24-20.50.42:365][499]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_1039.EdGraphPin_5250''
+[2016.03.24-20.50.42:366][499]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_138.EdGraphPin_5286''
+[2016.03.24-20.50.42:367][499]LogLinker: Can't find file '/Game/LegacySS/Blueprints/SideScrollerCharacter'
+[2016.03.24-20.50.42:367][499]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'BlueprintGeneratedClass'/Game/LegacySS/Blueprints/SideScrollerCharacter.SideScrollerCharacter_C')'
+[2016.03.24-20.50.42:368][499]LogLinker: Can't find file '/Game/LegacySS/Blueprints/SideScrollerCharacter'
+[2016.03.24-20.50.42:368][499]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'BlueprintGeneratedClass'/Game/LegacySS/Blueprints/SideScrollerCharacter.SideScrollerCharacter_C')'
+[2016.03.24-20.50.42:368][499]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_AddComponent_85.EdGraphPin_11043''
+[2016.03.24-20.50.42:368][499]LogLinker:Warning: Can't find file '/Game/LegacySS/Effects/Dash'
+[2016.03.24-20.50.42:369][499]LogLinker: Can't find file '/Game/LegacySS/Effects/Dash'
+[2016.03.24-20.50.42:369][499]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:DefaultObject: unresolved reference to 'ParticleSystem'/Game/LegacySS/Effects/Dash.Dash''
+[2016.03.24-20.50.42:369][499]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_6607.EdGraphPin_9823''
+[2016.03.24-20.50.42:369][499]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_2263.EdGraphPin_5571''
+[2016.03.24-20.50.42:370][499]LogLinker: Can't find file '/Game/LegacySS/Blueprints/SideScrollerCharacter'
+[2016.03.24-20.50.42:370][499]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'BlueprintGeneratedClass'/Game/LegacySS/Blueprints/SideScrollerCharacter.SideScrollerCharacter_C')'
+[2016.03.24-20.50.42:370][499]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_AddComponent_84.EdGraphPin_11067''
+[2016.03.24-20.50.42:370][499]LogLinker: Can't find file '/Game/LegacySS/Effects/Dash'
+[2016.03.24-20.50.42:370][499]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:DefaultObject: unresolved reference to 'ParticleSystem'/Game/LegacySS/Effects/Dash.Dash''
+[2016.03.24-20.50.42:370][499]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2542.EdGraphPin_9859''
+[2016.03.24-20.50.42:372][499]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_181.EdGraphPin_5613''
+[2016.03.24-20.50.42:372][499]LogLinker: Can't find file '/Game/LegacySS/Blueprints/SideScrollerCharacter'
+[2016.03.24-20.50.42:372][499]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'BlueprintGeneratedClass'/Game/LegacySS/Blueprints/SideScrollerCharacter.SideScrollerCharacter_C')'
+[2016.03.24-20.50.42:379][499]LogBlueprint:Warning: [SideScrollerCharacter] CreatePinForVariable: 'CanDash' variable not found. Base class was probably changed.
+[2016.03.24-20.50.42:380][499]LogBlueprint:Warning: [SideScrollerCharacter] CreatePinForVariable: 'CanDash' variable not found. Base class was probably changed.
+[2016.03.24-20.50.42:380][499]LogBlueprint:Warning: [SideScrollerCharacter] CreatePinForVariable: 'CanDash' variable not found. Base class was probably changed.
+[2016.03.24-20.50.42:380][499]LogBlueprint:Warning: [SideScrollerCharacter] CreatePinForVariable: 'CanDash' variable not found. Base class was probably changed.
+[2016.03.24-20.50.42:380][499]LogBlueprint:Warning: [SideScrollerCharacter] CreatePinForVariable: 'CanDash' variable not found. Base class was probably changed.
+[2016.03.24-20.50.42:380][499]LogBlueprint:Warning: [SideScrollerCharacter] CreatePinForVariable: 'CanDash' variable not found. Base class was probably changed.
+[2016.03.24-20.50.42:381][499]LogBlueprint:Warning: [SideScrollerCharacter] CreatePinForVariable: 'DashStop' variable not found. Base class was probably changed.
+[2016.03.24-20.50.42:381][499]LogBlueprint:Warning: [SideScrollerCharacter] CreatePinForVariable: 'DashStop' variable not found. Base class was probably changed.
+[2016.03.24-20.50.42:381][499]LogBlueprint:Warning: [SideScrollerCharacter] CreatePinForVariable: 'DashStop' variable not found. Base class was probably changed.
+[2016.03.24-20.50.42:382][499]LogBlueprint:Warning: [SideScrollerCharacter] CreatePinForVariable: 'DashSocket' variable not found. Base class was probably changed.
+[2016.03.24-20.50.42:382][499]LogBlueprint:Warning: [SideScrollerCharacter] CreatePinForVariable: 'DashSocket' variable not found. Base class was probably changed.
+[2016.03.24-20.51.00:906][359]BlueprintLog: New page: Compile SideScrollerCharacter
+[2016.03.24-20.51.00:961][359]LogBlueprint:Error: [compiler SideScrollerCharacter] Error Spawn node  SpawnActor NONE  must have a class specified.
+[2016.03.24-20.51.00:963][359]LogBlueprint:Warning: [compiler SideScrollerCharacter] Warning Could not find a variable named "DashSocket" in 'SideScrollerCharacter_C'.
+Make sure 'SideScrollerCharacter_C' has been compiled for  Get DashSocket 
+[2016.03.24-20.51.00:970][359]LogBlueprint:Warning: [compiler SideScrollerCharacter] Warning Could not find a variable named "DashSocket" in 'SideScrollerCharacter_C'.
+Make sure 'SideScrollerCharacter_C' has been compiled for  Get DashSocket 
+[2016.03.24-20.51.00:970][359]LogBlueprint:Warning: [compiler SideScrollerCharacter] Warning Could not find a variable named "DashStop" in 'SideScrollerCharacter_C'.
+Make sure 'SideScrollerCharacter_C' has been compiled for  Set DashStop 
+[2016.03.24-20.51.00:970][359]LogBlueprint:Warning: [compiler SideScrollerCharacter] Warning Could not find a variable named "DashStop" in 'SideScrollerCharacter_C'.
+Make sure 'SideScrollerCharacter_C' has been compiled for  Get DashStop 
+[2016.03.24-20.51.00:970][359]LogBlueprint:Warning: [compiler SideScrollerCharacter] Warning InputAction Event references unknown Action 'DashRight' for  InputAction DashRight 
+[2016.03.24-20.51.00:970][359]LogBlueprint:Warning: [compiler SideScrollerCharacter] Warning InputAction Event references unknown Action 'DashLeft' for  InputAction DashLeft 
+[2016.03.24-20.51.00:971][359]LogBlueprint:Warning: [compiler SideScrollerCharacter] Warning Could not find a variable named "CanDash" in 'SideScrollerCharacter_C'.
+Make sure 'SideScrollerCharacter_C' has been compiled for  Set CanDash 
+[2016.03.24-20.51.00:971][359]LogBlueprint:Warning: [compiler SideScrollerCharacter] Warning Could not find a variable named "CanDash" in 'SideScrollerCharacter_C'.
+Make sure 'SideScrollerCharacter_C' has been compiled for  Get CanDash 
+[2016.03.24-20.51.00:971][359]LogBlueprint:Warning: [compiler SideScrollerCharacter] Warning Could not find a variable named "CanDash" in 'SideScrollerCharacter_C'.
+Make sure 'SideScrollerCharacter_C' has been compiled for  Set CanDash 
+[2016.03.24-20.51.00:971][359]LogBlueprint:Warning: [compiler SideScrollerCharacter] Warning Could not find a variable named "CanDash" in 'SideScrollerCharacter_C'.
+Make sure 'SideScrollerCharacter_C' has been compiled for  Get CanDash 
+[2016.03.24-20.51.00:971][359]LogBlueprint:Warning: [compiler SideScrollerCharacter] Warning Could not find a variable named "CanDo" in 'SideScrollerCharacter_C'.
+Make sure 'SideScrollerCharacter_C' has been compiled for  Get CanDo 
+[2016.03.24-20.51.00:972][359]LogBlueprint:Warning: [compiler SideScrollerCharacter] Warning Could not find a variable named "ShootLight02" in 'SideScrollerCharacter_C'.
+Make sure 'SideScrollerCharacter_C' has been compiled for  Get ShootLight02 
+[2016.03.24-20.51.00:972][359]LogBlueprint:Warning: [compiler SideScrollerCharacter] Warning Could not find a variable named "ShootLight02" in 'SideScrollerCharacter_C'.
+Make sure 'SideScrollerCharacter_C' has been compiled for  Get ShootLight02 
+[2016.03.24-20.51.00:972][359]LogBlueprint:Warning: [compiler SideScrollerCharacter] Warning Could not find a variable named "ShootLight01" in 'SideScrollerCharacter_C'.
+Make sure 'SideScrollerCharacter_C' has been compiled for  Get ShootLight01 
+[2016.03.24-20.51.00:972][359]LogBlueprint:Warning: [compiler SideScrollerCharacter] Warning Could not find a variable named "ShootLight01" in 'SideScrollerCharacter_C'.
+Make sure 'SideScrollerCharacter_C' has been compiled for  Get ShootLight01 
+[2016.03.24-20.51.00:972][359]LogBlueprint:Warning: [compiler SideScrollerCharacter] Warning InputAction Event references unknown Action 'Attack_02' for  InputAction Attack_02 
+[2016.03.24-20.51.00:972][359]LogBlueprint:Warning: [compiler SideScrollerCharacter] Warning Could not find a variable named "ShootArrow" in 'SideScrollerCharacter_C'.
+Make sure 'SideScrollerCharacter_C' has been compiled for  Get ShootArrow 
+[2016.03.24-20.51.00:972][359]LogBlueprint:Warning: [compiler SideScrollerCharacter] Warning Could not find a variable named "CanDo" in 'SideScrollerCharacter_C'.
+Make sure 'SideScrollerCharacter_C' has been compiled for  Get CanDo 
+[2016.03.24-20.51.00:972][359]LogBlueprint:Warning: [compiler SideScrollerCharacter] Warning Could not find a variable named "Capsule" in 'SideScrollerCharacter_C'.
+Make sure 'SideScrollerCharacter_C' has been compiled for  Get Capsule 
+[2016.03.24-20.51.00:972][359]LogBlueprint:Warning: [compiler SideScrollerCharacter] Warning Could not find a variable named "Capsule" in 'SideScrollerCharacter_C'.
+Make sure 'SideScrollerCharacter_C' has been compiled for  Get Capsule 
+[2016.03.24-20.51.00:972][359]LogBlueprint:Warning: [compiler SideScrollerCharacter] Warning InputAction Event references unknown Action 'Attack_01' for  InputAction Attack_01 
+[2016.03.24-20.51.00:981][359]LogBlueprint:Error: [compiler SideScrollerCharacter] Error The property associated with  Dash Socket  could not be found
+[2016.03.24-20.51.00:981][359]LogBlueprint:Error: [compiler SideScrollerCharacter] Error The property associated with  Capsule  could not be found
+[2016.03.24-20.51.00:982][359]LogBlueprint:Error: [compiler SideScrollerCharacter] Error The property associated with  Capsule  could not be found
+[2016.03.24-20.51.00:982][359]LogBlueprint:Error: [compiler SideScrollerCharacter] Error The property associated with  Can Do  could not be found
+[2016.03.24-20.51.00:982][359]LogBlueprint:Error: [compiler SideScrollerCharacter] Error The property associated with  Shoot Light 01  could not be found
+[2016.03.24-20.51.00:982][359]LogBlueprint:Error: [compiler SideScrollerCharacter] Error The property associated with  Shoot Light 01  could not be found
+[2016.03.24-20.51.00:982][359]LogBlueprint:Error: [compiler SideScrollerCharacter] Error The property associated with  Shoot Light 02  could not be found
+[2016.03.24-20.51.00:982][359]LogBlueprint:Error: [compiler SideScrollerCharacter] Error The property associated with  Shoot Light 02  could not be found
+[2016.03.24-20.51.00:983][359]LogBlueprint:Error: [compiler SideScrollerCharacter] Error The property associated with  Can Do  could not be found
+[2016.03.24-20.51.00:983][359]LogBlueprint:Error: [compiler SideScrollerCharacter] Error The property associated with  Can Dash  could not be found
+[2016.03.24-20.51.00:983][359]LogBlueprint:Error: [compiler SideScrollerCharacter] Error The property associated with  Can Dash  could not be found
+[2016.03.24-20.51.00:983][359]LogBlueprint:Error: [compiler SideScrollerCharacter] Error The property associated with  Can Dash  could not be found
+[2016.03.24-20.51.00:983][359]LogBlueprint:Error: [compiler SideScrollerCharacter] Error The property associated with  Can Dash  could not be found
+[2016.03.24-20.51.00:983][359]LogBlueprint:Error: [compiler SideScrollerCharacter] Error The property associated with  Dash Stop  could not be found
+[2016.03.24-20.51.00:983][359]LogBlueprint:Error: [compiler SideScrollerCharacter] Error The property associated with  Dash Stop  could not be found
+[2016.03.24-20.51.00:984][359]LogBlueprint:Error: [compiler SideScrollerCharacter] Error The property associated with  Dash Socket  could not be found
+[2016.03.24-20.51.01:329][359]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2016.03.24-20.51.01:376][359]LogBlueprint:Warning: [compiler SideScrollerCharacter] Warning [0219.51] Compile of SideScrollerCharacter failed. 17 Fatal Issue(s) 21 Warning(s) [in 469 ms]
+[2016.03.24-20.51.01:387][359]BlueprintEditorCompileResults:Error: Error Spawn node  SpawnActor NONE  must have a class specified.
+[2016.03.24-20.51.01:387][359]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "DashSocket" in 'SideScrollerCharacter_C'.
+Make sure 'SideScrollerCharacter_C' has been compiled for  Get DashSocket 
+[2016.03.24-20.51.01:387][359]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "DashSocket" in 'SideScrollerCharacter_C'.
+Make sure 'SideScrollerCharacter_C' has been compiled for  Get DashSocket 
+[2016.03.24-20.51.01:387][359]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "DashStop" in 'SideScrollerCharacter_C'.
+Make sure 'SideScrollerCharacter_C' has been compiled for  Set DashStop 
+[2016.03.24-20.51.01:387][359]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "DashStop" in 'SideScrollerCharacter_C'.
+Make sure 'SideScrollerCharacter_C' has been compiled for  Get DashStop 
+[2016.03.24-20.51.01:387][359]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'DashRight' for  InputAction DashRight 
+[2016.03.24-20.51.01:387][359]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'DashLeft' for  InputAction DashLeft 
+[2016.03.24-20.51.01:387][359]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "CanDash" in 'SideScrollerCharacter_C'.
+Make sure 'SideScrollerCharacter_C' has been compiled for  Set CanDash 
+[2016.03.24-20.51.01:387][359]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "CanDash" in 'SideScrollerCharacter_C'.
+Make sure 'SideScrollerCharacter_C' has been compiled for  Get CanDash 
+[2016.03.24-20.51.01:387][359]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "CanDash" in 'SideScrollerCharacter_C'.
+Make sure 'SideScrollerCharacter_C' has been compiled for  Set CanDash 
+[2016.03.24-20.51.01:387][359]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "CanDash" in 'SideScrollerCharacter_C'.
+Make sure 'SideScrollerCharacter_C' has been compiled for  Get CanDash 
+[2016.03.24-20.51.01:387][359]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "CanDo" in 'SideScrollerCharacter_C'.
+Make sure 'SideScrollerCharacter_C' has been compiled for  Get CanDo 
+[2016.03.24-20.51.01:387][359]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "ShootLight02" in 'SideScrollerCharacter_C'.
+Make sure 'SideScrollerCharacter_C' has been compiled for  Get ShootLight02 
+[2016.03.24-20.51.01:387][359]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "ShootLight02" in 'SideScrollerCharacter_C'.
+Make sure 'SideScrollerCharacter_C' has been compiled for  Get ShootLight02 
+[2016.03.24-20.51.01:387][359]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "ShootLight01" in 'SideScrollerCharacter_C'.
+Make sure 'SideScrollerCharacter_C' has been compiled for  Get ShootLight01 
+[2016.03.24-20.51.01:387][359]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "ShootLight01" in 'SideScrollerCharacter_C'.
+Make sure 'SideScrollerCharacter_C' has been compiled for  Get ShootLight01 
+[2016.03.24-20.51.01:387][359]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'Attack_02' for  InputAction Attack_02 
+[2016.03.24-20.51.01:387][359]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "ShootArrow" in 'SideScrollerCharacter_C'.
+Make sure 'SideScrollerCharacter_C' has been compiled for  Get ShootArrow 
+[2016.03.24-20.51.01:387][359]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "CanDo" in 'SideScrollerCharacter_C'.
+Make sure 'SideScrollerCharacter_C' has been compiled for  Get CanDo 
+[2016.03.24-20.51.01:387][359]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Capsule" in 'SideScrollerCharacter_C'.
+Make sure 'SideScrollerCharacter_C' has been compiled for  Get Capsule 
+[2016.03.24-20.51.01:387][359]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Capsule" in 'SideScrollerCharacter_C'.
+Make sure 'SideScrollerCharacter_C' has been compiled for  Get Capsule 
+[2016.03.24-20.51.01:387][359]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'Attack_01' for  InputAction Attack_01 
+[2016.03.24-20.51.01:387][359]BlueprintEditorCompileResults:Error: Error The property associated with  Dash Socket  could not be found
+[2016.03.24-20.51.01:387][359]BlueprintEditorCompileResults:Error: Error The property associated with  Capsule  could not be found
+[2016.03.24-20.51.01:387][359]BlueprintEditorCompileResults:Error: Error The property associated with  Capsule  could not be found
+[2016.03.24-20.51.01:387][359]BlueprintEditorCompileResults:Error: Error The property associated with  Can Do  could not be found
+[2016.03.24-20.51.01:387][359]BlueprintEditorCompileResults:Error: Error The property associated with  Shoot Light 01  could not be found
+[2016.03.24-20.51.01:387][359]BlueprintEditorCompileResults:Error: Error The property associated with  Shoot Light 01  could not be found
+[2016.03.24-20.51.01:388][359]BlueprintEditorCompileResults:Error: Error The property associated with  Shoot Light 02  could not be found
+[2016.03.24-20.51.01:388][359]BlueprintEditorCompileResults:Error: Error The property associated with  Shoot Light 02  could not be found
+[2016.03.24-20.51.01:388][359]BlueprintEditorCompileResults:Error: Error The property associated with  Can Do  could not be found
+[2016.03.24-20.51.01:388][359]BlueprintEditorCompileResults:Error: Error The property associated with  Can Dash  could not be found
+[2016.03.24-20.51.01:388][359]BlueprintEditorCompileResults:Error: Error The property associated with  Can Dash  could not be found
+[2016.03.24-20.51.01:388][359]BlueprintEditorCompileResults:Error: Error The property associated with  Can Dash  could not be found
+[2016.03.24-20.51.01:388][359]BlueprintEditorCompileResults:Error: Error The property associated with  Can Dash  could not be found
+[2016.03.24-20.51.01:388][359]BlueprintEditorCompileResults:Error: Error The property associated with  Dash Stop  could not be found
+[2016.03.24-20.51.01:388][359]BlueprintEditorCompileResults:Error: Error The property associated with  Dash Stop  could not be found
+[2016.03.24-20.51.01:388][359]BlueprintEditorCompileResults:Error: Error The property associated with  Dash Socket  could not be found
+[2016.03.24-20.51.01:388][359]BlueprintEditorCompileResults:Warning: Warning [0219.51] Compile of SideScrollerCharacter failed. 17 Fatal Issue(s) 21 Warning(s) [in 469 ms]
+[2016.03.24-20.54.06:004][677]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.24-20.54.14:457][933]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2016.03.24-20.56.58:480][968]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_6376.EdGraphPin_3351''
+[2016.03.24-20.57.09:567][344]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_6376.EdGraphPin_3351''
+[2016.03.24-20.57.52:449][355]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2016.03.24-20.58.01:054][735]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2016.03.24-20.58.08:091][953]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2016.03.24-20.58.38:395][207]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2016.03.24-20.58.42:220][334]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
+[2016.03.24-20.58.47:627][495]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
+[2016.03.24-20.59.24:950][828]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_11) Not registered. Aborting.
+[2016.03.24-20.59.33:462][ 72]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_12) Not registered. Aborting.
+[2016.03.24-20.59.49:710][709]LogSavePackage: Save=276.846985ms
+[2016.03.24-20.59.49:710][709]LogSavePackage: Moving '../../../../../../Users/William/Documents/GitHub/Gamefiles/projectcode/Saved/SideScrollerCharacter96D99E1E4291B7711D03CAA51581CC2F.tmp' to '../../../../../../Users/William/Documents/GitHub/Gamefiles/projectcode/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
+[2016.03.24-20.59.49:716][709]LogSavePackage: Total save time: 331.569627ms
+[2016.03.24-20.59.49:716][709]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/William/Documents/GitHub/Gamefiles/projectcode/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset
+[2016.03.24-21.00.39:426][566]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_13) Not registered. Aborting.
+[2016.03.24-21.01.01:429][481]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_14) Not registered. Aborting.
+[2016.03.24-21.01.10:597][735]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_15) Not registered. Aborting.
+[2016.03.24-21.02.13:032][ 24]BlueprintLog: New page: Compile SideScrollerCharacter
+[2016.03.24-21.02.13:092][ 24]LogBlueprint:Error: [compiler SideScrollerCharacter] Error Spawn node  SpawnActor NONE  must have a class specified.
+[2016.03.24-21.02.13:093][ 24]LogBlueprint:Warning: [compiler SideScrollerCharacter] Warning InputAction Event references unknown Action 'DashRight' for  InputAction DashRight 
+[2016.03.24-21.02.13:093][ 24]LogBlueprint:Warning: [compiler SideScrollerCharacter] Warning InputAction Event references unknown Action 'DashLeft' for  InputAction DashLeft 
+[2016.03.24-21.02.13:093][ 24]LogBlueprint:Warning: [compiler SideScrollerCharacter] Warning InputAction Event references unknown Action 'Attack_02' for  InputAction Attack_02 
+[2016.03.24-21.02.13:094][ 24]LogBlueprint:Warning: [compiler SideScrollerCharacter] Warning InputAction Event references unknown Action 'Attack_01' for  InputAction Attack_01 
+[2016.03.24-21.02.13:095][ 24]LogBlueprint:Error: [compiler SideScrollerCharacter] Error This blueprint (self) is not a LightComponent, therefore ' Target ' must have a connection.
+[2016.03.24-21.02.13:095][ 24]LogBlueprint:Error: [compiler SideScrollerCharacter] Error This blueprint (self) is not a LightComponent, therefore ' Target ' must have a connection.
+[2016.03.24-21.02.13:158][ 24]LogUObjectGlobals:Warning: Guid is in use by CapsuleComponent /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerCharacter_C_0.CollisionCylinder and CapsuleComponent /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerCharacter_C_1.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.03.24-21.02.13:158][ 24]LogUObjectGlobals:Warning: Guid is in use by ArrowComponent /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerCharacter_C_0.Arrow and ArrowComponent /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerCharacter_C_1.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.03.24-21.02.13:158][ 24]LogUObjectGlobals:Warning: Guid is in use by CharacterMovementComponent /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerCharacter_C_0.CharMoveComp and CharacterMovementComponent /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerCharacter_C_1.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.03.24-21.02.13:158][ 24]LogUObjectGlobals:Warning: Guid is in use by SkeletalMeshComponent /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerCharacter_C_0.CharacterMesh0 and SkeletalMeshComponent /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerCharacter_C_1.CharacterMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.03.24-21.02.13:345][ 24]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_16) Not registered. Aborting.
+[2016.03.24-21.02.13:400][ 24]LogBlueprint:Warning: [compiler SideScrollerCharacter] Warning [0891.53] Compile of SideScrollerCharacter failed. 3 Fatal Issue(s) 4 Warning(s) [in 367 ms]
+[2016.03.24-21.02.13:400][ 24]BlueprintEditorCompileResults:Error: Error Spawn node  SpawnActor NONE  must have a class specified.
+[2016.03.24-21.02.13:400][ 24]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'DashRight' for  InputAction DashRight 
+[2016.03.24-21.02.13:400][ 24]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'DashLeft' for  InputAction DashLeft 
+[2016.03.24-21.02.13:400][ 24]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'Attack_02' for  InputAction Attack_02 
+[2016.03.24-21.02.13:400][ 24]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'Attack_01' for  InputAction Attack_01 
+[2016.03.24-21.02.13:400][ 24]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a LightComponent, therefore ' Target ' must have a connection.
+[2016.03.24-21.02.13:401][ 24]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a LightComponent, therefore ' Target ' must have a connection.
+[2016.03.24-21.02.13:401][ 24]BlueprintEditorCompileResults:Warning: Warning [0891.53] Compile of SideScrollerCharacter failed. 3 Fatal Issue(s) 4 Warning(s) [in 367 ms]
+[2016.03.24-21.02.27:215][462]LogSavePackage: Save=154.457642ms
+[2016.03.24-21.02.27:215][462]LogSavePackage: Moving '../../../../../../Users/William/Documents/GitHub/Gamefiles/projectcode/Saved/SideScrollerCharacter410B97AF4843B3410F5995B139732694.tmp' to '../../../../../../Users/William/Documents/GitHub/Gamefiles/projectcode/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
+[2016.03.24-21.02.27:219][462]LogSavePackage: Total save time: 163.356278ms
+[2016.03.24-21.02.27:219][462]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/William/Documents/GitHub/Gamefiles/projectcode/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset
+[2016.03.24-21.02.55:284][310]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.24-21.02.56:134][310]LogSavePackage: Save=766.933777ms
+[2016.03.24-21.02.56:134][310]LogSavePackage: Moving '../../../../../../Users/William/Documents/GitHub/Gamefiles/projectcode/Saved/SideScrollerExampleMap_Auto122ED6253454A4864AE7EE0ACAF7996B1.tmp' to '../../../../../../Users/William/Documents/GitHub/Gamefiles/projectcode/Saved/Autosaves/Game/SideScrollerBP/Maps/SideScrollerExampleMap_Auto1.umap'
+[2016.03.24-21.02.56:151][310]LogSavePackage: Total save time: 805.869024ms
+[2016.03.24-21.02.56:151][310]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/William/Documents/GitHub/Gamefiles/projectcode/Saved/Autosaves/Game/SideScrollerBP/Maps/SideScrollerExampleMap_Auto1.umap
+[2016.03.24-21.02.56:163][310]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SideScrollerBP/Maps/SideScrollerExampleMap' took 0.879
+[2016.03.24-21.02.56:163][310]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.879
+[2016.03.24-21.02.58:542][375]LogSavePackage: Save=213.292404ms
+[2016.03.24-21.02.58:543][375]LogSavePackage: Moving '../../../../../../Users/William/Documents/GitHub/Gamefiles/projectcode/Saved/SideScrollerCharacter4DC60ED24898A212B1FF5BB380CBC1AB.tmp' to '../../../../../../Users/William/Documents/GitHub/Gamefiles/projectcode/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
+[2016.03.24-21.02.58:546][375]LogSavePackage: Total save time: 222.685829ms
+[2016.03.24-21.02.58:546][375]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/William/Documents/GitHub/Gamefiles/projectcode/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset
+[2016.03.24-21.03.15:714][778]LogRenderer: Reallocating scene render targets to support 908x608 (Frame:17967).
+[2016.03.24-21.03.57:557][983]LogSavePackage: Save=140.074158ms
+[2016.03.24-21.03.57:557][983]LogSavePackage: Moving '../../../../../../Users/William/Documents/GitHub/Gamefiles/projectcode/Saved/SideScrollerCharacterED2B95EF42889A8B4DA4BEAF5699553B.tmp' to '../../../../../../Users/William/Documents/GitHub/Gamefiles/projectcode/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
+[2016.03.24-21.03.57:559][983]LogSavePackage: Total save time: 146.938972ms
+[2016.03.24-21.03.57:559][983]LogSavePackage:Display: Finished SavePackage .
