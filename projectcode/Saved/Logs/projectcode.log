@@ -581,4 +581,109 @@ Make sure 'SideScrollerCharacter_C' has been compiled for  Get Capsule
 [2016.03.24-21.03.57:557][983]LogSavePackage: Save=140.074158ms
 [2016.03.24-21.03.57:557][983]LogSavePackage: Moving '../../../../../../Users/William/Documents/GitHub/Gamefiles/projectcode/Saved/SideScrollerCharacterED2B95EF42889A8B4DA4BEAF5699553B.tmp' to '../../../../../../Users/William/Documents/GitHub/Gamefiles/projectcode/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
 [2016.03.24-21.03.57:559][983]LogSavePackage: Total save time: 146.938972ms
-[2016.03.24-21.03.57:559][983]LogSavePackage:Display: Finished SavePackage .
+[2016.03.24-21.03.57:559][983]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/William/Documents/GitHub/Gamefiles/projectcode/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset
+[2016.03.24-21.14.46:965][229]BlueprintLog: New page: Compile SideScrollerCharacter
+[2016.03.24-21.14.47:017][229]LogBlueprint:Error: [compiler SideScrollerCharacter] Error Spawn node  SpawnActor NONE  must have a class specified.
+[2016.03.24-21.14.47:018][229]LogBlueprint:Warning: [compiler SideScrollerCharacter] Warning InputAction Event references unknown Action 'DashRight' for  InputAction DashRight 
+[2016.03.24-21.14.47:018][229]LogBlueprint:Warning: [compiler SideScrollerCharacter] Warning InputAction Event references unknown Action 'DashLeft' for  InputAction DashLeft 
+[2016.03.24-21.14.47:019][229]LogBlueprint:Warning: [compiler SideScrollerCharacter] Warning InputAction Event references unknown Action 'Attack_02' for  InputAction Attack_02 
+[2016.03.24-21.14.47:019][229]LogBlueprint:Warning: [compiler SideScrollerCharacter] Warning InputAction Event references unknown Action 'Attack_01' for  InputAction Attack_01 
+[2016.03.24-21.14.47:021][229]LogBlueprint:Error: [compiler SideScrollerCharacter] Error This blueprint (self) is not a LightComponent, therefore ' Target ' must have a connection.
+[2016.03.24-21.14.47:021][229]LogBlueprint:Error: [compiler SideScrollerCharacter] Error This blueprint (self) is not a LightComponent, therefore ' Target ' must have a connection.
+[2016.03.24-21.14.47:138][229]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.24-21.14.47:173][229]LogBlueprint:Warning: [compiler SideScrollerCharacter] Warning [1645.30] Compile of SideScrollerCharacter failed. 3 Fatal Issue(s) 4 Warning(s) [in 208 ms]
+[2016.03.24-21.14.47:173][229]BlueprintEditorCompileResults:Error: Error Spawn node  SpawnActor NONE  must have a class specified.
+[2016.03.24-21.14.47:173][229]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'DashRight' for  InputAction DashRight 
+[2016.03.24-21.14.47:173][229]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'DashLeft' for  InputAction DashLeft 
+[2016.03.24-21.14.47:173][229]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'Attack_02' for  InputAction Attack_02 
+[2016.03.24-21.14.47:174][229]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'Attack_01' for  InputAction Attack_01 
+[2016.03.24-21.14.47:174][229]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a LightComponent, therefore ' Target ' must have a connection.
+[2016.03.24-21.14.47:174][229]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a LightComponent, therefore ' Target ' must have a connection.
+[2016.03.24-21.14.47:174][229]BlueprintEditorCompileResults:Warning: Warning [1645.30] Compile of SideScrollerCharacter failed. 3 Fatal Issue(s) 4 Warning(s) [in 208 ms]
+[2016.03.24-21.14.49:317][357]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.24-21.14.50:567][432]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_17) Not registered. Aborting.
+[2016.03.24-21.14.52:484][547]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_18) Not registered. Aborting.
+[2016.03.24-21.14.54:363][660]BlueprintLog: New page: Compile SideScrollerCharacter
+[2016.03.24-21.14.54:415][660]LogBlueprint:Error: [compiler SideScrollerCharacter] Error Spawn node  SpawnActor NONE  must have a class specified.
+[2016.03.24-21.14.54:416][660]LogBlueprint:Warning: [compiler SideScrollerCharacter] Warning InputAction Event references unknown Action 'DashRight' for  InputAction DashRight 
+[2016.03.24-21.14.54:416][660]LogBlueprint:Warning: [compiler SideScrollerCharacter] Warning InputAction Event references unknown Action 'DashLeft' for  InputAction DashLeft 
+[2016.03.24-21.14.54:416][660]LogBlueprint:Warning: [compiler SideScrollerCharacter] Warning InputAction Event references unknown Action 'Attack_02' for  InputAction Attack_02 
+[2016.03.24-21.14.54:417][660]LogBlueprint:Warning: [compiler SideScrollerCharacter] Warning InputAction Event references unknown Action 'Attack_01' for  InputAction Attack_01 
+[2016.03.24-21.14.54:418][660]LogBlueprint:Error: [compiler SideScrollerCharacter] Error This blueprint (self) is not a LightComponent, therefore ' Target ' must have a connection.
+[2016.03.24-21.14.54:418][660]LogBlueprint:Error: [compiler SideScrollerCharacter] Error This blueprint (self) is not a LightComponent, therefore ' Target ' must have a connection.
+[2016.03.24-21.14.54:534][660]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_19) Not registered. Aborting.
+[2016.03.24-21.14.54:569][660]LogBlueprint:Warning: [compiler SideScrollerCharacter] Warning [1652.70] Compile of SideScrollerCharacter failed. 3 Fatal Issue(s) 4 Warning(s) [in 206 ms]
+[2016.03.24-21.14.54:569][660]BlueprintEditorCompileResults:Error: Error Spawn node  SpawnActor NONE  must have a class specified.
+[2016.03.24-21.14.54:569][660]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'DashRight' for  InputAction DashRight 
+[2016.03.24-21.14.54:569][660]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'DashLeft' for  InputAction DashLeft 
+[2016.03.24-21.14.54:569][660]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'Attack_02' for  InputAction Attack_02 
+[2016.03.24-21.14.54:569][660]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'Attack_01' for  InputAction Attack_01 
+[2016.03.24-21.14.54:569][660]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a LightComponent, therefore ' Target ' must have a connection.
+[2016.03.24-21.14.54:569][660]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a LightComponent, therefore ' Target ' must have a connection.
+[2016.03.24-21.14.54:569][660]BlueprintEditorCompileResults:Warning: Warning [1652.70] Compile of SideScrollerCharacter failed. 3 Fatal Issue(s) 4 Warning(s) [in 206 ms]
+[2016.03.24-21.14.56:778][792]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.24-21.14.58:408][890]BlueprintLog: New page: Compile SideScrollerCharacter
+[2016.03.24-21.14.58:459][890]LogBlueprint:Error: [compiler SideScrollerCharacter] Error Spawn node  SpawnActor NONE  must have a class specified.
+[2016.03.24-21.14.58:460][890]LogBlueprint:Warning: [compiler SideScrollerCharacter] Warning InputAction Event references unknown Action 'DashRight' for  InputAction DashRight 
+[2016.03.24-21.14.58:460][890]LogBlueprint:Warning: [compiler SideScrollerCharacter] Warning InputAction Event references unknown Action 'DashLeft' for  InputAction DashLeft 
+[2016.03.24-21.14.58:461][890]LogBlueprint:Warning: [compiler SideScrollerCharacter] Warning InputAction Event references unknown Action 'Attack_02' for  InputAction Attack_02 
+[2016.03.24-21.14.58:461][890]LogBlueprint:Warning: [compiler SideScrollerCharacter] Warning InputAction Event references unknown Action 'Attack_01' for  InputAction Attack_01 
+[2016.03.24-21.14.58:463][890]LogBlueprint:Error: [compiler SideScrollerCharacter] Error This blueprint (self) is not a LightComponent, therefore ' Target ' must have a connection.
+[2016.03.24-21.14.58:463][890]LogBlueprint:Error: [compiler SideScrollerCharacter] Error This blueprint (self) is not a LightComponent, therefore ' Target ' must have a connection.
+[2016.03.24-21.14.58:577][890]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_20) Not registered. Aborting.
+[2016.03.24-21.14.58:614][890]LogBlueprint:Warning: [compiler SideScrollerCharacter] Warning [1656.74] Compile of SideScrollerCharacter failed. 3 Fatal Issue(s) 4 Warning(s) [in 205 ms]
+[2016.03.24-21.14.58:614][890]BlueprintEditorCompileResults:Error: Error Spawn node  SpawnActor NONE  must have a class specified.
+[2016.03.24-21.14.58:614][890]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'DashRight' for  InputAction DashRight 
+[2016.03.24-21.14.58:614][890]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'DashLeft' for  InputAction DashLeft 
+[2016.03.24-21.14.58:614][890]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'Attack_02' for  InputAction Attack_02 
+[2016.03.24-21.14.58:614][890]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'Attack_01' for  InputAction Attack_01 
+[2016.03.24-21.14.58:614][890]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a LightComponent, therefore ' Target ' must have a connection.
+[2016.03.24-21.14.58:614][890]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a LightComponent, therefore ' Target ' must have a connection.
+[2016.03.24-21.14.58:614][890]BlueprintEditorCompileResults:Warning: Warning [1656.74] Compile of SideScrollerCharacter failed. 3 Fatal Issue(s) 4 Warning(s) [in 205 ms]
+[2016.03.24-21.15.40:484][397]LogEditorTransaction: Undo Edit Execute when Paused
+[2016.03.24-21.15.40:550][397]LogActorComponent: ~FComponentReregisterContext: (/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerCharacter_C_1.CharacterMesh0) Component already registered.
+[2016.03.24-21.15.40:571][397]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.24-21.15.41:174][422]LogEditorTransaction: Undo Edit Execute when Paused
+[2016.03.24-21.15.41:185][422]LogActorComponent: ~FComponentReregisterContext: (/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerCharacter_C_1.CharacterMesh0) Component already registered.
+[2016.03.24-21.15.41:205][422]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_21) Not registered. Aborting.
+[2016.03.24-21.15.42:219][476]LogEditorTransaction: Undo Edit Consume Input
+[2016.03.24-21.15.42:230][476]LogActorComponent: ~FComponentReregisterContext: (/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerCharacter_C_1.CharacterMesh0) Component already registered.
+[2016.03.24-21.15.42:250][476]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_22) Not registered. Aborting.
+[2016.03.24-21.15.42:649][493]LogEditorTransaction: Undo Edit Override Parent Binding
+[2016.03.24-21.15.42:660][493]LogActorComponent: ~FComponentReregisterContext: (/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerCharacter_C_1.CharacterMesh0) Component already registered.
+[2016.03.24-21.15.42:680][493]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_23) Not registered. Aborting.
+[2016.03.24-21.15.43:144][513]LogEditorTransaction: Undo Edit Consume Input
+[2016.03.24-21.15.43:171][513]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_24) Not registered. Aborting.
+[2016.03.24-21.15.44:859][607]LogEditorTransaction: Undo Move Node
+[2016.03.24-21.15.44:879][607]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_25) Not registered. Aborting.
+[2016.03.24-21.15.45:311][626]LogEditorTransaction: Undo Move Nodes
+[2016.03.24-21.15.45:330][626]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_26) Not registered. Aborting.
+[2016.03.24-21.15.46:678][700]LogEditorTransaction: Undo Delete current selection
+[2016.03.24-21.15.46:697][700]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_27) Not registered. Aborting.
+[2016.03.24-21.16.36:455][670]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_28) Not registered. Aborting.
+[2016.03.24-21.16.37:293][670]LogSavePackage: Save=771.300354ms
+[2016.03.24-21.16.37:293][670]LogSavePackage: Moving '../../../../../../Users/William/Documents/GitHub/Gamefiles/projectcode/Saved/SideScrollerExampleMap_Auto29F6137464C7F5E0B33DCAE98B0722BC5.tmp' to '../../../../../../Users/William/Documents/GitHub/Gamefiles/projectcode/Saved/Autosaves/Game/SideScrollerBP/Maps/SideScrollerExampleMap_Auto2.umap'
+[2016.03.24-21.16.37:297][670]LogSavePackage: Total save time: 794.255331ms
+[2016.03.24-21.16.37:297][670]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/William/Documents/GitHub/Gamefiles/projectcode/Saved/Autosaves/Game/SideScrollerBP/Maps/SideScrollerExampleMap_Auto2.umap
+[2016.03.24-21.16.37:300][670]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SideScrollerBP/Maps/SideScrollerExampleMap' took 0.845
+[2016.03.24-21.16.37:300][670]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.845
+[2016.03.24-21.16.37:313][670]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SideScrollerBP/Blueprints/SideScrollerCharacter] ([1] browsable assets)...
+[2016.03.24-21.16.37:329][670]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/SideScrollerBP/Blueprints/SideScrollerCharacter.SideScrollerCharacter]
+[2016.03.24-21.16.37:329][670]OBJ SavePackage: Finished generating thumbnails for package [/Game/SideScrollerBP/Blueprints/SideScrollerCharacter]
+[2016.03.24-21.16.37:512][670]LogSavePackage: Save=176.033066ms
+[2016.03.24-21.16.37:512][670]LogSavePackage: Moving '../../../../../../Users/William/Documents/GitHub/Gamefiles/projectcode/Saved/SideScrollerCharacter_Auto2016253FC4CA9A20AE6D209949DC04974.tmp' to '../../../../../../Users/William/Documents/GitHub/Gamefiles/projectcode/Saved/Autosaves/Game/SideScrollerBP/Blueprints/SideScrollerCharacter_Auto2.uasset'
+[2016.03.24-21.16.37:516][670]LogSavePackage: Total save time: 185.400825ms
+[2016.03.24-21.16.37:516][670]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/William/Documents/GitHub/Gamefiles/projectcode/Saved/Autosaves/Game/SideScrollerBP/Blueprints/SideScrollerCharacter_Auto2.uasset
+[2016.03.24-21.16.37:516][670]LogFileHelpers: Auto-saving content packages took 0.209
+[2016.03.24-21.19.25:158][698]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.24-21.19.26:057][698]LogSavePackage: Save=678.487061ms
+[2016.03.24-21.19.26:057][698]LogSavePackage: Moving '../../../../../../Users/William/Documents/GitHub/Gamefiles/projectcode/Saved/SideScrollerExampleMapA53B4754490F4D0CBE35098BEE5E56F8.tmp' to '../../../../../../Users/William/Documents/GitHub/Gamefiles/projectcode/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap'
+[2016.03.24-21.19.26:066][698]LogSavePackage: Total save time: 692.132853ms
+[2016.03.24-21.19.26:066][698]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/William/Documents/GitHub/Gamefiles/projectcode/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap
+[2016.03.24-21.19.26:100][698]LogFileHelpers: Saving map 'SideScrollerExampleMap' took 0.885
+[2016.03.24-21.19.26:274][698]LogSavePackage: Save=144.536957ms
+[2016.03.24-21.19.26:274][698]LogSavePackage: Moving '../../../../../../Users/William/Documents/GitHub/Gamefiles/projectcode/Saved/SideScrollerCharacter41560EBF4609B3A1FA7837AC2E29366C.tmp' to '../../../../../../Users/William/Documents/GitHub/Gamefiles/projectcode/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
+[2016.03.24-21.19.26:278][698]LogSavePackage: Total save time: 152.451180ms
+[2016.03.24-21.19.26:278][698]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/William/Documents/GitHub/Gamefiles/projectcode/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset
+[2016.03.24-21.19.44:362][770]LogSavePackage: Save=144.917969ms
+[2016.03.24-21.19.44:362][770]LogSavePackage: Moving '../../../../../../Users/William/Documents/GitHub/Gamefiles/projectcode/Saved/SideScrol
